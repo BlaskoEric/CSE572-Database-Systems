@@ -1,0 +1,196 @@
+
+FNAME           LNAME              PHONENO OFFIC                                
+--------------- --------------- ---------- -----                                
+Patricia        Ligon           6158320728 BR001                                
+Ryan            Santos          9529414210 BR002                                
+Ann             Smythe          5032266649 BR003                                
+
+
+FNAME           LNAME                                                           
+--------------- ---------------                                                 
+Patricia        Ligon                                                           
+Cecelia         Kohn                                                            
+Mary            Unrein                                                          
+Janet           Ridley                                                          
+Lena            Williams                                                        
+Ann             Smythe                                                          
+Pamela          Disanto                                                         
+Evelyn          Turner                                                          
+
+8 rows selected.
+
+
+OFFIC TOTAL STAFF                                                               
+----- -----------                                                               
+BR001           4                                                               
+BR002           4                                                               
+BR003           4                                                               
+
+
+CITY            LICENSEPL MAKE            MODEL    YEAR COLOR      I STAFF      
+--------------- --------- --------------- -------- ---- ---------- - -----      
+Glasgow         7BFN110   Toyota          prius    2018 white      y L1002      
+Glasgow         7BVK293   Toyota          corolla  2016 blue       y L1003      
+
+
+OFFIC White Taxis                                                               
+----- -----------                                                               
+BR001           1                                                               
+BR002           1                                                               
+BR003           1                                                               
+
+
+NAME                             Taxi                                           
+-------------------------------- ---------                                      
+Morales, Joshua                  7BFN110                                        
+Kohn, Cecelia                    7BVK293                                        
+Ridley, Janet                    7CUB968                                        
+Williams, Lena                   6WHB954                                        
+Disanto, Pamela                  7CVR466                                        
+Turner, Evelyn                   7BUV692                                        
+Le, Douglas                      6XLB207                                        
+
+7 rows selected.
+
+
+NAME                                PHONENO                                     
+-------------------------------- ----------                                     
+Smythe, Ann                      5032266649                                     
+
+
+CLIEN BUSINESSNAME         CLIENTADDRESS                  CLIENTCITY            
+----- -------------------- ------------------------------ ---------------       
+CL021 Real Fake Doors      70 Sea Road                    Detchant              
+CL022 Planet Express       81 Whitby Rd                   Dry Fork              
+CL023 Centixo              3 Coast Rd                     Glasgow               
+CL024 Semiloo LLC          81 Wood Lane                   Glasgow               
+CL025 Diser Company        68 Castledore Rd               Glasgow               
+CL026 Esive Corp           10 Seafield Pl                 Glasgow               
+CL027 Micron Systems       27 Stone St                    Dry Fork              
+CL028 Trivu Engineering    25 Abbey Row                   Glasgow               
+CL029 Omninyx Food Supply  12 Stoic St                    Lamb                  
+CL030 Quamb Corp           48 Asfordby Rd                 Aldingham             
+
+10 rows selected.
+
+
+CITY            CONTR                                                           
+--------------- -----                                                           
+Glasgow         CI003                                                           
+Glasgow         CI011                                                           
+Glasgow         CI012                                                           
+
+
+CLIENTCITY      CLIENT COUNT                                                    
+--------------- ------------                                                    
+Lower Higham               1                                                    
+Glasgow                    3                                                    
+Lamb                       3                                                    
+Balgavies                  1                                                    
+Tirdeunaw                  1                                                    
+Dry Fork                   3                                                    
+Raithby                    1                                                    
+Marshbrook                 2                                                    
+Acrefair                   1                                                    
+Dolgellau                  1                                                    
+MarshBrook                 1                                                    
+Rothiebrisbane             2                                                    
+
+12 rows selected.
+
+
+DRIVER                           JOBID JOBDATE                                  
+-------------------------------- ----- ---------                                
+Morales, Joshua                  JB042 12-APR-19                                
+
+
+DRIVER                                  AGE                                     
+-------------------------------- ----------                                     
+Morrissette, Bryan                       61                                     
+
+
+NAME                             CLIEN                                          
+-------------------------------- -----                                          
+Mason, Parsons                   CL012                                          
+Eloise, Franklin                 CL014                                          
+
+
+NAME                             CLIEN                                          
+-------------------------------- -----                                          
+Page, Liam                       CL001                                          
+Fry, Oliver                      CL003                                          
+Powell, Joseph                   CL013                                          
+Griffiths, Scarlett              CL017                                          
+Coates, Andrew                   CL002                                          
+Hall, Robert                     CL004                                          
+Parsons, Mason                   CL012                                          
+Poole, Nicholas                  CL008                                          
+Franklin, Eloise                 CL014                                          
+Rowe, Nicole                     CL020                                          
+Webb, Jack                       CL009                                          
+Brade, Jasmine                   CL016                                          
+Glover, Charlie                  CL018                                          
+Shaw, Taylor                     CL011                                          
+Nelson, Finlay                   CL005                                          
+Kelly, Louie                     CL010                                          
+Norton, Joel                     CL019                                          
+Power, Libby                     CL007                                          
+Wong, Zak                        CL015                                          
+
+19 rows selected.
+
+
+AVERAGE MILES                                                                   
+-------------                                                                   
+   23.8604651                                                                   
+
+
+LICENSEPL No of Jobs                                                            
+--------- ----------                                                            
+6WHB954            9                                                            
+7CUB968            1                                                            
+7CVR466            3                                                            
+7BUV692           14                                                            
+6XLB207            4                                                            
+7BVK293            8                                                            
+7BFN110            4                                                            
+
+7 rows selected.
+
+
+DRIVER                           No of Jobs                                     
+-------------------------------- ----------                                     
+Morales, Joshua                           8                                     
+Williams, Lena                            3                                     
+Le, Douglas                               1                                     
+Ridley, Janet                             3                                     
+Kohn, Cecelia                            11                                     
+Turner, Evelyn                            4                                     
+Disanto, Pamela                          13                                     
+
+7 rows selected.
+
+
+LICENSEPL TOTAL CHARGE                                                          
+--------- ------------                                                          
+6WHB954             99                                                          
+7CVR466             90                                                          
+
+
+TOTAL JOBS TOTAL MILES CONTR                                                    
+---------- ----------- -----                                                    
+         1           2 CI003                                                    
+         1          11 CI009                                                    
+         2          29 CI001                                                    
+         1           1 CI007                                                    
+         1          54 CI008                                                    
+         2          23 CI010                                                    
+         3          32 CI002                                                    
+         1           4 CI006                                                    
+         1          10 CI011                                                    
+         2         116 CI012                                                    
+         1          90 CI004                                                    
+         1          17 CI005                                                    
+
+12 rows selected.
+

@@ -1,0 +1,535 @@
+
+TABLE_NAME                                                                 
+------------------------------                                             
+REGIONS                                                                    
+LOCATIONS                                                                  
+DEPARTMENTS                                                                
+JOBS                                                                       
+EMPLOYEES                                                                  
+JOB_HISTORY                                                                
+JOB_GRADES                                                                 
+COUNTRIES                                                                  
+
+8 rows selected.
+
+ Name                                   Null?    Type
+ -------------------------------------- -------- --------------------------
+ JOB_ID                                 NOT NULL VARCHAR2(10)
+ JOB_TITLE                              NOT NULL VARCHAR2(35)
+ MIN_SALARY                                      NUMBER(6)
+ MAX_SALARY                                      NUMBER(6)
+
+
+JOB_ID     JOB_TITLE                           MIN_SALARY MAX_SALARY       
+---------- ----------------------------------- ---------- ----------       
+AD_PRES    President                                20080      40000       
+AD_VP      Administration Vice President            15000      30000       
+AD_ASST    Administration Assistant                  3000       6000       
+FI_MGR     Finance Manager                           8200      16000       
+FI_ACCOUNT Accountant                                4200       9000       
+AC_MGR     Accounting Manager                        8200      16000       
+AC_ACCOUNT Public Accountant                         4200       9000       
+SA_MAN     Sales Manager                            10000      20080       
+SA_REP     Sales Representative                      6000      12008       
+PU_MAN     Purchasing Manager                        8000      15000       
+PU_CLERK   Purchasing Clerk                          2500       5500       
+ST_MAN     Stock Manager                             5500       8500       
+ST_CLERK   Stock Clerk                               2008       5000       
+SH_CLERK   Shipping Clerk                            2500       5500       
+IT_PROG    Programmer                                4000      10000       
+MK_MAN     Marketing Manager                         9000      15000       
+MK_REP     Marketing Representative                  4000       9000       
+HR_REP     Human Resources Representative            4000       9000       
+PR_REP     Public Relations Representative           4500      10500       
+
+19 rows selected.
+
+
+JOB_ID     JOB_TITLE                                                       
+---------- -----------------------------------                             
+AD_PRES    President                                                       
+AD_VP      Administration Vice President                                   
+AD_ASST    Administration Assistant                                        
+FI_MGR     Finance Manager                                                 
+FI_ACCOUNT Accountant                                                      
+AC_MGR     Accounting Manager                                              
+AC_ACCOUNT Public Accountant                                               
+SA_MAN     Sales Manager                                                   
+SA_REP     Sales Representative                                            
+PU_MAN     Purchasing Manager                                              
+PU_CLERK   Purchasing Clerk                                                
+ST_MAN     Stock Manager                                                   
+ST_CLERK   Stock Clerk                                                     
+SH_CLERK   Shipping Clerk                                                  
+IT_PROG    Programmer                                                      
+MK_MAN     Marketing Manager                                               
+MK_REP     Marketing Representative                                        
+HR_REP     Human Resources Representative                                  
+PR_REP     Public Relations Representative                                 
+
+19 rows selected.
+
+
+JOB_TITLE                           MINIMUM_AS_SALARY                      
+----------------------------------- -----------------                      
+President                                       20080                      
+Administration Vice President                   15000                      
+Administration Assistant                         3000                      
+Finance Manager                                  8200                      
+Accountant                                       4200                      
+Accounting Manager                               8200                      
+Public Accountant                                4200                      
+Sales Manager                                   10000                      
+Sales Representative                             6000                      
+Purchasing Manager                               8000                      
+Purchasing Clerk                                 2500                      
+Stock Manager                                    5500                      
+Stock Clerk                                      2008                      
+Shipping Clerk                                   2500                      
+Programmer                                       4000                      
+Marketing Manager                                9000                      
+Marketing Representative                         4000                      
+Human Resources Representative                   4000                      
+Public Relations Representative                  4500                      
+
+19 rows selected.
+
+
+JOB_TITLE                           120% Minimum Salary                    
+----------------------------------- -------------------                    
+President                                         24096                    
+Administration Vice President                     18000                    
+Administration Assistant                           3600                    
+Finance Manager                                    9840                    
+Accountant                                         5040                    
+Accounting Manager                                 9840                    
+Public Accountant                                  5040                    
+Sales Manager                                     12000                    
+Sales Representative                               7200                    
+Purchasing Manager                                 9600                    
+Purchasing Clerk                                   3000                    
+Stock Manager                                      6600                    
+Stock Clerk                                      2409.6                    
+Shipping Clerk                                     3000                    
+Programmer                                         4800                    
+Marketing Manager                                 10800                    
+Marketing Representative                           4800                    
+Human Resources Representative                     4800                    
+Public Relations Representative                    5400                    
+
+19 rows selected.
+
+
+JOB_TITLE                           ANNUAL_MINIMUM                         
+----------------------------------- --------------                         
+President                                   240960                         
+Administration Vice President               180000                         
+Administration Assistant                     36000                         
+Finance Manager                              98400                         
+Accountant                                   50400                         
+Accounting Manager                           98400                         
+Public Accountant                            50400                         
+Sales Manager                               120000                         
+Sales Representative                         72000                         
+Purchasing Manager                           96000                         
+Purchasing Clerk                             30000                         
+Stock Manager                                66000                         
+Stock Clerk                                  24096                         
+Shipping Clerk                               30000                         
+Programmer                                   48000                         
+Marketing Manager                           108000                         
+Marketing Representative                     48000                         
+Human Resources Representative               48000                         
+Public Relations Representative              54000                         
+
+19 rows selected.
+
+
+JOB_TITLE                           NEW_MINIMUM                            
+----------------------------------- -----------                            
+President                                242960                            
+Administration Vice President            182000                            
+Administration Assistant                  38000                            
+Finance Manager                          100400                            
+Accountant                                52400                            
+Accounting Manager                       100400                            
+Public Accountant                         52400                            
+Sales Manager                            122000                            
+Sales Representative                      74000                            
+Purchasing Manager                        98000                            
+Purchasing Clerk                          32000                            
+Stock Manager                             68000                            
+Stock Clerk                               26096                            
+Shipping Clerk                            32000                            
+Programmer                                50000                            
+Marketing Manager                        110000                            
+Marketing Representative                  50000                            
+Human Resources Representative            50000                            
+Public Relations Representative           56000                            
+
+19 rows selected.
+
+
+JOB_TITLE                           AVERAGE_SALARY                         
+----------------------------------- --------------                         
+President                                    30040                         
+Administration Vice President                22500                         
+Administration Assistant                      4500                         
+Finance Manager                              12100                         
+Accountant                                    6600                         
+Accounting Manager                           12100                         
+Public Accountant                             6600                         
+Sales Manager                                15040                         
+Sales Representative                          9004                         
+Purchasing Manager                           11500                         
+Purchasing Clerk                              4000                         
+Stock Manager                                 7000                         
+Stock Clerk                                   3504                         
+Shipping Clerk                                4000                         
+Programmer                                    7000                         
+Marketing Manager                            12000                         
+Marketing Representative                      6500                         
+Human Resources Representative                6500                         
+Public Relations Representative               7500                         
+
+19 rows selected.
+
+
+LAST_NAME                     SALARY COMMISSION_PCT                        
+------------------------- ---------- --------------                        
+OConnell                        2600                                       
+Grant                           2600                                       
+Whalen                          4400                                       
+Hartstein                      13000                                       
+Fay                             6000                                       
+Mavris                          6500                                       
+Baer                           10000                                       
+Higgins                        12008                                       
+Gietz                           8300                                       
+King                           24000                                       
+Kochhar                        17000                                       
+De Haan                        17000                                       
+Hunold                          9000                                       
+Ernst                           6000                                       
+Austin                          4800                                       
+Pataballa                       4800                                       
+Lorentz                         4200                                       
+Greenberg                      12008                                       
+Faviet                          9000                                       
+Chen                            8200                                       
+Sciarra                         7700                                       
+Urman                           7800                                       
+Popp                            6900                                       
+Raphaely                       11000                                       
+Khoo                            3100                                       
+Baida                           2900                                       
+Tobias                          2800                                       
+
+LAST_NAME                     SALARY COMMISSION_PCT                        
+------------------------- ---------- --------------                        
+Himuro                          2600                                       
+Colmenares                      2500                                       
+Weiss                           8000                                       
+Fripp                           8200                                       
+Kaufling                        7900                                       
+Vollman                         6500                                       
+Mourgos                         5800                                       
+Nayer                           3200                                       
+Mikkilineni                     2700                                       
+Landry                          2400                                       
+Markle                          2200                                       
+Bissot                          3300                                       
+Atkinson                        2800                                       
+Marlow                          2500                                       
+Olson                           2100                                       
+Mallin                          3300                                       
+Rogers                          2900                                       
+Gee                             2400                                       
+Philtanker                      2200                                       
+Ladwig                          3600                                       
+Stiles                          3200                                       
+Seo                             2700                                       
+Patel                           2500                                       
+Rajs                            3500                                       
+Davies                          3100                                       
+Matos                           2600                                       
+Vargas                          2500                                       
+
+LAST_NAME                     SALARY COMMISSION_PCT                        
+------------------------- ---------- --------------                        
+Russell                        14000             .4                        
+Partners                       13500             .3                        
+Errazuriz                      12000             .3                        
+Cambrault                      11000             .3                        
+Zlotkey                        10500             .2                        
+Tucker                         10000             .3                        
+Bernstein                       9500            .25                        
+Hall                            9000            .25                        
+Olsen                           8000             .2                        
+Cambrault                       7500             .2                        
+Tuvault                         7000            .15                        
+King                           10000            .35                        
+Sully                           9500            .35                        
+McEwen                          9000            .35                        
+Smith                           8000             .3                        
+Doran                           7500             .3                        
+Sewall                          7000            .25                        
+Vishney                        10500            .25                        
+Greene                          9500            .15                        
+Marvins                         7200             .1                        
+Lee                             6800             .1                        
+Ande                            6400             .1                        
+Banda                           6200             .1                        
+Ozer                           11500            .25                        
+Bloom                          10000             .2                        
+Fox                             9600             .2                        
+Smith                           7400            .15                        
+
+LAST_NAME                     SALARY COMMISSION_PCT                        
+------------------------- ---------- --------------                        
+Bates                           7300            .15                        
+Kumar                           6100             .1                        
+Abel                           11000             .3                        
+Hutton                          8800            .25                        
+Taylor                          8600             .2                        
+Livingston                      8400             .2                        
+Grant                           7000            .15                        
+Johnson                         6200             .1                        
+Taylor                          3200                                       
+Fleaur                          3100                                       
+Sullivan                        2500                                       
+Geoni                           2800                                       
+Sarchand                        4200                                       
+Bull                            4100                                       
+Dellinger                       3400                                       
+Cabrio                          3000                                       
+Chung                           3800                                       
+Dilly                           3600                                       
+Gates                           2900                                       
+Perkins                         2500                                       
+Bell                            4000                                       
+Everett                         3900                                       
+McCain                          3200                                       
+Jones                           2800                                       
+Walsh                           3100                                       
+Feeney                          3000                                       
+
+107 rows selected.
+
+
+LAST_NAME                     SALARY 12*SALARY*COMMISSION_PCT              
+------------------------- ---------- ------------------------              
+OConnell                        2600                                       
+Grant                           2600                                       
+Whalen                          4400                                       
+Hartstein                      13000                                       
+Fay                             6000                                       
+Mavris                          6500                                       
+Baer                           10000                                       
+Higgins                        12008                                       
+Gietz                           8300                                       
+King                           24000                                       
+Kochhar                        17000                                       
+De Haan                        17000                                       
+Hunold                          9000                                       
+Ernst                           6000                                       
+Austin                          4800                                       
+Pataballa                       4800                                       
+Lorentz                         4200                                       
+Greenberg                      12008                                       
+Faviet                          9000                                       
+Chen                            8200                                       
+Sciarra                         7700                                       
+Urman                           7800                                       
+Popp                            6900                                       
+Raphaely                       11000                                       
+Khoo                            3100                                       
+Baida                           2900                                       
+Tobias                          2800                                       
+
+LAST_NAME                     SALARY 12*SALARY*COMMISSION_PCT              
+------------------------- ---------- ------------------------              
+Himuro                          2600                                       
+Colmenares                      2500                                       
+Weiss                           8000                                       
+Fripp                           8200                                       
+Kaufling                        7900                                       
+Vollman                         6500                                       
+Mourgos                         5800                                       
+Nayer                           3200                                       
+Mikkilineni                     2700                                       
+Landry                          2400                                       
+Markle                          2200                                       
+Bissot                          3300                                       
+Atkinson                        2800                                       
+Marlow                          2500                                       
+Olson                           2100                                       
+Mallin                          3300                                       
+Rogers                          2900                                       
+Gee                             2400                                       
+Philtanker                      2200                                       
+Ladwig                          3600                                       
+Stiles                          3200                                       
+Seo                             2700                                       
+Patel                           2500                                       
+Rajs                            3500                                       
+Davies                          3100                                       
+Matos                           2600                                       
+Vargas                          2500                                       
+
+LAST_NAME                     SALARY 12*SALARY*COMMISSION_PCT              
+------------------------- ---------- ------------------------              
+Russell                        14000                    67200              
+Partners                       13500                    48600              
+Errazuriz                      12000                    43200              
+Cambrault                      11000                    39600              
+Zlotkey                        10500                    25200              
+Tucker                         10000                    36000              
+Bernstein                       9500                    28500              
+Hall                            9000                    27000              
+Olsen                           8000                    19200              
+Cambrault                       7500                    18000              
+Tuvault                         7000                    12600              
+King                           10000                    42000              
+Sully                           9500                    39900              
+McEwen                          9000                    37800              
+Smith                           8000                    28800              
+Doran                           7500                    27000              
+Sewall                          7000                    21000              
+Vishney                        10500                    31500              
+Greene                          9500                    17100              
+Marvins                         7200                     8640              
+Lee                             6800                     8160              
+Ande                            6400                     7680              
+Banda                           6200                     7440              
+Ozer                           11500                    34500              
+Bloom                          10000                    24000              
+Fox                             9600                    23040              
+Smith                           7400                    13320              
+
+LAST_NAME                     SALARY 12*SALARY*COMMISSION_PCT              
+------------------------- ---------- ------------------------              
+Bates                           7300                    13140              
+Kumar                           6100                     7320              
+Abel                           11000                    39600              
+Hutton                          8800                    26400              
+Taylor                          8600                    20640              
+Livingston                      8400                    20160              
+Grant                           7000                    12600              
+Johnson                         6200                     7440              
+Taylor                          3200                                       
+Fleaur                          3100                                       
+Sullivan                        2500                                       
+Geoni                           2800                                       
+Sarchand                        4200                                       
+Bull                            4100                                       
+Dellinger                       3400                                       
+Cabrio                          3000                                       
+Chung                           3800                                       
+Dilly                           3600                                       
+Gates                           2900                                       
+Perkins                         2500                                       
+Bell                            4000                                       
+Everett                         3900                                       
+McCain                          3200                                       
+Jones                           2800                                       
+Walsh                           3100                                       
+Feeney                          3000                                       
+
+107 rows selected.
+
+
+Job Title Min Salary                                                       
+---------------------------------------------------------------------------
+President20080                                                             
+Administration Vice President15000                                         
+Administration Assistant3000                                               
+Finance Manager8200                                                        
+Accountant4200                                                             
+Accounting Manager8200                                                     
+Public Accountant4200                                                      
+Sales Manager10000                                                         
+Sales Representative6000                                                   
+Purchasing Manager8000                                                     
+Purchasing Clerk2500                                                       
+Stock Manager5500                                                          
+Stock Clerk2008                                                            
+Shipping Clerk2500                                                         
+Programmer4000                                                             
+Marketing Manager9000                                                      
+Marketing Representative4000                                               
+Human Resources Representative4000                                         
+Public Relations Representative4500                                        
+
+19 rows selected.
+
+
+Job ID, Title                                                              
+-----------------------------------------------                            
+AD_PRES, President                                                         
+AD_VP, Administration Vice President                                       
+AD_ASST, Administration Assistant                                          
+FI_MGR, Finance Manager                                                    
+FI_ACCOUNT, Accountant                                                     
+AC_MGR, Accounting Manager                                                 
+AC_ACCOUNT, Public Accountant                                              
+SA_MAN, Sales Manager                                                      
+SA_REP, Sales Representative                                               
+PU_MAN, Purchasing Manager                                                 
+PU_CLERK, Purchasing Clerk                                                 
+ST_MAN, Stock Manager                                                      
+ST_CLERK, Stock Clerk                                                      
+SH_CLERK, Shipping Clerk                                                   
+IT_PROG, Programmer                                                        
+MK_MAN, Marketing Manager                                                  
+MK_REP, Marketing Representative                                           
+HR_REP, Human Resources Representative                                     
+PR_REP, Public Relations Representative                                    
+
+19 rows selected.
+
+
+MIN_SALARY                                                                 
+----------                                                                 
+     20080                                                                 
+     15000                                                                 
+      3000                                                                 
+      8200                                                                 
+      4200                                                                 
+      8200                                                                 
+      4200                                                                 
+     10000                                                                 
+      6000                                                                 
+      8000                                                                 
+      2500                                                                 
+      5500                                                                 
+      2008                                                                 
+      2500                                                                 
+      4000                                                                 
+      9000                                                                 
+      4000                                                                 
+      4000                                                                 
+      4500                                                                 
+
+19 rows selected.
+
+
+MIN_SALARY                                                                 
+----------                                                                 
+      8200                                                                 
+      4000                                                                 
+      9000                                                                 
+     10000                                                                 
+      2500                                                                 
+      5500                                                                 
+      4500                                                                 
+     15000                                                                 
+      4200                                                                 
+      3000                                                                 
+     20080                                                                 
+      6000                                                                 
+      8000                                                                 
+      2008                                                                 
+
+14 rows selected.
+

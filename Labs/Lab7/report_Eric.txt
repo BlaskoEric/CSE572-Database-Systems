@@ -1,0 +1,120 @@
+
+                                 EMPLOYEE REPORT                                
+                                 As of 28-MAY-19                                
+Job                                                                             
+Category   EMPLOYEE                                             Salary          
+---------- ----------------------------------------------- -----------          
+AC_ACCOUNT Gietz, William                                    $8,300.00          
+AC_MGR     Higgins, Shelley                                 $12,008.00          
+AD_PRES    King, Steven                                     $24,000.00          
+AD_VP      De Haan, Lex                                     $17,000.00          
+           Kochhar, Neena                                   $17,000.00          
+FI_ACCOUNT Chen, John                                        $8,200.00          
+           Faviet, Daniel                                    $9,000.00          
+           Popp, Luis                                        $6,900.00          
+           Sciarra, Ismael                                   $7,700.00          
+           Urman, Jose Manuel                                $7,800.00          
+FI_MGR     Greenberg, Nancy                                 $12,008.00          
+HR_REP     Mavris, Susan                                     $6,500.00          
+IT_PROG    Ernst, Bruce                                      $6,000.00          
+           Hunold, Alexander                                 $9,000.00          
+MK_MAN     Hartstein, Michael                               $13,000.00          
+MK_REP     Fay, Pat                                          $6,000.00          
+PR_REP     Baer, Hermann                                    $10,000.00          
+PU_MAN     Raphaely, Den                                    $11,000.00          
+SA_MAN     Cambrault, Gerald                                $11,000.00          
+           Errazuriz, Alberto                               $12,000.00          
+           Partners, Karen                                  $13,500.00          
+           Russell, John                                    $14,000.00          
+           Zlotkey, Eleni                                   $10,500.00          
+SA_REP     Abel, Ellen                                      $11,000.00          
+           Ande, Sundar                                      $6,400.00          
+           Banda, Amit                                       $6,200.00          
+           Bates, Elizabeth                                  $7,300.00          
+           Bernstein, David                                  $9,500.00          
+           Bloom, Harrison                                  $10,000.00          
+           Cambrault, Nanette                                $7,500.00          
+           Doran, Louise                                     $7,500.00          
+           Fox, Tayler                                       $9,600.00          
+           Grant, Kimberely                                  $7,000.00          
+           Greene, Danielle                                  $9,500.00          
+           Hall, Peter                                       $9,000.00          
+           Hutton, Alyssa                                    $8,800.00          
+           Johnson, Charles                                  $6,200.00          
+           King, Janette                                    $10,000.00          
+           Kumar, Sundita                                    $6,100.00          
+           Lee, David                                        $6,800.00          
+           Livingston, Jack                                  $8,400.00          
+           Marvins, Mattea                                   $7,200.00          
+           McEwen, Allan                                     $9,000.00          
+           Olsen, Christopher                                $8,000.00          
+           Ozer, Lisa                                       $11,500.00          
+           Sewall, Sarath                                    $7,000.00          
+           Smith, William                                    $7,400.00          
+           Smith, Lindsey                                    $8,000.00          
+           Sully, Patrick                                    $9,500.00          
+           Taylor, Jonathon                                  $8,600.00          
+           Tucker, Peter                                    $10,000.00          
+           Tuvault, Oliver                                   $7,000.00          
+           Vishney, Clara                                   $10,500.00          
+                                 Page:         1                                
+
+                                 EMPLOYEE REPORT                                
+                                 As of 28-MAY-19                                
+Job                                                                             
+Category   EMPLOYEE                                             Salary          
+---------- ----------------------------------------------- -----------          
+ST_MAN     Fripp, Adam                                       $8,200.00          
+           Kaufling, Payam                                   $7,900.00          
+           Mourgos, Kevin                                    $5,800.00          
+           Vollman, Shanta                                   $6,500.00          
+           Weiss, Matthew                                    $8,000.00          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 Page:         2                                

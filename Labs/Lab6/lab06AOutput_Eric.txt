@@ -1,0 +1,383 @@
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                     SALARY                                                               
+----------- -------------------- ------------------------- ----------                                                               
+        201 Michael              Hartstein                      13000                                                               
+        100 Steven               King                           24000                                                               
+        101 Neena                Kochhar                        17000                                                               
+        102 Lex                  De Haan                        17000                                                               
+        145 John                 Russell                        14000                                                               
+        146 Karen                Partners                       13500                                                               
+
+6 rows selected.
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                     SALARY                                                               
+----------- -------------------- ------------------------- ----------                                                               
+        100 Steven               King                           24000                                                               
+        101 Neena                Kochhar                        17000                                                               
+        102 Lex                  De Haan                        17000                                                               
+        103 Alexander            Hunold                          9000                                                               
+        108 Nancy                Greenberg                      12008                                                               
+        109 Daniel               Faviet                          9000                                                               
+        114 Den                  Raphaely                       11000                                                               
+        145 John                 Russell                        14000                                                               
+        146 Karen                Partners                       13500                                                               
+        147 Alberto              Errazuriz                      12000                                                               
+        148 Gerald               Cambrault                      11000                                                               
+        149 Eleni                Zlotkey                        10500                                                               
+        150 Peter                Tucker                         10000                                                               
+        151 David                Bernstein                       9500                                                               
+        152 Peter                Hall                            9000                                                               
+        156 Janette              King                           10000                                                               
+        157 Patrick              Sully                           9500                                                               
+        158 Allan                McEwen                          9000                                                               
+        162 Clara                Vishney                        10500                                                               
+        163 Danielle             Greene                          9500                                                               
+        168 Lisa                 Ozer                           11500                                                               
+        169 Harrison             Bloom                          10000                                                               
+        170 Tayler               Fox                             9600                                                               
+        174 Ellen                Abel                           11000                                                               
+        201 Michael              Hartstein                      13000                                                               
+        204 Hermann              Baer                           10000                                                               
+        205 Shelley              Higgins                        12008                                                               
+
+27 rows selected.
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                     SALARY JOB_ID                                                        
+----------- -------------------- ------------------------- ---------- ----------                                                    
+        100 Steven               King                           24000 AD_PRES                                                       
+        101 Neena                Kochhar                        17000 AD_VP                                                         
+        102 Lex                  De Haan                        17000 AD_VP                                                         
+        103 Alexander            Hunold                          9000 IT_PROG                                                       
+        108 Nancy                Greenberg                      12008 FI_MGR                                                        
+        109 Daniel               Faviet                          9000 FI_ACCOUNT                                                    
+        114 Den                  Raphaely                       11000 PU_MAN                                                        
+        145 John                 Russell                        14000 SA_MAN                                                        
+        146 Karen                Partners                       13500 SA_MAN                                                        
+        147 Alberto              Errazuriz                      12000 SA_MAN                                                        
+        148 Gerald               Cambrault                      11000 SA_MAN                                                        
+        149 Eleni                Zlotkey                        10500 SA_MAN                                                        
+        150 Peter                Tucker                         10000 SA_REP                                                        
+        151 David                Bernstein                       9500 SA_REP                                                        
+        152 Peter                Hall                            9000 SA_REP                                                        
+        156 Janette              King                           10000 SA_REP                                                        
+        157 Patrick              Sully                           9500 SA_REP                                                        
+        158 Allan                McEwen                          9000 SA_REP                                                        
+        162 Clara                Vishney                        10500 SA_REP                                                        
+        163 Danielle             Greene                          9500 SA_REP                                                        
+        168 Lisa                 Ozer                           11500 SA_REP                                                        
+        169 Harrison             Bloom                          10000 SA_REP                                                        
+        170 Tayler               Fox                             9600 SA_REP                                                        
+        174 Ellen                Abel                           11000 SA_REP                                                        
+        201 Michael              Hartstein                      13000 MK_MAN                                                        
+        204 Hermann              Baer                           10000 PR_REP                                                        
+        205 Shelley              Higgins                        12008 AC_MGR                                                        
+
+27 rows selected.
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 DEPARTMENT_ID     SALARY                                                 
+----------- -------------------- ------------------------- ------------- ----------                                                 
+        124 Kevin                Mourgos                              50       5800                                                 
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 DEPARTMENT_ID     SALARY                                                 
+----------- -------------------- ------------------------- ------------- ----------                                                 
+        132 TJ                   Olson                                50       2100                                                 
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                                                                          
+----------- -------------------- -------------------------                                                                          
+        100 Steven               King                                                                                               
+        101 Neena                Kochhar                                                                                            
+        102 Lex                  De Haan                                                                                            
+        103 Alexander            Hunold                                                                                             
+        108 Nancy                Greenberg                                                                                          
+        114 Den                  Raphaely                                                                                           
+        120 Matthew              Weiss                                                                                              
+        121 Adam                 Fripp                                                                                              
+        122 Payam                Kaufling                                                                                           
+        123 Shanta               Vollman                                                                                            
+        124 Kevin                Mourgos                                                                                            
+        145 John                 Russell                                                                                            
+        146 Karen                Partners                                                                                           
+        147 Alberto              Errazuriz                                                                                          
+        148 Gerald               Cambrault                                                                                          
+        149 Eleni                Zlotkey                                                                                            
+        201 Michael              Hartstein                                                                                          
+        205 Shelley              Higgins                                                                                            
+
+18 rows selected.
+
+
+no rows selected
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                                                                          
+----------- -------------------- -------------------------                                                                          
+        104 Bruce                Ernst                                                                                              
+        105 David                Austin                                                                                             
+        106 Valli                Pataballa                                                                                          
+        107 Diana                Lorentz                                                                                            
+        109 Daniel               Faviet                                                                                             
+        110 John                 Chen                                                                                               
+        111 Ismael               Sciarra                                                                                            
+        112 Jose Manuel          Urman                                                                                              
+        113 Luis                 Popp                                                                                               
+        115 Alexander            Khoo                                                                                               
+        116 Shelli               Baida                                                                                              
+        117 Sigal                Tobias                                                                                             
+        118 Guy                  Himuro                                                                                             
+        119 Karen                Colmenares                                                                                         
+        125 Julia                Nayer                                                                                              
+        126 Irene                Mikkilineni                                                                                        
+        127 James                Landry                                                                                             
+        128 Steven               Markle                                                                                             
+        129 Laura                Bissot                                                                                             
+        130 Mozhe                Atkinson                                                                                           
+        131 James                Marlow                                                                                             
+        132 TJ                   Olson                                                                                              
+        133 Jason                Mallin                                                                                             
+        134 Michael              Rogers                                                                                             
+        135 Ki                   Gee                                                                                                
+        136 Hazel                Philtanker                                                                                         
+        137 Renske               Ladwig                                                                                             
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                                                                          
+----------- -------------------- -------------------------                                                                          
+        138 Stephen              Stiles                                                                                             
+        139 John                 Seo                                                                                                
+        140 Joshua               Patel                                                                                              
+        141 Trenna               Rajs                                                                                               
+        142 Curtis               Davies                                                                                             
+        143 Randall              Matos                                                                                              
+        144 Peter                Vargas                                                                                             
+        150 Peter                Tucker                                                                                             
+        151 David                Bernstein                                                                                          
+        152 Peter                Hall                                                                                               
+        153 Christopher          Olsen                                                                                              
+        154 Nanette              Cambrault                                                                                          
+        155 Oliver               Tuvault                                                                                            
+        156 Janette              King                                                                                               
+        157 Patrick              Sully                                                                                              
+        158 Allan                McEwen                                                                                             
+        159 Lindsey              Smith                                                                                              
+        160 Louise               Doran                                                                                              
+        161 Sarath               Sewall                                                                                             
+        162 Clara                Vishney                                                                                            
+        163 Danielle             Greene                                                                                             
+        164 Mattea               Marvins                                                                                            
+        165 David                Lee                                                                                                
+        166 Sundar               Ande                                                                                               
+        167 Amit                 Banda                                                                                              
+        168 Lisa                 Ozer                                                                                               
+        169 Harrison             Bloom                                                                                              
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                                                                          
+----------- -------------------- -------------------------                                                                          
+        170 Tayler               Fox                                                                                                
+        171 William              Smith                                                                                              
+        172 Elizabeth            Bates                                                                                              
+        173 Sundita              Kumar                                                                                              
+        174 Ellen                Abel                                                                                               
+        175 Alyssa               Hutton                                                                                             
+        176 Jonathon             Taylor                                                                                             
+        177 Jack                 Livingston                                                                                         
+        178 Kimberely            Grant                                                                                              
+        179 Charles              Johnson                                                                                            
+        180 Winston              Taylor                                                                                             
+        181 Jean                 Fleaur                                                                                             
+        182 Martha               Sullivan                                                                                           
+        183 Girard               Geoni                                                                                              
+        184 Nandita              Sarchand                                                                                           
+        185 Alexis               Bull                                                                                               
+        186 Julia                Dellinger                                                                                          
+        187 Anthony              Cabrio                                                                                             
+        188 Kelly                Chung                                                                                              
+        189 Jennifer             Dilly                                                                                              
+        190 Timothy              Gates                                                                                              
+        191 Randall              Perkins                                                                                            
+        192 Sarah                Bell                                                                                               
+        193 Britney              Everett                                                                                            
+        194 Samuel               McCain                                                                                             
+        195 Vance                Jones                                                                                              
+        196 Alana                Walsh                                                                                              
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                                                                          
+----------- -------------------- -------------------------                                                                          
+        197 Kevin                Feeney                                                                                             
+        198 Donald               OConnell                                                                                           
+        199 Douglas              Grant                                                                                              
+        200 Jennifer             Whalen                                                                                             
+        202 Pat                  Fay                                                                                                
+        203 Susan                Mavris                                                                                             
+        204 Hermann              Baer                                                                                               
+        206 William              Gietz                                                                                              
+
+89 rows selected.
+
+
+  COUNT(*) MIN(SALARY) MAX(SALARY) AVG(SALARY) SUM(SALARY)                                                                          
+---------- ----------- ----------- ----------- -----------                                                                          
+       107        2100       24000  6461.83178      691416                                                                          
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                     SALARY                                                               
+----------- -------------------- ------------------------- ----------                                                               
+        198 Donald               OConnell                        2600                                                               
+        199 Douglas              Grant                           2600                                                               
+        200 Jennifer             Whalen                          4400                                                               
+        202 Pat                  Fay                             6000                                                               
+        104 Bruce                Ernst                           6000                                                               
+        105 David                Austin                          4800                                                               
+        106 Valli                Pataballa                       4800                                                               
+        107 Diana                Lorentz                         4200                                                               
+        115 Alexander            Khoo                            3100                                                               
+        116 Shelli               Baida                           2900                                                               
+        117 Sigal                Tobias                          2800                                                               
+        118 Guy                  Himuro                          2600                                                               
+        119 Karen                Colmenares                      2500                                                               
+        124 Kevin                Mourgos                         5800                                                               
+        125 Julia                Nayer                           3200                                                               
+        126 Irene                Mikkilineni                     2700                                                               
+        127 James                Landry                          2400                                                               
+        128 Steven               Markle                          2200                                                               
+        129 Laura                Bissot                          3300                                                               
+        130 Mozhe                Atkinson                        2800                                                               
+        131 James                Marlow                          2500                                                               
+        132 TJ                   Olson                           2100                                                               
+        133 Jason                Mallin                          3300                                                               
+        134 Michael              Rogers                          2900                                                               
+        135 Ki                   Gee                             2400                                                               
+        136 Hazel                Philtanker                      2200                                                               
+        137 Renske               Ladwig                          3600                                                               
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                     SALARY                                                               
+----------- -------------------- ------------------------- ----------                                                               
+        138 Stephen              Stiles                          3200                                                               
+        139 John                 Seo                             2700                                                               
+        140 Joshua               Patel                           2500                                                               
+        141 Trenna               Rajs                            3500                                                               
+        142 Curtis               Davies                          3100                                                               
+        143 Randall              Matos                           2600                                                               
+        144 Peter                Vargas                          2500                                                               
+        166 Sundar               Ande                            6400                                                               
+        167 Amit                 Banda                           6200                                                               
+        173 Sundita              Kumar                           6100                                                               
+        179 Charles              Johnson                         6200                                                               
+        180 Winston              Taylor                          3200                                                               
+        181 Jean                 Fleaur                          3100                                                               
+        182 Martha               Sullivan                        2500                                                               
+        183 Girard               Geoni                           2800                                                               
+        184 Nandita              Sarchand                        4200                                                               
+        185 Alexis               Bull                            4100                                                               
+        186 Julia                Dellinger                       3400                                                               
+        187 Anthony              Cabrio                          3000                                                               
+        188 Kelly                Chung                           3800                                                               
+        189 Jennifer             Dilly                           3600                                                               
+        190 Timothy              Gates                           2900                                                               
+        191 Randall              Perkins                         2500                                                               
+        192 Sarah                Bell                            4000                                                               
+        193 Britney              Everett                         3900                                                               
+        194 Samuel               McCain                          3200                                                               
+        195 Vance                Jones                           2800                                                               
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                     SALARY                                                               
+----------- -------------------- ------------------------- ----------                                                               
+        196 Alana                Walsh                           3100                                                               
+        197 Kevin                Feeney                          3000                                                               
+
+56 rows selected.
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                     SALARY JOB_ID                                                        
+----------- -------------------- ------------------------- ---------- ----------                                                    
+        100 Steven               King                           24000 AD_PRES                                                       
+        101 Neena                Kochhar                        17000 AD_VP                                                         
+        102 Lex                  De Haan                        17000 AD_VP                                                         
+        103 Alexander            Hunold                          9000 IT_PROG                                                       
+        108 Nancy                Greenberg                      12008 FI_MGR                                                        
+        109 Daniel               Faviet                          9000 FI_ACCOUNT                                                    
+        114 Den                  Raphaely                       11000 PU_MAN                                                        
+        145 John                 Russell                        14000 SA_MAN                                                        
+        146 Karen                Partners                       13500 SA_MAN                                                        
+        147 Alberto              Errazuriz                      12000 SA_MAN                                                        
+        148 Gerald               Cambrault                      11000 SA_MAN                                                        
+        149 Eleni                Zlotkey                        10500 SA_MAN                                                        
+        150 Peter                Tucker                         10000 SA_REP                                                        
+        151 David                Bernstein                       9500 SA_REP                                                        
+        152 Peter                Hall                            9000 SA_REP                                                        
+        156 Janette              King                           10000 SA_REP                                                        
+        157 Patrick              Sully                           9500 SA_REP                                                        
+        158 Allan                McEwen                          9000 SA_REP                                                        
+        162 Clara                Vishney                        10500 SA_REP                                                        
+        163 Danielle             Greene                          9500 SA_REP                                                        
+        168 Lisa                 Ozer                           11500 SA_REP                                                        
+        169 Harrison             Bloom                          10000 SA_REP                                                        
+        170 Tayler               Fox                             9600 SA_REP                                                        
+        174 Ellen                Abel                           11000 SA_REP                                                        
+        201 Michael              Hartstein                      13000 MK_MAN                                                        
+        204 Hermann              Baer                           10000 PR_REP                                                        
+        205 Shelley              Higgins                        12008 AC_MGR                                                        
+
+27 rows selected.
+
+
+DEPARTMENT_ID   COUNT(*) MIN(SALARY) MAX(SALARY) AVG(SALARY)                                                                        
+------------- ---------- ----------- ----------- -----------                                                                        
+          100          6        6900       12008  8601.33333                                                                        
+           30          6        2500       11000        4150                                                                        
+                       1        7000        7000        7000                                                                        
+           20          2        6000       13000        9500                                                                        
+           70          1       10000       10000       10000                                                                        
+           90          3       17000       24000  19333.3333                                                                        
+          110          2        8300       12008       10154                                                                        
+           50         45        2100        8200  3475.55556                                                                        
+           40          1        6500        6500        6500                                                                        
+           80         34        6100       14000  8955.88235                                                                        
+           10          1        4400        4400        4400                                                                        
+           60          5        4200        9000        5760                                                                        
+
+12 rows selected.
+
+
+DEPARTMENT_ID   COUNT(*) MIN(SALARY) MAX(SALARY)                                                                                    
+------------- ---------- ----------- -----------                                                                                    
+           30          6        2500       11000                                                                                    
+           20          2        6000       13000                                                                                    
+           50         45        2100        8200                                                                                    
+           40          1        6500        6500                                                                                    
+           80         34        6100       14000                                                                                    
+           10          1        4400        4400                                                                                    
+           60          5        4200        9000                                                                                    
+
+7 rows selected.
+
+
+DEPARTMENT_ID   COUNT(*) MIN(SALARY) MAX(SALARY) AVG(SALARY)                                                                        
+------------- ---------- ----------- ----------- -----------                                                                        
+          100          6        6900       12008  8601.33333                                                                        
+                       1        7000        7000        7000                                                                        
+           70          1       10000       10000       10000                                                                        
+           90          3       17000       24000  19333.3333                                                                        
+          110          2        8300       12008       10154                                                                        
+
+
+FIRST_NAME           LAST_NAME                 DEPARTMENT_ID     SALARY                                                             
+-------------------- ------------------------- ------------- ----------                                                             
+Jennifer             Whalen                               10       4400                                                             
+Pat                  Fay                                  20       6000                                                             
+Susan                Mavris                               40       6500                                                             
+Hermann              Baer                                 70      10000                                                             
+William              Gietz                               110       8300                                                             
+Neena                Kochhar                              90      17000                                                             
+Lex                  De Haan                              90      17000                                                             
+Diana                Lorentz                              60       4200                                                             
+Luis                 Popp                                100       6900                                                             
+Karen                Colmenares                           30       2500                                                             
+TJ                   Olson                                50       2100                                                             
+Sundita              Kumar                                80       6100                                                             
+
+12 rows selected.
+

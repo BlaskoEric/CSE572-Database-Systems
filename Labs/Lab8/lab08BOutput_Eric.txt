@@ -1,0 +1,62 @@
+Enter value for conditions: location_id = 1700
+old   5:                         WHERE &conditions)
+new   5:                         WHERE location_id = 1700)
+
+EMPLOYEE_ID LAST_NAME                                                           
+----------- -------------------------                                           
+        200 Whalen                                                              
+        205 Higgins                                                             
+        206 Gietz                                                               
+        100 King                                                                
+        101 Kochhar                                                             
+        102 De Haan                                                             
+        108 Greenberg                                                           
+        109 Faviet                                                              
+        110 Chen                                                                
+        111 Sciarra                                                             
+        112 Urman                                                               
+        113 Popp                                                                
+        114 Raphaely                                                            
+        115 Khoo                                                                
+        116 Baida                                                               
+        117 Tobias                                                              
+        118 Himuro                                                              
+        119 Colmenares                                                          
+
+18 rows selected.
+
+Enter value for conditions: last_name = 'King'
+old   5:                      WHERE &conditions)
+new   5:                      WHERE last_name = 'King')
+
+EMPLOYEE_ID LAST_NAME                 JOB_ID                                    
+----------- ------------------------- ----------                                
+        201 Hartstein                 MK_MAN                                    
+        101 Kochhar                   AD_VP                                     
+        102 De Haan                   AD_VP                                     
+        114 Raphaely                  PU_MAN                                    
+        120 Weiss                     ST_MAN                                    
+        121 Fripp                     ST_MAN                                    
+        122 Kaufling                  ST_MAN                                    
+        123 Vollman                   ST_MAN                                    
+        124 Mourgos                   ST_MAN                                    
+        145 Russell                   SA_MAN                                    
+        146 Partners                  SA_MAN                                    
+        147 Errazuriz                 SA_MAN                                    
+        148 Cambrault                 SA_MAN                                    
+        149 Zlotkey                   SA_MAN                                    
+
+14 rows selected.
+
+Enter value for condtion: department_name = 'Executive'
+old   5:                         WHERE &condtion)
+new   5:                         WHERE department_name = 'Executive')
+
+EMPLOYEE_ID LAST_NAME                 JOB_ID                                    
+----------- ------------------------- ----------                                
+        100 King                      AD_PRES                                   
+        101 Kochhar                   AD_VP                                     
+        102 De Haan                   AD_VP                                     
+
+3 rows selected.
+

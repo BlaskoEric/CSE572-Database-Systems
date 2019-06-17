@@ -1,0 +1,303 @@
+
+TABLE_NAME                                                                                          
+------------------------------                                                                      
+REGIONS                                                                                             
+LOCATIONS                                                                                           
+DEPARTMENTS                                                                                         
+JOBS                                                                                                
+EMPLOYEES                                                                                           
+JOB_HISTORY                                                                                         
+JOB_GRADES                                                                                          
+COUNTRIES                                                                                           
+
+8 rows selected.
+
+ Name                                                  Null?    Type
+ ----------------------------------------------------- -------- ------------------------------------
+ REGION_ID                                             NOT NULL NUMBER
+ REGION_NAME                                                    VARCHAR2(25)
+
+ Name                                                  Null?    Type
+ ----------------------------------------------------- -------- ------------------------------------
+ LOCATION_ID                                           NOT NULL NUMBER(4)
+ STREET_ADDRESS                                                 VARCHAR2(40)
+ POSTAL_CODE                                                    VARCHAR2(12)
+ CITY                                                  NOT NULL VARCHAR2(30)
+ STATE_PROVINCE                                                 VARCHAR2(25)
+ COUNTRY_ID                                                     CHAR(2)
+
+ Name                                                  Null?    Type
+ ----------------------------------------------------- -------- ------------------------------------
+ DEPARTMENT_ID                                         NOT NULL NUMBER(4)
+ DEPARTMENT_NAME                                       NOT NULL VARCHAR2(30)
+ MANAGER_ID                                                     NUMBER(6)
+ LOCATION_ID                                                    NUMBER(4)
+
+ Name                                                  Null?    Type
+ ----------------------------------------------------- -------- ------------------------------------
+ JOB_ID                                                NOT NULL VARCHAR2(10)
+ JOB_TITLE                                             NOT NULL VARCHAR2(35)
+ MIN_SALARY                                                     NUMBER(6)
+ MAX_SALARY                                                     NUMBER(6)
+
+ Name                                                  Null?    Type
+ ----------------------------------------------------- -------- ------------------------------------
+ EMPLOYEE_ID                                           NOT NULL NUMBER(6)
+ FIRST_NAME                                                     VARCHAR2(20)
+ LAST_NAME                                             NOT NULL VARCHAR2(25)
+ EMAIL                                                 NOT NULL VARCHAR2(25)
+ PHONE_NUMBER                                                   VARCHAR2(20)
+ HIRE_DATE                                             NOT NULL DATE
+ JOB_ID                                                NOT NULL VARCHAR2(10)
+ SALARY                                                         NUMBER(8,2)
+ COMMISSION_PCT                                                 NUMBER(2,2)
+ MANAGER_ID                                                     NUMBER(6)
+ DEPARTMENT_ID                                                  NUMBER(4)
+
+ Name                                                  Null?    Type
+ ----------------------------------------------------- -------- ------------------------------------
+ EMPLOYEE_ID                                           NOT NULL NUMBER(6)
+ START_DATE                                            NOT NULL DATE
+ END_DATE                                              NOT NULL DATE
+ JOB_ID                                                NOT NULL VARCHAR2(10)
+ DEPARTMENT_ID                                                  NUMBER(4)
+
+ Name                                                  Null?    Type
+ ----------------------------------------------------- -------- ------------------------------------
+ GRADE_LEVEL                                           NOT NULL VARCHAR2(3)
+ LOWEST_SAL                                                     NUMBER
+ HIGHEST_SAL                                                    NUMBER
+
+ Name                                                  Null?    Type
+ ----------------------------------------------------- -------- ------------------------------------
+ COUNTRY_ID                                            NOT NULL CHAR(2)
+ COUNTRY_NAME                                                   VARCHAR2(40)
+ REGION_ID                                                      NUMBER
+
+
+JOB_ID     JOB_TITLE                           MAX_SALARY MIN_SALARY DIFFERENCE                     
+---------- ----------------------------------- ---------- ---------- ----------                     
+AD_PRES    President                                40000      20080      19920                     
+AD_VP      Administration Vice President            30000      15000      15000                     
+AD_ASST    Administration Assistant                  6000       3000       3000                     
+FI_MGR     Finance Manager                          16000       8200       7800                     
+FI_ACCOUNT Accountant                                9000       4200       4800                     
+AC_MGR     Accounting Manager                       16000       8200       7800                     
+AC_ACCOUNT Public Accountant                         9000       4200       4800                     
+SA_MAN     Sales Manager                            20080      10000      10080                     
+SA_REP     Sales Representative                     12008       6000       6008                     
+PU_MAN     Purchasing Manager                       15000       8000       7000                     
+PU_CLERK   Purchasing Clerk                          5500       2500       3000                     
+ST_MAN     Stock Manager                             8500       5500       3000                     
+ST_CLERK   Stock Clerk                               5000       2008       2992                     
+SH_CLERK   Shipping Clerk                            5500       2500       3000                     
+IT_PROG    Programmer                               10000       4000       6000                     
+MK_MAN     Marketing Manager                        15000       9000       6000                     
+MK_REP     Marketing Representative                  9000       4000       5000                     
+HR_REP     Human Resources Representative            9000       4000       5000                     
+PR_REP     Public Relations Representative          10500       4500       6000                     
+
+19 rows selected.
+
+
+EMPLOYEE_ID FULL NAME                                       HIRE_DATE YEARS EMPLOYED     SALARY     
+----------- ----------------------------------------------- --------- -------------- ----------     
+        198 Donald, OConnell                                21-JUN-07     11.8238769       2600     
+        199 Douglas, Grant                                  13-JAN-08     11.2594934       2600     
+        200 Jennifer, Whalen                                17-SEP-03     15.5855208       4400     
+        201 Michael, Hartstein                              17-FEB-04     15.1663427      13000     
+        202 Pat, Fay                                        17-AUG-05     13.6677126       6000     
+        203 Susan, Mavris                                   07-JUN-02     16.8649728       6500     
+        204 Hermann, Baer                                   07-JUN-02     16.8649728      10000     
+        205 Shelley, Higgins                                07-JUN-02     16.8649728      12008     
+        206 William, Gietz                                  07-JUN-02     16.8649728       8300     
+        100 Steven, King                                    17-JUN-03     15.8375756      24000     
+        101 Neena, Kochhar                                  21-SEP-05     13.5718221      17000     
+        102 Lex, De Haan                                    13-JAN-01     18.2622331      17000     
+        103 Alexander, Hunold                               03-JAN-06     13.2868906       9000     
+        104 Bruce, Ernst                                    21-MAY-07     11.9088084       6000     
+        105 David, Austin                                   25-JUN-05      13.812918       4800     
+        106 Valli, Pataballa                                05-FEB-06     13.1964797       4800     
+        107 Diana, Lorentz                                  07-FEB-07     12.1910002       4200     
+        108 Nancy, Greenberg                                17-AUG-02     16.6704523      12008     
+        109 Daniel, Faviet                                  16-AUG-02      16.673192       9000     
+        110 John, Chen                                      28-SEP-05     13.5526441       8200     
+        111 Ismael, Sciarra                                 30-SEP-05     13.5471646       7700     
+        112 Jose Manuel, Urman                              07-MAR-06     13.1142879       7800     
+        113 Luis, Popp                                      07-DEC-07     11.3608632       6900     
+        114 Den, Raphaely                                   07-DEC-02      16.363603      11000     
+        115 Alexander, Khoo                                 18-MAY-03     15.9197673       3100     
+        116 Shelli, Baida                                   24-DEC-05     13.3142879       2900     
+        117 Sigal, Tobias                                   24-JUL-05      13.733466       2800     
+
+EMPLOYEE_ID FULL NAME                                       HIRE_DATE YEARS EMPLOYED     SALARY     
+----------- ----------------------------------------------- --------- -------------- ----------     
+        118 Guy, Himuro                                     15-NOV-06     12.4211372       2600     
+        119 Karen, Colmenares                               10-AUG-07     11.6868906       2500     
+        120 Matthew, Weiss                                  18-JUL-04     14.7499043       8000     
+        121 Adam, Fripp                                     10-APR-05     14.0211372       8200     
+        122 Payam, Kaufling                                 01-MAY-03     15.9663427       7900     
+        123 Shanta, Vollman                                 10-OCT-05     13.5197673       6500     
+        124 Kevin, Mourgos                                  16-NOV-07     11.4183975       5800     
+        125 Julia, Nayer                                    16-JUL-05     13.7553838       3200     
+        126 Irene, Mikkilineni                              28-SEP-06     12.5526441       2700     
+        127 James, Landry                                   14-JAN-07     12.2567536       2400     
+        128 Steven, Markle                                  08-MAR-08     11.1088084       2200     
+        129 Laura, Bissot                                   20-AUG-05     13.6594934       3300     
+        130 Mozhe, Atkinson                                 30-OCT-05     13.4649728       2800     
+        131 James, Marlow                                   16-FEB-05     14.1663427       2500     
+        132 TJ, Olson                                       10-APR-07     12.0211372       2100     
+        133 Jason, Mallin                                   14-JUN-04      14.843055       3300     
+        134 Michael, Rogers                                 26-AUG-06      12.643055       2900     
+        135 Ki, Gee                                         12-DEC-07     11.3471646       2400     
+        136 Hazel, Philtanker                               06-FEB-08     11.1937399       2200     
+        137 Renske, Ladwig                                  14-JUL-03      15.763603       3600     
+        138 Stephen, Stiles                                 26-OCT-05     13.4759317       3200     
+        139 John, Seo                                       12-FEB-06     13.1773016       2700     
+        140 Joshua, Patel                                   06-APR-06     13.0320961       2500     
+        141 Trenna, Rajs                                    17-OCT-03      15.503329       3500     
+        142 Curtis, Davies                                  29-JAN-05     14.2156578       3100     
+        143 Randall, Matos                                  15-MAR-06     13.0923701       2600     
+        144 Peter, Vargas                                   09-JUL-06     12.7745619       2500     
+
+EMPLOYEE_ID FULL NAME                                       HIRE_DATE YEARS EMPLOYED     SALARY     
+----------- ----------------------------------------------- --------- -------------- ----------     
+        145 John, Russell                                   01-OCT-04     14.5444249      14000     
+        146 Karen, Partners                                 05-JAN-05     14.2814112      13500     
+        147 Alberto, Errazuriz                              10-MAR-05     14.1060687      12000     
+        148 Gerald, Cambrault                               15-OCT-07     11.5060687      11000     
+        149 Eleni, Zlotkey                                  29-JAN-08     11.2156578      10500     
+        150 Peter, Tucker                                   30-JAN-05      14.212918      10000     
+        151 David, Bernstein                                24-MAR-05     14.0677126       9500     
+        152 Peter, Hall                                     20-AUG-05     13.6594934       9000     
+        153 Christopher, Olsen                              30-MAR-06     13.0512742       8000     
+        154 Nanette, Cambrault                              09-DEC-06     12.3553838       7500     
+        155 Oliver, Tuvault                                 23-NOV-07     11.3992194       7000     
+        156 Janette, King                                   30-JAN-04     15.2156578      10000     
+        157 Patrick, Sully                                  04-MAR-04     15.1225071       9500     
+        158 Allan, McEwen                                   01-AUG-04     14.7115482       9000     
+        159 Lindsey, Smith                                  10-MAR-05     14.1060687       8000     
+        160 Louise, Doran                                   15-DEC-05     13.3389454       7500     
+        161 Sarath, Sewall                                  03-NOV-06     12.4540139       7000     
+        162 Clara, Vishney                                  11-NOV-05     13.4320961      10500     
+        163 Danielle, Greene                                19-MAR-07     12.0814112       9500     
+        164 Mattea, Marvins                                 24-JAN-08     11.2293564       7200     
+        165 David, Lee                                      23-FEB-08     11.1471646       6800     
+        166 Sundar, Ande                                    24-MAR-08     11.0649728       6400     
+        167 Amit, Banda                                     21-APR-08     10.9882605       6200     
+        168 Lisa, Ozer                                      11-MAR-05      14.103329      11500     
+        169 Harrison, Bloom                                 23-MAR-06     13.0704523      10000     
+        170 Tayler, Fox                                     24-JAN-06     13.2293564       9600     
+        171 William, Smith                                  23-FEB-07     12.1471646       7400     
+
+EMPLOYEE_ID FULL NAME                                       HIRE_DATE YEARS EMPLOYED     SALARY     
+----------- ----------------------------------------------- --------- -------------- ----------     
+        172 Elizabeth, Bates                                24-MAR-07     12.0677126       7300     
+        173 Sundita, Kumar                                  21-APR-08     10.9882605       6100     
+        174 Ellen, Abel                                     11-MAY-04     14.9362057      11000     
+        175 Alyssa, Hutton                                  19-MAR-05     14.0814112       8800     
+        176 Jonathon, Taylor                                24-MAR-06     13.0677126       8600     
+        177 Jack, Livingston                                23-APR-06     12.9855208       8400     
+        178 Kimberely, Grant                                24-MAY-07     11.9005893       7000     
+        179 Charles, Johnson                                04-JAN-08     11.2841509       6200     
+        180 Winston, Taylor                                 24-JAN-06     13.2293564       3200     
+        181 Jean, Fleaur                                    23-FEB-06     13.1471646       3100     
+        182 Martha, Sullivan                                21-JUN-07     11.8238769       2500     
+        183 Girard, Geoni                                   03-FEB-08     11.2019591       2800     
+        184 Nandita, Sarchand                               27-JAN-04     15.2238769       4200     
+        185 Alexis, Bull                                    20-FEB-05     14.1553838       4100     
+        186 Julia, Dellinger                                24-JUN-06     12.8156578       3400     
+        187 Anthony, Cabrio                                 07-FEB-07     12.1910002       3000     
+        188 Kelly, Chung                                    14-JUN-05      13.843055       3800     
+        189 Jennifer, Dilly                                 13-AUG-05     13.6786715       3600     
+        190 Timothy, Gates                                  11-JUL-06     12.7690824       2900     
+        191 Randall, Perkins                                19-DEC-07     11.3279865       2500     
+        192 Sarah, Bell                                     04-FEB-04     15.2019591       4000     
+        193 Britney, Everett                                03-MAR-05     14.1252468       3900     
+        194 Samuel, McCain                                  01-JUL-06     12.7964797       3200     
+        195 Vance, Jones                                    17-MAR-07     12.0868906       2800     
+        196 Alana, Walsh                                    24-APR-06      12.982781       3100     
+        197 Kevin, Feeney                                   23-MAY-06      12.903329       3000     
+
+107 rows selected.
+
+
+COUNT(EMPLOYEE_ID)                                                                                  
+------------------                                                                                  
+               107                                                                                  
+
+
+    SALARY                                                                                          
+----------                                                                                          
+     13000                                                                                          
+      9000                                                                                          
+      8200                                                                                          
+     11000                                                                                          
+      2900                                                                                          
+     14000                                                                                          
+     12000                                                                                          
+      4000                                                                                          
+      2600                                                                                          
+      6500                                                                                          
+     10000                                                                                          
+     24000                                                                                          
+      7800                                                                                          
+      2500                                                                                          
+      2400                                                                                          
+     13500                                                                                          
+     10500                                                                                          
+      9500                                                                                          
+      7200                                                                                          
+      6200                                                                                          
+      7400                                                                                          
+      7300                                                                                          
+      8600                                                                                          
+      3400                                                                                          
+      3900                                                                                          
+      7700                                                                                          
+      6900                                                                                          
+
+    SALARY                                                                                          
+----------                                                                                          
+      3500                                                                                          
+      9600                                                                                          
+      3800                                                                                          
+      4400                                                                                          
+      4800                                                                                          
+      6400                                                                                          
+      4100                                                                                          
+      4200                                                                                          
+      2700                                                                                          
+      2200                                                                                          
+      7500                                                                                          
+     11500                                                                                          
+     12008                                                                                          
+      2800                                                                                          
+      3300                                                                                          
+      3600                                                                                          
+      3000                                                                                          
+      6000                                                                                          
+      3100                                                                                          
+      8000                                                                                          
+      5800                                                                                          
+      3200                                                                                          
+      6800                                                                                          
+      8800                                                                                          
+      8300                                                                                          
+     17000                                                                                          
+      7900                                                                                          
+
+    SALARY                                                                                          
+----------                                                                                          
+      2100                                                                                          
+      7000                                                                                          
+      6100                                                                                          
+      8400                                                                                          
+
+58 rows selected.
+
+
+COUNT(DISTINCTSALARY)                                                                               
+---------------------                                                                               
+                   58                                                                               
+

@@ -1,0 +1,568 @@
+
+EMPLOYEE_ID LAST_NAME                 DEPARTMENT_ID DEPARTMENT_NAME                                                                 
+----------- ------------------------- ------------- ------------------------------                                                  
+        100 King                                 90 Executive                                                                       
+        101 Kochhar                              90 Executive                                                                       
+        102 De Haan                              90 Executive                                                                       
+        103 Hunold                               60 IT                                                                              
+        104 Ernst                                60 IT                                                                              
+        105 Austin                               60 IT                                                                              
+        106 Pataballa                            60 IT                                                                              
+        107 Lorentz                              60 IT                                                                              
+        108 Greenberg                           100 Finance                                                                         
+        109 Faviet                              100 Finance                                                                         
+        110 Chen                                100 Finance                                                                         
+        111 Sciarra                             100 Finance                                                                         
+        112 Urman                               100 Finance                                                                         
+        113 Popp                                100 Finance                                                                         
+        114 Raphaely                             30 Purchasing                                                                      
+        115 Khoo                                 30 Purchasing                                                                      
+        116 Baida                                30 Purchasing                                                                      
+        117 Tobias                               30 Purchasing                                                                      
+        118 Himuro                               30 Purchasing                                                                      
+        119 Colmenares                           30 Purchasing                                                                      
+        120 Weiss                                50 Shipping                                                                        
+        121 Fripp                                50 Shipping                                                                        
+        122 Kaufling                             50 Shipping                                                                        
+        123 Vollman                              50 Shipping                                                                        
+        124 Mourgos                              50 Shipping                                                                        
+        125 Nayer                                50 Shipping                                                                        
+        126 Mikkilineni                          50 Shipping                                                                        
+
+EMPLOYEE_ID LAST_NAME                 DEPARTMENT_ID DEPARTMENT_NAME                                                                 
+----------- ------------------------- ------------- ------------------------------                                                  
+        127 Landry                               50 Shipping                                                                        
+        128 Markle                               50 Shipping                                                                        
+        129 Bissot                               50 Shipping                                                                        
+        130 Atkinson                             50 Shipping                                                                        
+        131 Marlow                               50 Shipping                                                                        
+        132 Olson                                50 Shipping                                                                        
+        133 Mallin                               50 Shipping                                                                        
+        134 Rogers                               50 Shipping                                                                        
+        135 Gee                                  50 Shipping                                                                        
+        136 Philtanker                           50 Shipping                                                                        
+        137 Ladwig                               50 Shipping                                                                        
+        138 Stiles                               50 Shipping                                                                        
+        139 Seo                                  50 Shipping                                                                        
+        140 Patel                                50 Shipping                                                                        
+        141 Rajs                                 50 Shipping                                                                        
+        142 Davies                               50 Shipping                                                                        
+        143 Matos                                50 Shipping                                                                        
+        144 Vargas                               50 Shipping                                                                        
+        145 Russell                              80 Sales                                                                           
+        146 Partners                             80 Sales                                                                           
+        147 Errazuriz                            80 Sales                                                                           
+        148 Cambrault                            80 Sales                                                                           
+        149 Zlotkey                              80 Sales                                                                           
+        150 Tucker                               80 Sales                                                                           
+        151 Bernstein                            80 Sales                                                                           
+        152 Hall                                 80 Sales                                                                           
+        153 Olsen                                80 Sales                                                                           
+
+EMPLOYEE_ID LAST_NAME                 DEPARTMENT_ID DEPARTMENT_NAME                                                                 
+----------- ------------------------- ------------- ------------------------------                                                  
+        154 Cambrault                            80 Sales                                                                           
+        155 Tuvault                              80 Sales                                                                           
+        156 King                                 80 Sales                                                                           
+        157 Sully                                80 Sales                                                                           
+        158 McEwen                               80 Sales                                                                           
+        159 Smith                                80 Sales                                                                           
+        160 Doran                                80 Sales                                                                           
+        161 Sewall                               80 Sales                                                                           
+        162 Vishney                              80 Sales                                                                           
+        163 Greene                               80 Sales                                                                           
+        164 Marvins                              80 Sales                                                                           
+        165 Lee                                  80 Sales                                                                           
+        166 Ande                                 80 Sales                                                                           
+        167 Banda                                80 Sales                                                                           
+        168 Ozer                                 80 Sales                                                                           
+        169 Bloom                                80 Sales                                                                           
+        170 Fox                                  80 Sales                                                                           
+        171 Smith                                80 Sales                                                                           
+        172 Bates                                80 Sales                                                                           
+        173 Kumar                                80 Sales                                                                           
+        174 Abel                                 80 Sales                                                                           
+        175 Hutton                               80 Sales                                                                           
+        176 Taylor                               80 Sales                                                                           
+        177 Livingston                           80 Sales                                                                           
+        179 Johnson                              80 Sales                                                                           
+        180 Taylor                               50 Shipping                                                                        
+        181 Fleaur                               50 Shipping                                                                        
+
+EMPLOYEE_ID LAST_NAME                 DEPARTMENT_ID DEPARTMENT_NAME                                                                 
+----------- ------------------------- ------------- ------------------------------                                                  
+        182 Sullivan                             50 Shipping                                                                        
+        183 Geoni                                50 Shipping                                                                        
+        184 Sarchand                             50 Shipping                                                                        
+        185 Bull                                 50 Shipping                                                                        
+        186 Dellinger                            50 Shipping                                                                        
+        187 Cabrio                               50 Shipping                                                                        
+        188 Chung                                50 Shipping                                                                        
+        189 Dilly                                50 Shipping                                                                        
+        190 Gates                                50 Shipping                                                                        
+        191 Perkins                              50 Shipping                                                                        
+        192 Bell                                 50 Shipping                                                                        
+        193 Everett                              50 Shipping                                                                        
+        194 McCain                               50 Shipping                                                                        
+        195 Jones                                50 Shipping                                                                        
+        196 Walsh                                50 Shipping                                                                        
+        197 Feeney                               50 Shipping                                                                        
+        198 OConnell                             50 Shipping                                                                        
+        199 Grant                                50 Shipping                                                                        
+        200 Whalen                               10 Administration                                                                  
+        201 Hartstein                            20 Marketing                                                                       
+        202 Fay                                  20 Marketing                                                                       
+        203 Mavris                               40 Human Resources                                                                 
+        204 Baer                                 70 Public Relations                                                                
+        205 Higgins                             110 Accounting                                                                      
+        206 Gietz                               110 Accounting                                                                      
+
+106 rows selected.
+
+
+EMPLOYEE_ID LAST_NAME                 DEPARTMENT_ID DEPARTMENT_NAME                                                                 
+----------- ------------------------- ------------- ------------------------------                                                  
+        100 King                                 90 Executive                                                                       
+        101 Kochhar                              90 Executive                                                                       
+        102 De Haan                              90 Executive                                                                       
+        103 Hunold                               60 IT                                                                              
+        104 Ernst                                60 IT                                                                              
+        105 Austin                               60 IT                                                                              
+        106 Pataballa                            60 IT                                                                              
+        107 Lorentz                              60 IT                                                                              
+        108 Greenberg                           100 Finance                                                                         
+        109 Faviet                              100 Finance                                                                         
+        110 Chen                                100 Finance                                                                         
+        111 Sciarra                             100 Finance                                                                         
+        112 Urman                               100 Finance                                                                         
+        113 Popp                                100 Finance                                                                         
+        114 Raphaely                             30 Purchasing                                                                      
+        115 Khoo                                 30 Purchasing                                                                      
+        116 Baida                                30 Purchasing                                                                      
+        117 Tobias                               30 Purchasing                                                                      
+        118 Himuro                               30 Purchasing                                                                      
+        119 Colmenares                           30 Purchasing                                                                      
+        120 Weiss                                50 Shipping                                                                        
+        121 Fripp                                50 Shipping                                                                        
+        122 Kaufling                             50 Shipping                                                                        
+        123 Vollman                              50 Shipping                                                                        
+        124 Mourgos                              50 Shipping                                                                        
+        125 Nayer                                50 Shipping                                                                        
+        126 Mikkilineni                          50 Shipping                                                                        
+
+EMPLOYEE_ID LAST_NAME                 DEPARTMENT_ID DEPARTMENT_NAME                                                                 
+----------- ------------------------- ------------- ------------------------------                                                  
+        127 Landry                               50 Shipping                                                                        
+        128 Markle                               50 Shipping                                                                        
+        129 Bissot                               50 Shipping                                                                        
+        130 Atkinson                             50 Shipping                                                                        
+        131 Marlow                               50 Shipping                                                                        
+        132 Olson                                50 Shipping                                                                        
+        133 Mallin                               50 Shipping                                                                        
+        134 Rogers                               50 Shipping                                                                        
+        135 Gee                                  50 Shipping                                                                        
+        136 Philtanker                           50 Shipping                                                                        
+        137 Ladwig                               50 Shipping                                                                        
+        138 Stiles                               50 Shipping                                                                        
+        139 Seo                                  50 Shipping                                                                        
+        140 Patel                                50 Shipping                                                                        
+        141 Rajs                                 50 Shipping                                                                        
+        142 Davies                               50 Shipping                                                                        
+        143 Matos                                50 Shipping                                                                        
+        144 Vargas                               50 Shipping                                                                        
+        145 Russell                              80 Sales                                                                           
+        146 Partners                             80 Sales                                                                           
+        147 Errazuriz                            80 Sales                                                                           
+        148 Cambrault                            80 Sales                                                                           
+        149 Zlotkey                              80 Sales                                                                           
+        150 Tucker                               80 Sales                                                                           
+        151 Bernstein                            80 Sales                                                                           
+        152 Hall                                 80 Sales                                                                           
+        153 Olsen                                80 Sales                                                                           
+
+EMPLOYEE_ID LAST_NAME                 DEPARTMENT_ID DEPARTMENT_NAME                                                                 
+----------- ------------------------- ------------- ------------------------------                                                  
+        154 Cambrault                            80 Sales                                                                           
+        155 Tuvault                              80 Sales                                                                           
+        156 King                                 80 Sales                                                                           
+        157 Sully                                80 Sales                                                                           
+        158 McEwen                               80 Sales                                                                           
+        159 Smith                                80 Sales                                                                           
+        160 Doran                                80 Sales                                                                           
+        161 Sewall                               80 Sales                                                                           
+        162 Vishney                              80 Sales                                                                           
+        163 Greene                               80 Sales                                                                           
+        164 Marvins                              80 Sales                                                                           
+        165 Lee                                  80 Sales                                                                           
+        166 Ande                                 80 Sales                                                                           
+        167 Banda                                80 Sales                                                                           
+        168 Ozer                                 80 Sales                                                                           
+        169 Bloom                                80 Sales                                                                           
+        170 Fox                                  80 Sales                                                                           
+        171 Smith                                80 Sales                                                                           
+        172 Bates                                80 Sales                                                                           
+        173 Kumar                                80 Sales                                                                           
+        174 Abel                                 80 Sales                                                                           
+        175 Hutton                               80 Sales                                                                           
+        176 Taylor                               80 Sales                                                                           
+        177 Livingston                           80 Sales                                                                           
+        178 Grant                                                                                                                   
+        179 Johnson                              80 Sales                                                                           
+        180 Taylor                               50 Shipping                                                                        
+
+EMPLOYEE_ID LAST_NAME                 DEPARTMENT_ID DEPARTMENT_NAME                                                                 
+----------- ------------------------- ------------- ------------------------------                                                  
+        181 Fleaur                               50 Shipping                                                                        
+        182 Sullivan                             50 Shipping                                                                        
+        183 Geoni                                50 Shipping                                                                        
+        184 Sarchand                             50 Shipping                                                                        
+        185 Bull                                 50 Shipping                                                                        
+        186 Dellinger                            50 Shipping                                                                        
+        187 Cabrio                               50 Shipping                                                                        
+        188 Chung                                50 Shipping                                                                        
+        189 Dilly                                50 Shipping                                                                        
+        190 Gates                                50 Shipping                                                                        
+        191 Perkins                              50 Shipping                                                                        
+        192 Bell                                 50 Shipping                                                                        
+        193 Everett                              50 Shipping                                                                        
+        194 McCain                               50 Shipping                                                                        
+        195 Jones                                50 Shipping                                                                        
+        196 Walsh                                50 Shipping                                                                        
+        197 Feeney                               50 Shipping                                                                        
+        198 OConnell                             50 Shipping                                                                        
+        199 Grant                                50 Shipping                                                                        
+        200 Whalen                               10 Administration                                                                  
+        201 Hartstein                            20 Marketing                                                                       
+        202 Fay                                  20 Marketing                                                                       
+        203 Mavris                               40 Human Resources                                                                 
+        204 Baer                                 70 Public Relations                                                                
+        205 Higgins                             110 Accounting                                                                      
+        206 Gietz                               110 Accounting                                                                      
+
+107 rows selected.
+
+
+JOB_ID     DEPARTMENT_ID LOCATION_ID                                                                                                
+---------- ------------- -----------                                                                                                
+SA_MAN                80        2500                                                                                                
+SA_REP                80        2500                                                                                                
+
+
+JOB_ID     DEPARTMENT_NAME                CITY                                                                                      
+---------- ------------------------------ ------------------------------                                                            
+AD_VP      Executive                      Seattle                                                                                   
+SA_REP     Sales                          Oxford                                                                                    
+AD_PRES    Executive                      Seattle                                                                                   
+SA_MAN     Sales                          Oxford                                                                                    
+FI_MGR     Finance                        Seattle                                                                                   
+FI_ACCOUNT Finance                        Seattle                                                                                   
+
+6 rows selected.
+
+
+LAST_NAME                 DEPARTMENT_NAME                CITY                           COMMISSION_PCT                              
+------------------------- ------------------------------ ------------------------------ --------------                              
+Russell                   Sales                          Oxford                                     .4                              
+Partners                  Sales                          Oxford                                     .3                              
+Errazuriz                 Sales                          Oxford                                     .3                              
+Cambrault                 Sales                          Oxford                                     .3                              
+Zlotkey                   Sales                          Oxford                                     .2                              
+Tucker                    Sales                          Oxford                                     .3                              
+Bernstein                 Sales                          Oxford                                    .25                              
+Hall                      Sales                          Oxford                                    .25                              
+Olsen                     Sales                          Oxford                                     .2                              
+Cambrault                 Sales                          Oxford                                     .2                              
+Tuvault                   Sales                          Oxford                                    .15                              
+King                      Sales                          Oxford                                    .35                              
+Sully                     Sales                          Oxford                                    .35                              
+McEwen                    Sales                          Oxford                                    .35                              
+Smith                     Sales                          Oxford                                     .3                              
+Doran                     Sales                          Oxford                                     .3                              
+Sewall                    Sales                          Oxford                                    .25                              
+Vishney                   Sales                          Oxford                                    .25                              
+Greene                    Sales                          Oxford                                    .15                              
+Marvins                   Sales                          Oxford                                     .1                              
+Lee                       Sales                          Oxford                                     .1                              
+Ande                      Sales                          Oxford                                     .1                              
+Banda                     Sales                          Oxford                                     .1                              
+Ozer                      Sales                          Oxford                                    .25                              
+Bloom                     Sales                          Oxford                                     .2                              
+Fox                       Sales                          Oxford                                     .2                              
+Smith                     Sales                          Oxford                                    .15                              
+
+LAST_NAME                 DEPARTMENT_NAME                CITY                           COMMISSION_PCT                              
+------------------------- ------------------------------ ------------------------------ --------------                              
+Bates                     Sales                          Oxford                                    .15                              
+Kumar                     Sales                          Oxford                                     .1                              
+Abel                      Sales                          Oxford                                     .3                              
+Hutton                    Sales                          Oxford                                    .25                              
+Taylor                    Sales                          Oxford                                     .2                              
+Livingston                Sales                          Oxford                                     .2                              
+Johnson                   Sales                          Oxford                                     .1                              
+
+34 rows selected.
+
+
+LAST_NAME                 DEPARTMENT_NAME                                                                                           
+------------------------- ------------------------------                                                                            
+Whalen                    Administration                                                                                            
+Fay                       Marketing                                                                                                 
+Hartstein                 Marketing                                                                                                 
+Baida                     Purchasing                                                                                                
+Raphaely                  Purchasing                                                                                                
+Tobias                    Purchasing                                                                                                
+Colmenares                Purchasing                                                                                                
+Mavris                    Human Resources                                                                                           
+Davies                    Shipping                                                                                                  
+Cabrio                    Shipping                                                                                                  
+Markle                    Shipping                                                                                                  
+Walsh                     Shipping                                                                                                  
+Vollman                   Shipping                                                                                                  
+Vargas                    Shipping                                                                                                  
+Taylor                    Shipping                                                                                                  
+Sullivan                  Shipping                                                                                                  
+Sarchand                  Shipping                                                                                                  
+Rajs                      Shipping                                                                                                  
+Philtanker                Shipping                                                                                                  
+Patel                     Shipping                                                                                                  
+Nayer                     Shipping                                                                                                  
+McCain                    Shipping                                                                                                  
+Matos                     Shipping                                                                                                  
+Marlow                    Shipping                                                                                                  
+Mallin                    Shipping                                                                                                  
+Landry                    Shipping                                                                                                  
+Ladwig                    Shipping                                                                                                  
+
+LAST_NAME                 DEPARTMENT_NAME                                                                                           
+------------------------- ------------------------------                                                                            
+Kaufling                  Shipping                                                                                                  
+Grant                     Shipping                                                                                                  
+Gates                     Shipping                                                                                                  
+Fleaur                    Shipping                                                                                                  
+Pataballa                 IT                                                                                                        
+Baer                      Public Relations                                                                                          
+Banda                     Sales                                                                                                     
+Cambrault                 Sales                                                                                                     
+Taylor                    Sales                                                                                                     
+Tuvault                   Sales                                                                                                     
+Kumar                     Sales                                                                                                     
+Marvins                   Sales                                                                                                     
+Bates                     Sales                                                                                                     
+Errazuriz                 Sales                                                                                                     
+Doran                     Sales                                                                                                     
+Sewall                    Sales                                                                                                     
+Partners                  Sales                                                                                                     
+Hall                      Sales                                                                                                     
+Cambrault                 Sales                                                                                                     
+De Haan                   Executive                                                                                                 
+Kochhar                   Executive                                                                                                 
+Sciarra                   Finance                                                                                                   
+Faviet                    Finance                                                                                                   
+Urman                     Finance                                                                                                   
+
+51 rows selected.
+
+
+EMPLOYEE_ID LAST_NAME                 JOB_ID     DEPARTMENT_NAME                CITY                                                
+----------- ------------------------- ---------- ------------------------------ ------------------------------                      
+        201 Hartstein                 MK_MAN     Marketing                      Toronto                                             
+        202 Fay                       MK_REP     Marketing                      Toronto                                             
+
+
+      EMP# EMPLOYEE                        MGR# MANAGER                                                                             
+---------- ------------------------- ---------- -------------------------                                                           
+       101 Kochhar                          100 King                                                                                
+       102 De Haan                          100 King                                                                                
+       103 Hunold                           102 De Haan                                                                             
+       104 Ernst                            103 Hunold                                                                              
+       105 Austin                           103 Hunold                                                                              
+       106 Pataballa                        103 Hunold                                                                              
+       107 Lorentz                          103 Hunold                                                                              
+       108 Greenberg                        101 Kochhar                                                                             
+       109 Faviet                           108 Greenberg                                                                           
+       110 Chen                             108 Greenberg                                                                           
+       111 Sciarra                          108 Greenberg                                                                           
+       112 Urman                            108 Greenberg                                                                           
+       113 Popp                             108 Greenberg                                                                           
+       114 Raphaely                         100 King                                                                                
+       115 Khoo                             114 Raphaely                                                                            
+       116 Baida                            114 Raphaely                                                                            
+       117 Tobias                           114 Raphaely                                                                            
+       118 Himuro                           114 Raphaely                                                                            
+       119 Colmenares                       114 Raphaely                                                                            
+       120 Weiss                            100 King                                                                                
+       121 Fripp                            100 King                                                                                
+       122 Kaufling                         100 King                                                                                
+       123 Vollman                          100 King                                                                                
+       124 Mourgos                          100 King                                                                                
+       125 Nayer                            120 Weiss                                                                               
+       126 Mikkilineni                      120 Weiss                                                                               
+       127 Landry                           120 Weiss                                                                               
+
+      EMP# EMPLOYEE                        MGR# MANAGER                                                                             
+---------- ------------------------- ---------- -------------------------                                                           
+       128 Markle                           120 Weiss                                                                               
+       129 Bissot                           121 Fripp                                                                               
+       130 Atkinson                         121 Fripp                                                                               
+       131 Marlow                           121 Fripp                                                                               
+       132 Olson                            121 Fripp                                                                               
+       133 Mallin                           122 Kaufling                                                                            
+       134 Rogers                           122 Kaufling                                                                            
+       135 Gee                              122 Kaufling                                                                            
+       136 Philtanker                       122 Kaufling                                                                            
+       137 Ladwig                           123 Vollman                                                                             
+       138 Stiles                           123 Vollman                                                                             
+       139 Seo                              123 Vollman                                                                             
+       140 Patel                            123 Vollman                                                                             
+       141 Rajs                             124 Mourgos                                                                             
+       142 Davies                           124 Mourgos                                                                             
+       143 Matos                            124 Mourgos                                                                             
+       144 Vargas                           124 Mourgos                                                                             
+       145 Russell                          100 King                                                                                
+       146 Partners                         100 King                                                                                
+       147 Errazuriz                        100 King                                                                                
+       148 Cambrault                        100 King                                                                                
+       149 Zlotkey                          100 King                                                                                
+       150 Tucker                           145 Russell                                                                             
+       151 Bernstein                        145 Russell                                                                             
+       152 Hall                             145 Russell                                                                             
+       153 Olsen                            145 Russell                                                                             
+       154 Cambrault                        145 Russell                                                                             
+
+      EMP# EMPLOYEE                        MGR# MANAGER                                                                             
+---------- ------------------------- ---------- -------------------------                                                           
+       155 Tuvault                          145 Russell                                                                             
+       156 King                             146 Partners                                                                            
+       157 Sully                            146 Partners                                                                            
+       158 McEwen                           146 Partners                                                                            
+       159 Smith                            146 Partners                                                                            
+       160 Doran                            146 Partners                                                                            
+       161 Sewall                           146 Partners                                                                            
+       162 Vishney                          147 Errazuriz                                                                           
+       163 Greene                           147 Errazuriz                                                                           
+       164 Marvins                          147 Errazuriz                                                                           
+       165 Lee                              147 Errazuriz                                                                           
+       166 Ande                             147 Errazuriz                                                                           
+       167 Banda                            147 Errazuriz                                                                           
+       168 Ozer                             148 Cambrault                                                                           
+       169 Bloom                            148 Cambrault                                                                           
+       170 Fox                              148 Cambrault                                                                           
+       171 Smith                            148 Cambrault                                                                           
+       172 Bates                            148 Cambrault                                                                           
+       173 Kumar                            148 Cambrault                                                                           
+       174 Abel                             149 Zlotkey                                                                             
+       175 Hutton                           149 Zlotkey                                                                             
+       176 Taylor                           149 Zlotkey                                                                             
+       177 Livingston                       149 Zlotkey                                                                             
+       178 Grant                            149 Zlotkey                                                                             
+       179 Johnson                          149 Zlotkey                                                                             
+       180 Taylor                           120 Weiss                                                                               
+       181 Fleaur                           120 Weiss                                                                               
+
+      EMP# EMPLOYEE                        MGR# MANAGER                                                                             
+---------- ------------------------- ---------- -------------------------                                                           
+       182 Sullivan                         120 Weiss                                                                               
+       183 Geoni                            120 Weiss                                                                               
+       184 Sarchand                         121 Fripp                                                                               
+       185 Bull                             121 Fripp                                                                               
+       186 Dellinger                        121 Fripp                                                                               
+       187 Cabrio                           121 Fripp                                                                               
+       188 Chung                            122 Kaufling                                                                            
+       189 Dilly                            122 Kaufling                                                                            
+       190 Gates                            122 Kaufling                                                                            
+       191 Perkins                          122 Kaufling                                                                            
+       192 Bell                             123 Vollman                                                                             
+       193 Everett                          123 Vollman                                                                             
+       194 McCain                           123 Vollman                                                                             
+       195 Jones                            123 Vollman                                                                             
+       196 Walsh                            124 Mourgos                                                                             
+       197 Feeney                           124 Mourgos                                                                             
+       198 OConnell                         124 Mourgos                                                                             
+       199 Grant                            124 Mourgos                                                                             
+       200 Whalen                           101 Kochhar                                                                             
+       201 Hartstein                        100 King                                                                                
+       202 Fay                              201 Hartstein                                                                           
+       203 Mavris                           101 Kochhar                                                                             
+       204 Baer                             101 Kochhar                                                                             
+       205 Higgins                          101 Kochhar                                                                             
+       206 Gietz                            205 Higgins                                                                             
+
+106 rows selected.
+
+
+      EMP# EMPLOYEE                  HIRE_DATE       MGR# MANAGER                                                                   
+---------- ------------------------- --------- ---------- -------------------------                                                 
+       102 De Haan                   13-JAN-01        100 King                                                                      
+       105 Austin                    25-JUN-05        103 Hunold                                                                    
+       108 Greenberg                 17-AUG-02        101 Kochhar                                                                   
+       109 Faviet                    16-AUG-02        108 Greenberg                                                                 
+       114 Raphaely                  07-DEC-02        100 King                                                                      
+       122 Kaufling                  01-MAY-03        100 King                                                                      
+       131 Marlow                    16-FEB-05        121 Fripp                                                                     
+       137 Ladwig                    14-JUL-03        123 Vollman                                                                   
+       141 Rajs                      17-OCT-03        124 Mourgos                                                                   
+       142 Davies                    29-JAN-05        124 Mourgos                                                                   
+       143 Matos                     15-MAR-06        124 Mourgos                                                                   
+       144 Vargas                    09-JUL-06        124 Mourgos                                                                   
+       156 King                      30-JAN-04        146 Partners                                                                  
+       157 Sully                     04-MAR-04        146 Partners                                                                  
+       158 McEwen                    01-AUG-04        146 Partners                                                                  
+       168 Ozer                      11-MAR-05        148 Cambrault                                                                 
+       169 Bloom                     23-MAR-06        148 Cambrault                                                                 
+       170 Fox                       24-JAN-06        148 Cambrault                                                                 
+       171 Smith                     23-FEB-07        148 Cambrault                                                                 
+       172 Bates                     24-MAR-07        148 Cambrault                                                                 
+       174 Abel                      11-MAY-04        149 Zlotkey                                                                   
+       175 Hutton                    19-MAR-05        149 Zlotkey                                                                   
+       176 Taylor                    24-MAR-06        149 Zlotkey                                                                   
+       177 Livingston                23-APR-06        149 Zlotkey                                                                   
+       178 Grant                     24-MAY-07        149 Zlotkey                                                                   
+       179 Johnson                   04-JAN-08        149 Zlotkey                                                                   
+       184 Sarchand                  27-JAN-04        121 Fripp                                                                     
+
+      EMP# EMPLOYEE                  HIRE_DATE       MGR# MANAGER                                                                   
+---------- ------------------------- --------- ---------- -------------------------                                                 
+       185 Bull                      20-FEB-05        121 Fripp                                                                     
+       192 Bell                      04-FEB-04        123 Vollman                                                                   
+       193 Everett                   03-MAR-05        123 Vollman                                                                   
+       196 Walsh                     24-APR-06        124 Mourgos                                                                   
+       197 Feeney                    23-MAY-06        124 Mourgos                                                                   
+       198 OConnell                  21-JUN-07        124 Mourgos                                                                   
+       200 Whalen                    17-SEP-03        101 Kochhar                                                                   
+       203 Mavris                    07-JUN-02        101 Kochhar                                                                   
+       204 Baer                      07-JUN-02        101 Kochhar                                                                   
+       205 Higgins                   07-JUN-02        101 Kochhar                                                                   
+
+37 rows selected.
+
+
+EMPLOYEE_ID LAST_NAME                 JOB_ID     HIRE_DATE                                                                          
+----------- ------------------------- ---------- ---------                                                                          
+        200 Whalen                    AD_ASST    17-SEP-03                                                                          
+        201 Hartstein                 MK_MAN     17-FEB-04                                                                          
+        203 Mavris                    HR_REP     07-JUN-02                                                                          
+        204 Baer                      PR_REP     07-JUN-02                                                                          
+        205 Higgins                   AC_MGR     07-JUN-02                                                                          
+        206 Gietz                     AC_ACCOUNT 07-JUN-02                                                                          
+        100 King                      AD_PRES    17-JUN-03                                                                          
+        102 De Haan                   AD_VP      13-JAN-01                                                                          
+        108 Greenberg                 FI_MGR     17-AUG-02                                                                          
+        109 Faviet                    FI_ACCOUNT 16-AUG-02                                                                          
+        114 Raphaely                  PU_MAN     07-DEC-02                                                                          
+        115 Khoo                      PU_CLERK   18-MAY-03                                                                          
+        120 Weiss                     ST_MAN     18-JUL-04                                                                          
+        122 Kaufling                  ST_MAN     01-MAY-03                                                                          
+        133 Mallin                    ST_CLERK   14-JUN-04                                                                          
+        137 Ladwig                    ST_CLERK   14-JUL-03                                                                          
+        141 Rajs                      ST_CLERK   17-OCT-03                                                                          
+        145 Russell                   SA_MAN     01-OCT-04                                                                          
+        146 Partners                  SA_MAN     05-JAN-05                                                                          
+        156 King                      SA_REP     30-JAN-04                                                                          
+        157 Sully                     SA_REP     04-MAR-04                                                                          
+        158 McEwen                    SA_REP     01-AUG-04                                                                          
+        174 Abel                      SA_REP     11-MAY-04                                                                          
+        184 Sarchand                  SH_CLERK   27-JAN-04                                                                          
+        192 Bell                      SH_CLERK   04-FEB-04                                                                          
+
+25 rows selected.
+

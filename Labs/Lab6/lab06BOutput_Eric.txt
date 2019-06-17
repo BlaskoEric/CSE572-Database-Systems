@@ -1,0 +1,229 @@
+
+EMPLOYEE_ID LAST_NAME                 HIRE_DATE                                                                                     
+----------- ------------------------- ---------                                                                                     
+        145 Russell                   01-OCT-04                                                                                     
+        146 Partners                  05-JAN-05                                                                                     
+        147 Errazuriz                 10-MAR-05                                                                                     
+        148 Cambrault                 15-OCT-07                                                                                     
+        150 Tucker                    30-JAN-05                                                                                     
+        151 Bernstein                 24-MAR-05                                                                                     
+        152 Hall                      20-AUG-05                                                                                     
+        153 Olsen                     30-MAR-06                                                                                     
+        154 Cambrault                 09-DEC-06                                                                                     
+        155 Tuvault                   23-NOV-07                                                                                     
+        156 King                      30-JAN-04                                                                                     
+        157 Sully                     04-MAR-04                                                                                     
+        158 McEwen                    01-AUG-04                                                                                     
+        159 Smith                     10-MAR-05                                                                                     
+        160 Doran                     15-DEC-05                                                                                     
+        161 Sewall                    03-NOV-06                                                                                     
+        162 Vishney                   11-NOV-05                                                                                     
+        163 Greene                    19-MAR-07                                                                                     
+        164 Marvins                   24-JAN-08                                                                                     
+        165 Lee                       23-FEB-08                                                                                     
+        166 Ande                      24-MAR-08                                                                                     
+        167 Banda                     21-APR-08                                                                                     
+        168 Ozer                      11-MAR-05                                                                                     
+        169 Bloom                     23-MAR-06                                                                                     
+        170 Fox                       24-JAN-06                                                                                     
+        171 Smith                     23-FEB-07                                                                                     
+        172 Bates                     24-MAR-07                                                                                     
+
+EMPLOYEE_ID LAST_NAME                 HIRE_DATE                                                                                     
+----------- ------------------------- ---------                                                                                     
+        173 Kumar                     21-APR-08                                                                                     
+        174 Abel                      11-MAY-04                                                                                     
+        175 Hutton                    19-MAR-05                                                                                     
+        176 Taylor                    24-MAR-06                                                                                     
+        177 Livingston                23-APR-06                                                                                     
+        179 Johnson                   04-JAN-08                                                                                     
+
+33 rows selected.
+
+
+DEPARTMENT_ID LAST_NAME                                                                                                             
+------------- -------------------------                                                                                             
+           50 Vollman                                                                                                               
+           40 Mavris                                                                                                                
+           80 Lee                                                                                                                   
+          100 Popp                                                                                                                  
+           80 Tuvault                                                                                                               
+           80 Sewall                                                                                                                
+              Grant                                                                                                                 
+           80 Marvins                                                                                                               
+           80 Bates                                                                                                                 
+           80 Smith                                                                                                                 
+           80 Cambrault                                                                                                             
+           80 Doran                                                                                                                 
+          100 Sciarra                                                                                                               
+          100 Urman                                                                                                                 
+           50 Kaufling                                                                                                              
+           50 Weiss                                                                                                                 
+           80 Olsen                                                                                                                 
+           80 Smith                                                                                                                 
+          100 Chen                                                                                                                  
+           50 Fripp                                                                                                                 
+          110 Gietz                                                                                                                 
+           80 Livingston                                                                                                            
+           80 Taylor                                                                                                                
+           80 Hutton                                                                                                                
+           60 Hunold                                                                                                                
+          100 Faviet                                                                                                                
+           80 Hall                                                                                                                  
+
+DEPARTMENT_ID LAST_NAME                                                                                                             
+------------- -------------------------                                                                                             
+           80 McEwen                                                                                                                
+           80 Bernstein                                                                                                             
+           80 Sully                                                                                                                 
+           80 Greene                                                                                                                
+           80 Fox                                                                                                                   
+           80 Tucker                                                                                                                
+           80 King                                                                                                                  
+           80 Bloom                                                                                                                 
+           70 Baer                                                                                                                  
+           80 Zlotkey                                                                                                               
+           80 Vishney                                                                                                               
+           30 Raphaely                                                                                                              
+           80 Cambrault                                                                                                             
+           80 Abel                                                                                                                  
+           80 Ozer                                                                                                                  
+           80 Errazuriz                                                                                                             
+          100 Greenberg                                                                                                             
+          110 Higgins                                                                                                               
+           20 Hartstein                                                                                                             
+           80 Partners                                                                                                              
+           80 Russell                                                                                                               
+           90 Kochhar                                                                                                               
+           90 De Haan                                                                                                               
+           90 King                                                                                                                  
+
+51 rows selected.
+
+
+EMPLOYEE_ID LAST_NAME                                                                                                               
+----------- -------------------------                                                                                               
+        200 Whalen                                                                                                                  
+        205 Higgins                                                                                                                 
+        206 Gietz                                                                                                                   
+        100 King                                                                                                                    
+        101 Kochhar                                                                                                                 
+        102 De Haan                                                                                                                 
+        108 Greenberg                                                                                                               
+        109 Faviet                                                                                                                  
+        110 Chen                                                                                                                    
+        111 Sciarra                                                                                                                 
+        112 Urman                                                                                                                   
+        113 Popp                                                                                                                    
+        114 Raphaely                                                                                                                
+        115 Khoo                                                                                                                    
+        116 Baida                                                                                                                   
+        117 Tobias                                                                                                                  
+        118 Himuro                                                                                                                  
+        119 Colmenares                                                                                                              
+
+18 rows selected.
+
+
+EMPLOYEE_ID LAST_NAME                 JOB_ID                                                                                        
+----------- ------------------------- ----------                                                                                    
+        201 Hartstein                 MK_MAN                                                                                        
+        101 Kochhar                   AD_VP                                                                                         
+        102 De Haan                   AD_VP                                                                                         
+        114 Raphaely                  PU_MAN                                                                                        
+        120 Weiss                     ST_MAN                                                                                        
+        121 Fripp                     ST_MAN                                                                                        
+        122 Kaufling                  ST_MAN                                                                                        
+        123 Vollman                   ST_MAN                                                                                        
+        124 Mourgos                   ST_MAN                                                                                        
+        145 Russell                   SA_MAN                                                                                        
+        146 Partners                  SA_MAN                                                                                        
+        147 Errazuriz                 SA_MAN                                                                                        
+        148 Cambrault                 SA_MAN                                                                                        
+        149 Zlotkey                   SA_MAN                                                                                        
+
+14 rows selected.
+
+
+EMPLOYEE_ID LAST_NAME                 JOB_ID                                                                                        
+----------- ------------------------- ----------                                                                                    
+        100 King                      AD_PRES                                                                                       
+        101 Kochhar                   AD_VP                                                                                         
+        102 De Haan                   AD_VP                                                                                         
+
+
+DEPARTMENT_ID   NO_STAFF AVG_SALARY MIN_SALARY MAX_SALARY TOTAL_SALARY                                                              
+------------- ---------- ---------- ---------- ---------- ------------                                                              
+           10          1       4400       4400       4400         4400                                                              
+           20          2       9500       6000      13000        19000                                                              
+           30          6       4150       2500      11000        24900                                                              
+           40          1       6500       6500       6500         6500                                                              
+           50         45 3475.55556       2100       8200       156400                                                              
+           60          5       5760       4200       9000        28800                                                              
+           70          1      10000      10000      10000        10000                                                              
+           80         34 8955.88235       6100      14000       304500                                                              
+           90          3 19333.3333      17000      24000        58000                                                              
+          100          6 8601.33333       6900      12008        51608                                                              
+          110          2      10154       8300      12008        20308                                                              
+                       1       7000       7000       7000         7000                                                              
+
+12 rows selected.
+
+
+DEPARTMENT_ID   NO_STAFF AVG_SALARY MIN_SALARY MAX_SALARY TOTAL_SALARY                                                              
+------------- ---------- ---------- ---------- ---------- ------------                                                              
+           50         45 3475.55556       2100       8200       156400                                                              
+           60          5       5760       4200       9000        28800                                                              
+           70          1      10000      10000      10000        10000                                                              
+           80         34 8955.88235       6100      14000       304500                                                              
+           90          3 19333.3333      17000      24000        58000                                                              
+          100          6 8601.33333       6900      12008        51608                                                              
+
+6 rows selected.
+
+
+JOB_ID       NO_STAFF AVG_SALARY MIN_SALARY MAX_SALARY TOTAL_SALARY                                                                 
+---------- ---------- ---------- ---------- ---------- ------------                                                                 
+AC_ACCOUNT          1       8300       8300       8300         8300                                                                 
+AC_MGR              1      12008      12008      12008        12008                                                                 
+AD_ASST             1       4400       4400       4400         4400                                                                 
+AD_PRES             1      24000      24000      24000        24000                                                                 
+AD_VP               2      17000      17000      17000        34000                                                                 
+FI_ACCOUNT          5       7920       6900       9000        39600                                                                 
+FI_MGR              1      12008      12008      12008        12008                                                                 
+HR_REP              1       6500       6500       6500         6500                                                                 
+IT_PROG             5       5760       4200       9000        28800                                                                 
+MK_MAN              1      13000      13000      13000        13000                                                                 
+MK_REP              1       6000       6000       6000         6000                                                                 
+PR_REP              1      10000      10000      10000        10000                                                                 
+PU_CLERK            5       2780       2500       3100        13900                                                                 
+PU_MAN              1      11000      11000      11000        11000                                                                 
+SA_MAN              5      12200      10500      14000        61000                                                                 
+SA_REP             30       8350       6100      11500       250500                                                                 
+SH_CLERK           20       3215       2500       4200        64300                                                                 
+ST_CLERK           20       2785       2100       3600        55700                                                                 
+ST_MAN              5       7280       5800       8200        36400                                                                 
+
+19 rows selected.
+
+
+JOB_ID       NO_STAFF AVG_SALARY MIN_SALARY MAX_SALARY TOTAL_SALARY                                                                 
+---------- ---------- ---------- ---------- ---------- ------------                                                                 
+AC_ACCOUNT          1       8300       8300       8300         8300                                                                 
+AC_MGR              1      12008      12008      12008        12008                                                                 
+AD_PRES             1      24000      24000      24000        24000                                                                 
+AD_VP               2      17000      17000      17000        34000                                                                 
+FI_ACCOUNT          5       7920       6900       9000        39600                                                                 
+FI_MGR              1      12008      12008      12008        12008                                                                 
+HR_REP              1       6500       6500       6500         6500                                                                 
+IT_PROG             5       5760       4200       9000        28800                                                                 
+MK_MAN              1      13000      13000      13000        13000                                                                 
+MK_REP              1       6000       6000       6000         6000                                                                 
+PR_REP              1      10000      10000      10000        10000                                                                 
+PU_MAN              1      11000      11000      11000        11000                                                                 
+SA_MAN              5      12200      10500      14000        61000                                                                 
+SA_REP             30       8350       6100      11500       250500                                                                 
+ST_MAN              5       7280       5800       8200        36400                                                                 
+
+15 rows selected.
+

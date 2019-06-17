@@ -1,0 +1,130 @@
+
+TABLE_NAME           TABLE_TYPE  COMMENTS                                                                                           
+-------------------- ----------- ----------------------------------------                                                           
+ALLSTAFF             TABLE       table for storing info on all staff                                                                
+CLIENT               TABLE       table to contain info for clients                                                                  
+CONTRACT             TABLE       table to contain info for business contr                                                           
+                                 acts                                                                                               
+                                                                                                                                    
+DRIVERS              TABLE       table for storing driver info                                                                      
+JOB                  TABLE       table for storing info on private and bu                                                           
+                                 siness client jobs                                                                                 
+                                                                                                                                    
+OFFICE               TABLE       table for storing office information                                                               
+TAXI                 TABLE       table for storing driver info                                                                      
+
+7 rows selected.
+
+
+TABLE_NAME           COLUMN_NAME          COMMENTS                                                                                  
+-------------------- -------------------- ----------------------------------------                                                  
+OFFICE               OFFICEID             Unique id for each office                                                                 
+OFFICE               MGRSTAFFNO           Manager at the given office                                                               
+OFFICE               NAME                 Name of the office                                                                        
+OFFICE               STRADDRESS           Street address of the office                                                              
+OFFICE               CITY                 City of the office                                                                        
+OFFICE               ZIPCODE              zip code of the office                                                                    
+OFFICE               PHONENO              phone number for the office                                                               
+
+7 rows selected.
+
+
+TABLE_NAME           COLUMN_NAME          COMMENTS                                                                                  
+-------------------- -------------------- ----------------------------------------                                                  
+ALLSTAFF             STAFFID              Unique identifier for each staff                                                          
+ALLSTAFF             OFFICEID             Foreign key to reference office table                                                     
+ALLSTAFF             FNAME                First name of employee                                                                    
+ALLSTAFF             LNAME                Last name of employee                                                                     
+ALLSTAFF             PHONENO              Phone number of employee                                                                  
+ALLSTAFF             STRADDRES            Street address of employee                                                                
+ALLSTAFF             CITY                 City of employee                                                                          
+ALLSTAFF             ZIPCODE              Zip code of employee                                                                      
+ALLSTAFF             GENDER               Gender of employee                                                                        
+ALLSTAFF             DOB                  Date of Birth of employee                                                                 
+ALLSTAFF             SALARY               Salary of employee                                                                        
+ALLSTAFF             MGRFLAG              Determines is employee is a manager                                                       
+ALLSTAFF             ADMINFLAG            Determines is employee is a admin                                                         
+ALLSTAFF             OWNERFLAG            Determines is employee is a owner of a t                                                  
+                                          axi                                                                                       
+                                                                                                                                    
+ALLSTAFF             DRIVERFLAG           Determines is employee is a driver                                                        
+ALLSTAFF             DRIVERSLICENSE       Drivers license for driver employees                                                      
+
+16 rows selected.
+
+
+TABLE_NAME           COLUMN_NAME          COMMENTS                                                                                  
+-------------------- -------------------- ----------------------------------------                                                  
+DRIVERS              STAFFID              FK for drivers staff id                                                                   
+DRIVERS              LICENSEPLATENO       Vehicle assigned to driver                                                                
+
+
+TABLE_NAME           COLUMN_NAME          COMMENTS                                                                                  
+-------------------- -------------------- ----------------------------------------                                                  
+TAXI                 LICENSEPLATENO       License plate number of the taxi                                                          
+TAXI                 MAKE                 Vehicle make                                                                              
+TAXI                 MODEL                Vehicle model                                                                             
+TAXI                 YEAR                 Vehicle year                                                                              
+TAXI                 COLOR                Color of vehicle                                                                          
+TAXI                 INSERVICE            If taxi is in service                                                                     
+TAXI                 OWNERID              Staff ID of the employee who owns the ta                                                  
+                                          xi                                                                                        
+                                                                                                                                    
+
+7 rows selected.
+
+
+TABLE_NAME           COLUMN_NAME          COMMENTS                                                                                  
+-------------------- -------------------- ----------------------------------------                                                  
+CLIENT               CLIENTID             private key to uniquely identify a clien                                                  
+                                          t                                                                                         
+                                                                                                                                    
+CLIENT               OFFICEID             foreign key to relate to Office table                                                     
+CLIENT               FNAME                client first name                                                                         
+CLIENT               LNAME                client last name                                                                          
+CLIENT               BUSINESSNAME         name of business clients                                                                  
+CLIENT               CLIENTGENDER         client gender                                                                             
+CLIENT               CLIENTDOB            client age. This should have been DOB, m                                                  
+                                          ay need to be updated later                                                               
+                                                                                                                                    
+CLIENT               CLIENTADDRESS        client street address                                                                     
+CLIENT               CLIENTCITY           city client lives in                                                                      
+
+9 rows selected.
+
+
+TABLE_NAME           COLUMN_NAME          COMMENTS                                                                                  
+-------------------- -------------------- ----------------------------------------                                                  
+CONTRACT             CONTRACTID           primary key for the table, uniquely iden                                                  
+                                          tifies contracts                                                                          
+                                                                                                                                    
+CONTRACT             CLIENTID             foreign key to BusinessClient table                                                       
+CONTRACT             OFFICEID             foreign key to Office table                                                               
+CONTRACT             STARTDATE            date the contract is effective                                                            
+CONTRACT             ENDDATE              date the contract expires                                                                 
+CONTRACT             CONTRACTPRICE        price of the contract                                                                     
+
+6 rows selected.
+
+
+TABLE_NAME           COLUMN_NAME          COMMENTS                                                                                  
+-------------------- -------------------- ----------------------------------------                                                  
+JOB                  JOBID                primary key for the table                                                                 
+JOB                  STAFFID              foreign key used with licensePlateNo to                                                   
+                                          reference Drivers table                                                                   
+                                                                                                                                    
+JOB                  LICENSEPLATENO       foreign key used to reference Taxi table                                                  
+JOB                  CONTRACTID           foreign key to reference BusinessClient                                                   
+                                          table                                                                                     
+                                                                                                                                    
+JOB                  CLIENTID                                                                                                       
+JOB                  JOBDATE              date when the job was done, applies to b                                                  
+                                          oth private and business clients                                                          
+                                                                                                                                    
+JOB                  JOBPRICE             used for private clients outside a contr                                                  
+                                          act                                                                                       
+                                                                                                                                    
+JOB                  JOBMILES                                                                                                       
+
+8 rows selected.
+

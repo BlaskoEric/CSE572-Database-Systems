@@ -1,0 +1,248 @@
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+Comment created.
+
+
+TABLE_NAME           COMMENTS                                                                                                       
+-------------------- ----------------------------------------                                                                       
+WORK_ONS             Name of projects an employee is involved                                                                       
+PROJECT              Name of Projects                                                                                               
+EMPLOYEE             Employees at CSUSB                                                                                             
+DEPT_LOCATIONS       locations of Departments                                                                                       
+DEPENDENT            Name of employee's dependent                                                                                   
+DEPARTMENT           Employees at CSUSB                                                                                             
+
+6 rows selected.
+
+
+TABLE_NAME           COLUMN_NAME          COMMENTS                                                                                  
+-------------------- -------------------- ----------------------------------------                                                  
+DEPARTMENT           DNUMBER                                                                                                        
+DEPARTMENT           DNAME                                                                                                          
+DEPARTMENT           MGR_SSN                                                                                                        
+DEPARTMENT           MGR_STARTDATE                                                                                                  
+DEPENDENT            ESSN                                                                                                           
+DEPENDENT            DEPENDENT_NAME                                                                                                 
+DEPENDENT            SEX                                                                                                            
+DEPENDENT            BDATE                                                                                                          
+DEPENDENT            RELATIONSHIP                                                                                                   
+DEPT_LOCATIONS       DNUMBER                                                                                                        
+DEPT_LOCATIONS       DLOCATION                                                                                                      
+EMPLOYEE             SSN                  Social Security Number                                                                    
+EMPLOYEE             FNAME                Employee's First Name                                                                     
+EMPLOYEE             MINIT                Middle name intial                                                                        
+EMPLOYEE             LNAME                Employee's Last Name                                                                      
+EMPLOYEE             BDATE                Date of Birth                                                                             
+EMPLOYEE             ADDRESS              Employee's address                                                                        
+EMPLOYEE             SEX                  Gender, F or M                                                                            
+EMPLOYEE             SALARY               Monthly Salary                                                                            
+EMPLOYEE             SUPER_SSN            SSN of employee'supervisor                                                                
+EMPLOYEE             DNO                  Department number where employee works                                                    
+PROJECT              PNUMBER                                                                                                        
+PROJECT              PNAME                                                                                                          
+PROJECT              PLOCATION                                                                                                      
+PROJECT              DNUMBER                                                                                                        
+WORK_ONS             ESSN                                                                                                           
+WORK_ONS             PNO                                                                                                            
+
+TABLE_NAME           COLUMN_NAME          COMMENTS                                                                                  
+-------------------- -------------------- ----------------------------------------                                                  
+WORK_ONS             HOURS                                                                                                          
+
+28 rows selected.
+
+
+DNAME           SSN       FNAME           LNAME               SALARY MGR_START                                                      
+--------------- --------- --------------- --------------- ---------- ---------                                                      
+Administration  987654321 Jennifer        Wallace              43000 01-JAN-95                                                      
+                                                                                                                                    
+                                                                                                                                    
+Headquarters    888665555 James           Borg                 55000 19-JUN-81                                                      
+                                                                                                                                    
+                                                                                                                                    
+Operations      123456789 John            Smith                30000 01-JAN-05                                                      
+                                                                                                                                    
+                                                                                                                                    
+Research        333445555 Franklin        Wong                 40000 22-MAY-88                                                      
+                                                                                                                                    
+                                                                                                                                    
+
+
+View dropped.
+
+
+View created.
+
+ Name                                                                     Null?    Type
+ ------------------------------------------------------------------------ -------- -------------------------------------------------
+ DNAME                                                                    NOT NULL VARCHAR2(15)
+ SSN                                                                               CHAR(9)
+ FNAME                                                                             VARCHAR2(15)
+ LNAME                                                                             VARCHAR2(15)
+ SALARY                                                                            NUMBER(10,2)
+ MGR_STARTDATE                                                                     DATE
+
+
+DNAME           SSN       FNAME           LNAME               SALARY MGR_START                                                      
+--------------- --------- --------------- --------------- ---------- ---------                                                      
+Administration  987654321 Jennifer        Wallace              43000 01-JAN-95                                                      
+                                                                                                                                    
+                                                                                                                                    
+Headquarters    888665555 James           Borg                 55000 19-JUN-81                                                      
+                                                                                                                                    
+                                                                                                                                    
+Operations      123456789 John            Smith                30000 01-JAN-05                                                      
+                                                                                                                                    
+                                                                                                                                    
+Research        333445555 Franklin        Wong                 40000 22-MAY-88                                                      
+                                                                                                                                    
+                                                                                                                                    
+
+
+DEPARTMENT      MANAGER                              SALARY                                                                         
+--------------- -------------------------------- ----------                                                                         
+Administration  Wallace, Jennifer                     43000                                                                         
+Headquarters    Borg, James                           55000                                                                         
+Operations      Smith, John                           30000                                                                         
+Research        Wong, Franklin                        40000                                                                         
+
+
+FNAME           LNAME               SALARY FNAME           LNAME                                                                    
+--------------- --------------- ---------- --------------- ---------------                                                          
+Franklin        Wong                 40000 Ramesh          Narayan                                                                  
+                                                                                                                                    
+Franklin        Wong                 40000 John            Smith                                                                    
+                                                                                                                                    
+Franklin        Wong                 40000 Joyce           English                                                                  
+                                                                                                                                    
+James           Borg                 55000 Franklin        Wong                                                                     
+                                                                                                                                    
+James           Borg                 55000 Jennifer        Wallace                                                                  
+                                                                                                                                    
+Jennifer        Wallace              43000 Alice           Zelaya                                                                   
+                                                                                                                                    
+Jennifer        Wallace              43000 Ahmad           Jabbar                                                                   
+                                                                                                                                    
+
+7 rows selected.
+
+
+SSN       FNAME           LNAME           PNAME                                                                                     
+--------- --------------- --------------- ---------------                                                                           
+123456789 John            Smith           ProductY                                                                                  
+                                          ProductX                                                                                  
+                                                                                                                                    
+                                                                                                                                    
+333445555 Franklin        Wong            ProductZ                                                                                  
+                                          ProductY                                                                                  
+                                          Reorganization                                                                            
+                                          Computerization                                                                           
+                                                                                                                                    
+                                                                                                                                    
+453453453 Joyce           English         ProductY                                                                                  
+                                          ProductX                                                                                  
+                                                                                                                                    
+                                                                                                                                    
+666884444 Ramesh          Narayan         ProductZ                                                                                  
+                                                                                                                                    
+                                                                                                                                    
+987654321 Jennifer        Wallace         Newbenefits                                                                               
+                                          Reorganization                                                                            
+                                                                                                                                    
+                                                                                                                                    
+987987987 Ahmad           Jabbar          Computerization                                                                           
+                                          Newbenefits                                                                               
+                                                                                                                                    
+                                                                                                                                    
+999887777 Alice           Zelaya          Newbenefits                                                                               
+                                          Computerization                                                                           
+
+15 rows selected.
+
+
+SSN       FNAME           LNAME           DEPENDENT_NAME                                                                            
+--------- --------------- --------------- ---------------                                                                           
+123456789 John            Smith           Michael                                                                                   
+                                          Elizabeth                                                                                 
+                                          Alice                                                                                     
+                                                                                                                                    
+                                                                                                                                    
+987654321 Jennifer        Wallace         Abner                                                                                     
+                                                                                                                                    
+                                                                                                                                    
+999887777 Alice           Zelaya          Theodore                                                                                  
+                                          Joy                                                                                       
+                                          Alice                                                                                     
+                                                                                                                                    
+                                                                                                                                    
+
+7 rows selected.
+
+
+1 row deleted.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row updated.
+

@@ -1,0 +1,175 @@
+
+DEPARTMENT_ID EMPLOYEE_ID FIRST_NAME           LAST_NAME                 HIRE_DATE Years_service                                    
+------------- ----------- -------------------- ------------------------- --------- -------------                                    
+           10         200 Jennifer             Whalen                    17-SEP-03    15.6097701                                    
+           20         201 Michael              Hartstein                 17-FEB-04    15.1905921                                    
+           40         203 Susan                Mavris                    07-JUN-02    16.8892222                                    
+           70         204 Hermann              Baer                      07-JUN-02    16.8892222                                    
+          110         205 Shelley              Higgins                   07-JUN-02    16.8892222                                    
+          110         206 William              Gietz                     07-JUN-02    16.8892222                                    
+           90         100 Steven               King                      17-JUN-03    15.8618249                                    
+           90         102 Lex                  De Haan                   13-JAN-01    18.2864825                                    
+          100         108 Nancy                Greenberg                 17-AUG-02    16.6947016                                    
+          100         109 Daniel               Faviet                    16-AUG-02    16.6974414                                    
+           30         114 Den                  Raphaely                  07-DEC-02    16.3878523                                    
+           30         115 Alexander            Khoo                      18-MAY-03    15.9440167                                    
+           50         122 Payam                Kaufling                  01-MAY-03    15.9905921                                    
+           50         137 Renske               Ladwig                    14-JUL-03    15.7878523                                    
+           50         141 Trenna               Rajs                      17-OCT-03    15.5275784                                    
+           80         156 Janette              King                      30-JAN-04    15.2399071                                    
+           80         157 Patrick              Sully                     04-MAR-04    15.1467564                                    
+           50         184 Nandita              Sarchand                  27-JAN-04    15.2481263                                    
+           50         192 Sarah                Bell                      04-FEB-04    15.2262085                                    
+
+19 rows selected.
+
+
+DEPARTMENT_ID EMPLOYEE_ID FIRST_NAME           LAST_NAME                 HIRE_DATE Years_service                                    
+------------- ----------- -------------------- ------------------------- --------- -------------                                    
+          100         108 Nancy                Greenberg                 17-AUG-02    16.6947016                                    
+          100         109 Daniel               Faviet                    16-AUG-02    16.6974414                                    
+          110         205 Shelley              Higgins                   07-JUN-02    16.8892222                                    
+          110         206 William              Gietz                     07-JUN-02    16.8892222                                    
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 HIRE_DATE Years_service                                                  
+----------- -------------------- ------------------------- --------- -------------                                                  
+        173 Sundita              Kumar                     21-APR-08    11.0125099                                                  
+        167 Amit                 Banda                     21-APR-08    11.0125099                                                  
+        166 Sundar               Ande                      24-MAR-08    11.0892222                                                  
+        128 Steven               Markle                    08-MAR-08    11.1330578                                                  
+        165 David                Lee                       23-FEB-08     11.171414                                                  
+        136 Hazel                Philtanker                06-FEB-08    11.2179893                                                  
+        183 Girard               Geoni                     03-FEB-08    11.2262085                                                  
+        149 Eleni                Zlotkey                   29-JAN-08    11.2399071                                                  
+        164 Mattea               Marvins                   24-JAN-08    11.2536058                                                  
+        199 Douglas              Grant                     13-JAN-08    11.2837427                                                  
+        179 Charles              Johnson                   04-JAN-08    11.3084003                                                  
+
+11 rows selected.
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                     SALARY HIRE_DATE Years_service                                       
+----------- -------------------- ------------------------- ---------- --------- -------------                                       
+        192 Sarah                Bell                            4000 04-FEB-04    15.2262085                                       
+        109 Daniel               Faviet                          9000 16-AUG-02    16.6974414                                       
+        206 William              Gietz                           8300 07-JUN-02    16.8892222                                       
+        122 Payam                Kaufling                        7900 01-MAY-03    15.9905921                                       
+        115 Alexander            Khoo                            3100 18-MAY-03    15.9440167                                       
+        137 Renske               Ladwig                          3600 14-JUL-03    15.7878523                                       
+        203 Susan                Mavris                          6500 07-JUN-02    16.8892222                                       
+        141 Trenna               Rajs                            3500 17-OCT-03    15.5275784                                       
+        184 Nandita              Sarchand                        4200 27-JAN-04    15.2481263                                       
+        157 Patrick              Sully                           9500 04-MAR-04    15.1467564                                       
+        200 Jennifer             Whalen                          4400 17-SEP-03    15.6097701                                       
+
+11 rows selected.
+
+
+COUNT(EMPLOYEE_ID)                                                                                                                  
+------------------                                                                                                                  
+               107                                                                                                                  
+
+
+MIN(SALARY)                                                                                                                         
+-----------                                                                                                                         
+       2100                                                                                                                         
+
+
+MAX(SALARY)                                                                                                                         
+-----------                                                                                                                         
+      24000                                                                                                                         
+
+
+JOB_ID                                                                                                                              
+----------                                                                                                                          
+AC_ACCOUNT                                                                                                                          
+AC_MGR                                                                                                                              
+AD_ASST                                                                                                                             
+AD_PRES                                                                                                                             
+AD_VP                                                                                                                               
+FI_ACCOUNT                                                                                                                          
+FI_MGR                                                                                                                              
+HR_REP                                                                                                                              
+IT_PROG                                                                                                                             
+MK_MAN                                                                                                                              
+MK_REP                                                                                                                              
+PR_REP                                                                                                                              
+PU_CLERK                                                                                                                            
+PU_MAN                                                                                                                              
+SA_MAN                                                                                                                              
+SA_REP                                                                                                                              
+SH_CLERK                                                                                                                            
+ST_CLERK                                                                                                                            
+ST_MAN                                                                                                                              
+
+19 rows selected.
+
+
+FIRST_NAME                                                                                                                          
+--------------------                                                                                                                
+David                                                                                                                               
+David                                                                                                                               
+Daniel                                                                                                                              
+David                                                                                                                               
+Diana                                                                                                                               
+Donald                                                                                                                              
+Den                                                                                                                                 
+
+7 rows selected.
+
+
+FIRST_NAME                                                                                                                          
+--------------------                                                                                                                
+David                                                                                                                               
+David                                                                                                                               
+Daniel                                                                                                                              
+David                                                                                                                               
+Diana                                                                                                                               
+Donald                                                                                                                              
+Den                                                                                                                                 
+
+7 rows selected.
+
+
+LAST_NAME                 FIRST_NAME           JOB_ID                                                                               
+------------------------- -------------------- ----------                                                                           
+Hunold                    Alexander            IT_PROG                                                                              
+Ernst                     Bruce                IT_PROG                                                                              
+Austin                    David                IT_PROG                                                                              
+Pataballa                 Valli                IT_PROG                                                                              
+Lorentz                   Diana                IT_PROG                                                                              
+
+
+    SALARY                                                                                                                          
+----------                                                                                                                          
+     10000                                                                                                                          
+     10500                                                                                                                          
+     11000                                                                                                                          
+     11500                                                                                                                          
+     12000                                                                                                                          
+     12008                                                                                                                          
+     13000                                                                                                                          
+     13500                                                                                                                          
+     14000                                                                                                                          
+     17000                                                                                                                          
+     24000                                                                                                                          
+
+11 rows selected.
+
+
+EMPLOYEE_ID START_DAT END_DATE  JOB_ID     DEPARTMENT_ID YEARS_SERVICE                                                              
+----------- --------- --------- ---------- ------------- -------------                                                              
+        176 24-MAR-06 31-DEC-06 SA_REP                80     .77260274                                                              
+        176 01-JAN-07 31-DEC-07 SA_MAN                80    .997260274                                                              
+        122 01-JAN-07 31-DEC-07 ST_CLERK              50    .997260274                                                              
+        114 24-MAR-06 31-DEC-07 ST_CLERK              50    1.77260274                                                              
+        101 28-OCT-01 15-MAR-05 AC_MGR               110    3.38082192                                                              
+        201 17-FEB-04 19-DEC-07 MK_REP                20    3.83835616                                                              
+        101 21-SEP-97 27-OCT-01 AC_ACCOUNT           110    4.10136986                                                              
+        200 01-JUL-02 31-DEC-06 AC_ACCOUNT            90    4.50410959                                                              
+        102 13-JAN-01 24-JUL-06 IT_PROG               60    5.52876712                                                              
+        200 17-SEP-95 17-JUN-01 AD_ASST               90    5.75342466                                                              
+
+10 rows selected.
+

@@ -1,0 +1,269 @@
+
+OFFIC MGRST NAME            STRADDRESS                     CITY            ZIPCO
+----- ----- --------------- ------------------------------ --------------- -----
+   PHONENO                                                                      
+----------                                                                      
+BR001 L1001 FastCab         123 Main St.                   Glasgow         42141
+5551235523                                                                      
+                                                                                
+BR002 L2001 FastCab         333 Spruce St.                 Dry Fork        42147
+5554842231                                                                      
+                                                                                
+BR003 L3001 FastCab         321 Ash St.                    Lamb            42145
+5554245888                                                                      
+                                                                                
+
+
+STAFF OFFIC FNAME           LNAME              PHONENO                          
+----- ----- --------------- --------------- ----------                          
+STRADDRES                      CITY            ZIPCO G DOB           SALARY M A 
+------------------------------ --------------- ----- - --------- ---------- - - 
+O D DRIVERSLI                                                                   
+- - ---------                                                                   
+L1001 BR001 Patricia        Ligon           6158320728                          
+2090 Buffalo Creek Road        Glasgow         42141 f 12-JAN-42      55000 1 0 
+0 0                                                                             
+                                                                                
+L1002 BR001 Bryan           Morrissette     9172619577                          
+3505 Massachusetts Avenue      Dry Fork        42147 m 02-NOV-57      35000 0 1 
+0 0                                                                             
+                                                                                
+L1003 BR001 Joshua          Morales         8186877240                          
+476 Glendale Avenue            Glasgow         42141 m 19-JUN-77      40000 0 0 
+1 1 M7500860                                                                    
+                                                                                
+L1004 BR001 Cecelia         Kohn            2126703256                          
+1453 Oakwood Avenue            Lamb            42145 f 04-DEC-45      32000 0 0 
+1 1 D4706870                                                                    
+                                                                                
+L2001 BR002 Ryan            Santos          9529414210                          
+3870 Sycamore Fork Road        Dry Fork        42147 m 18-NOV-85      65000 1 0 
+0 0                                                                             
+                                                                                
+L2002 BR002 Mary            Unrein          2488513135                          
+1779 Hayhurst Lane             Glasgow         42141 f 21-MAR-80      40000 0 1 
+1 0                                                                             
+                                                                                
+L2003 BR002 Janet           Ridley          4132948583                          
+4897 Birch Street              Glasgow         42141 f 04-JUN-94      38000 0 0 
+0 1 D98741657                                                                   
+                                                                                
+L2004 BR002 Lena            Williams        3033536971                          
+4870 Sweetwood Drive           Lamb            42145 f 19-OCT-63      33000 0 0 
+1 1 M49796413                                                                   
+                                                                                
+L3001 BR003 Ann             Smythe          5032266649                          
+793 Karen Lane                 Dry Fork        42147 f 05-AUG-77      60000 1 0 
+1 0                                                                             
+                                                                                
+L3002 BR003 Pamela          Disanto         8304845409                          
+859 Farland Avenue             Glasgow         42141 f 02-DEC-87      29000 0 1 
+0 1 M79999431                                                                   
+                                                                                
+L3003 BR003 Evelyn          Turner          2153991945                          
+3364 Wakefield Street          Dry Fork        42147 f 21-FEB-78      25000 0 0 
+0 1 G67901567                                                                   
+                                                                                
+L3004 BR003 Douglas         Le              3037801499                          
+648 McKinley Avenue            Glasgow         42141 m 12-MAR-67      33000 0 0 
+0 1 G79511000                                                                   
+                                                                                
+
+12 rows selected.
+
+
+STAFF LICENSEPL                                                                 
+----- ---------                                                                 
+L1003 7BFN110                                                                   
+L1004 7BVK293                                                                   
+L2003 7CUB968                                                                   
+L2004 6WHB954                                                                   
+L3002 7CVR466                                                                   
+L3003 7BUV692                                                                   
+L3004 6XLB207                                                                   
+
+7 rows selected.
+
+
+LICENSEPL MAKE            MODEL    YEAR COLOR      I OWNER                      
+--------- --------------- -------- ---- ---------- - -----                      
+7BFN110   Toyota          prius    2018 white      y L1002                      
+7BVK293   Toyota          corolla  2016 blue       y L1003                      
+7CUB968   Nissan          NV200    2018 yellow     y L2002                      
+6WHB954   Toledo          Seat     2017 white      y L2004                      
+7CVR466   Toyota          prius    2015 white      y L3001                      
+7BUV692   Nissan          NV200    2016 blue       y L3001                      
+6XLB207   Toyota          corolla  2011 black      y L3001                      
+
+7 rows selected.
+
+
+CLIEN OFFIC FNAME           LNAME           BUSINESSNAME         C CLIENTDOB    
+----- ----- --------------- --------------- -------------------- - ---------    
+CLIENTADDRESS                  CLIENTCITY                                       
+------------------------------ ---------------                                  
+CL001 BR002 Liam            Page                                 M 30-DEC-88    
+76 Pier Road                   Dry Fork                                         
+                                                                                
+CL002 BR001 Andrew          Coates                               M 26-NOV-58    
+84 Holagate Rd                 Raithby                                          
+                                                                                
+CL003 BR003 Oliver          Fry                                  M 21-DEC-90    
+48 Foregate St                 Glasgow                                          
+                                                                                
+CL004 BR001 Robert          Hall                                 M 10-JUL-91    
+34 Ploughley Rd                Tirdeunaw                                        
+                                                                                
+CL005 BR001 Finlay          Nelson                               M 25-JUL-91    
+16 Consett Rd                  Lamb                                             
+                                                                                
+CL006 BR002 Mohammad        Tucker                               M 17-NOV-92    
+33 Traill St                   Rothiebrisbane                                   
+                                                                                
+CL007 BR001 Libby           Power                                F 31-JAN-93    
+75 Wartnaby Rd                 Acrefair                                         
+                                                                                
+CL008 BR002 Nicholas        Poole                                M 05-JUN-93    
+8 Glenurquhart Road            Dry Fork                                         
+                                                                                
+CL009 BR003 Jack            Webb                                 M 26-DEC-94    
+73 Winchester Rd               Glasgow                                          
+                                                                                
+CL010 BR003 Louie           Kelly                                M 12-JUN-95    
+17 Ross Rd                     Marshbrook                                       
+                                                                                
+CL011 BR001 Taylor          Shaw                                 F 04-AUG-95    
+72 Guildry St                  Lamb                                             
+                                                                                
+CL012 BR002 Mason           Parsons                              M 20-AUG-95    
+57 North Promenade             Dolgellau                                        
+                                                                                
+CL013 BR002 Joseph          Powell                               M 04-JUL-96    
+85 Stamford Rd                 Marshbrook                                       
+                                                                                
+CL014 BR003 Eloise          Franklin                             F 14-FEB-97    
+21 Park Ave                    Lamb                                             
+                                                                                
+CL015 BR001 Zak             Wong                                 M 08-NOV-97    
+98 Fordham Rd                  Rothiebrisbane                                   
+                                                                                
+CL016 BR002 Jasmine         Brade                                F 17-JUN-98    
+55 Broad St                    Lower Higham                                     
+                                                                                
+CL017 BR002 Scarlett        Griffiths                            F 16-JAN-99    
+16 Nith St                     Balgavies                                        
+
+CLIEN OFFIC FNAME           LNAME           BUSINESSNAME         C CLIENTDOB    
+----- ----- --------------- --------------- -------------------- - ---------    
+CLIENTADDRESS                  CLIENTCITY                                       
+------------------------------ ---------------                                  
+                                                                                
+CL018 BR001 Charlie         Glover                               M 23-JUL-91    
+11 Stamford Rd                 Glasgow                                          
+                                                                                
+CL019 BR003 Joel            Norton                               M 10-NOV-92    
+49 Bouverie Rd                 MarshBrook                                       
+                                                                                
+CL020 BR001 Nicole          Rowe                                 F 16-JAN-01    
+7 Stamford Rd                  Dry Fork                                         
+                                                                                
+CL021 BR001                                 Real Fake Doors      n              
+70 Sea Road                    Detchant                                         
+                                                                                
+CL022 BR002                                 Planet Express       n              
+81 Whitby Rd                   Dry Fork                                         
+                                                                                
+CL023 BR003                                 Centixo              n              
+3 Coast Rd                     Glasgow                                          
+                                                                                
+CL024 BR001                                 Semiloo LLC          n              
+81 Wood Lane                   Glasgow                                          
+                                                                                
+CL025 BR002                                 Diser Company        n              
+68 Castledore Rd               Glasgow                                          
+                                                                                
+CL026 BR002                                 Esive Corp           n              
+10 Seafield Pl                 Glasgow                                          
+                                                                                
+CL027 BR003                                 Micron Systems       n              
+27 Stone St                    Dry Fork                                         
+                                                                                
+CL028 BR001                                 Trivu Engineering    n              
+25 Abbey Row                   Glasgow                                          
+                                                                                
+CL029 BR002                                 Omninyx Food Supply  n              
+12 Stoic St                    Lamb                                             
+                                                                                
+CL030 BR003                                 Quamb Corp           n              
+48 Asfordby Rd                 Aldingham                                        
+                                                                                
+
+30 rows selected.
+
+
+CONTR CLIEN OFFIC STARTDATE ENDDATE   CONTRA                                    
+----- ----- ----- --------- --------- ------                                    
+CI001 CL001 BR002 01-APR-18 18-JUL-18 2500                                      
+CI002 CL001 BR002 19-JUL-18 18-JAN-19 3000                                      
+CI003 CL003 BR001 01-SEP-12 01-MAR-13 4500                                      
+CI004 CL004 BR002 11-JUL-16 11-NOV-16 2100                                      
+CI005 CL005 BR003 16-JAN-09 16-JAN-10 10500                                     
+CI006 CL006 BR003 16-JAN-09 16-JAN-10 10500                                     
+CI007 CL007 BR003 01-JUN-14 01-JUN-15 9000                                      
+CI008 CL008 BR002 17-OCT-06 04-NOV-06 300                                       
+CI009 CL008 BR002 05-NOV-06 05-DEC-06 250                                       
+CI010 CL009 BR002 12-AUG-19 31-DEC-19 5000                                      
+CI011 CL010 BR001 10-APR-19 05-JUN-19 2550                                      
+CI012 CL010 BR001 05-JUN-19 06-AUG-19 2600                                      
+
+12 rows selected.
+
+
+JOBID STAFF LICENSEPL CONTR CLIEN JOBDATE   JOBPRI JOBM                         
+----- ----- --------- ----- ----- --------- ------ ----                         
+JB001 L2004 6WHB954         CL001 01-APR-10 10     5                            
+JB002 L3003 7CUB968         CL002 04-AUG-11 25     12                           
+JB003 L2004 7BVK293         CL003 05-SEP-16 21     11                           
+JB004 L1003 7BFN110         CL004 26-SEP-19 21     11                           
+JB005 L3004 7BVK293         CL005 12-MAR-12 55     28                           
+JB007 L3002 7BUV692         CL007 01-OCT-18 76     38                           
+JB008 L3002 7BUV692         CL007 11-SEP-12 12     6                            
+JB009 L3003 6WHB954         CL008 23-MAR-11 11     6                            
+JB010 L3002 7BUV692         CL009 16-APR-18 2      1                            
+JB011 L1004 6WHB954         CL010 15-AUG-19 100    50                           
+JB012 L3002 7BUV692         CL011 05-SEP-16 90     45                           
+JB013 L3003 7BUV692         CL012 02-JAN-94 32     16                           
+JB014 L3003 6WHB954         CL012 17-NOV-00 99     50                           
+JB015 L3002 7BUV692         CL013 10-JUL-12 19     9                            
+JB016 L1004 7BUV692         CL013 15-AUG-19 100    50                           
+JB017 L1004 7CVR466         CL014 05-NOV-00 90     45                           
+JB018 L3002 7BUV692         CL015 02-DEC-12 31     15                           
+JB019 L3002 7BVK293         CL016 11-AUG-17 89     45                           
+JB020 L1004 7BVK293         CL017 25-DEC-15 59     29                           
+JB021 L1004 6WHB954         CL018 12-AUG-19 31     15                           
+JB022 L3002 7CVR466         CL019 29-MAY-19 91     46                           
+JB023 L2004 7CVR466         CL020 31-MAY-19 12     6                            
+JB024 L1004 6XLB207         CL020 31-MAY-19 12     6                            
+JB025 L3002 7BUV692         CL007 11-SEP-12 24     12                           
+JB026 L3002 6WHB954         CL014 05-NOV-16 80     40                           
+JB027 L1004 7BUV692         CL014 05-NOV-17 80     40                           
+JB028 L1003 6XLB207   CI001 CL021 01-APR-18        6                            
+JB029 L3002 7BVK293   CI001 CL022 21-JUL-18        23                           
+JB030 L2003 7BUV692   CI002 CL023 03-NOV-13        12                           
+JB031 L1003 7BVK293   CI002 CL023 01-SEP-12        18                           
+JB032 L1004 6XLB207   CI002 CL023 11-JUL-16        2                            
+JB033 L1003 7BVK293   CI003 CL024 15-JUN-16        2                            
+JB034 L3002 7BFN110   CI004 CL024 15-JUN-16        90                           
+JB035 L1003 7BUV692   CI005 CL025 21-JAN-09        17                           
+JB036 L1004 6XLB207   CI006 CL025 16-MAR-09        4                            
+JB037 L3002 7BUV692   CI007 CL025 30-JAN-09        1                            
+JB038 L1004 6WHB954   CI008 CL026 17-OCT-06        54                           
+JB039 L1003 7BFN110   CI009 CL027 05-NOV-06        11                           
+JB040 L2003 7BUV692   CI010 CL028 12-AUG-19        13                           
+JB041 L2003 6WHB954   CI010 CL029 31-DEC-19        10                           
+JB042 L1003 6WHB954   CI011 CL029 12-APR-19        10                           
+JB043 L1004 7BVK293   CI012 CL030 10-JUN-19        16                           
+JB044 L1003 7BFN110   CI012 CL030 05-SEP-19        100                          
+
+43 rows selected.
+

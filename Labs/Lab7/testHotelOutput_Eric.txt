@@ -1,0 +1,194 @@
+
+View dropped.
+
+
+View created.
+
+ Name                                                                     Null?    Type
+ ------------------------------------------------------------------------ -------- -------------------------------------------------
+ HOTELNO                                                                  NOT NULL CHAR(4)
+ HOTELNAME                                                                NOT NULL VARCHAR2(15)
+ CITY                                                                              VARCHAR2(25)
+ RTYPE                                                                    NOT NULL VARCHAR2(15)
+ PRICE                                                                             NUMBER(38)
+
+
+HOTE HOTELNAME       CITY                      RTYPE                PRICE                                                           
+---- --------------- ------------------------- --------------- ----------                                                           
+H001 Sun Shine       San Bernadino             Luxury                 200                                                           
+H001 Sun Shine       San Bernadino             Double                 150                                                           
+H001 Sun Shine       San Bernadino             Suite                  100                                                           
+H001 Sun Shine       San Bernadino             Luxury                 200                                                           
+H001 Sun Shine       San Bernadino             Double                 150                                                           
+H001 Sun Shine       San Bernadino             Suite                  100                                                           
+H001 Sun Shine       San Bernadino             Luxury                 200                                                           
+H001 Sun Shine       San Bernadino             Double                 150                                                           
+H001 Sun Shine       San Bernadino             Suite                  100                                                           
+H002 King Stay       Riverside                 Luxury                 200                                                           
+H002 King Stay       Riverside                 Double                 150                                                           
+H002 King Stay       Riverside                 Suite                  100                                                           
+H002 King Stay       Riverside                 Luxury                 200                                                           
+H002 King Stay       Riverside                 Double                 150                                                           
+H002 King Stay       Riverside                 Suite                  100                                                           
+H002 King Stay       Riverside                 Luxury                 200                                                           
+H002 King Stay       Riverside                 Double                 150                                                           
+H002 King Stay       Riverside                 Suite                  100                                                           
+H003 Valley Stay     Moreno Valley             Luxury                 200                                                           
+H003 Valley Stay     Moreno Valley             Double                 150                                                           
+H003 Valley Stay     Moreno Valley             Suite                  100                                                           
+H003 Valley Stay     Moreno Valley             Luxury                 200                                                           
+H003 Valley Stay     Moreno Valley             Double                 150                                                           
+H003 Valley Stay     Moreno Valley             Suite                  100                                                           
+H003 Valley Stay     Moreno Valley             Luxury                 200                                                           
+H003 Valley Stay     Moreno Valley             Double                 150                                                           
+H003 Valley Stay     Moreno Valley             Suite                  100                                                           
+
+27 rows selected.
+
+
+HOTE HOTELNAME       CITY                      ROOM TYPE            PRICE                                                           
+---- --------------- ------------------------- --------------- ----------                                                           
+H001 Sun Shine       San Bernadino             Suite                  100                                                           
+H001 Sun Shine       San Bernadino             Suite                  100                                                           
+H001 Sun Shine       San Bernadino             Suite                  100                                                           
+H002 King Stay       Riverside                 Suite                  100                                                           
+H002 King Stay       Riverside                 Suite                  100                                                           
+H002 King Stay       Riverside                 Suite                  100                                                           
+H003 Valley Stay     Moreno Valley             Suite                  100                                                           
+H003 Valley Stay     Moreno Valley             Suite                  100                                                           
+H003 Valley Stay     Moreno Valley             Suite                  100                                                           
+
+9 rows selected.
+
+
+View dropped.
+
+
+View created.
+
+ Name                                                                     Null?    Type
+ ------------------------------------------------------------------------ -------- -------------------------------------------------
+ HOTELNO                                                                  NOT NULL CHAR(4)
+ GUESTNO                                                                  NOT NULL CHAR(4)
+ GUESTNAME                                                                NOT NULL VARCHAR2(20)
+ DATEFROM                                                                 NOT NULL DATE
+ DATETO                                                                            DATE
+ ROOMNO                                                                   NOT NULL CHAR(4)
+ RTYPE                                                                    NOT NULL VARCHAR2(15)
+
+
+HOTE GUES GUESTNAME            DATEFROM  DATETO    ROOM RTYPE                                                                       
+---- ---- -------------------- --------- --------- ---- ---------------                                                             
+H001 G002 Eric Blasko          06-JUL-19 08-JUL-19 L001 Luxury                                                                      
+H001 G001 Larry Whites         04-JAN-19 08-JAN-19 L001 Luxury                                                                      
+H002 G003 Josh Senee           02-DEC-19 07-DEC-19 L001 Luxury                                                                      
+H002 G001 Larry Whites         11-FEB-19 15-FEB-19 D002 Double                                                                      
+H003 G002 Eric Blasko          18-NOV-19 20-NOV-19 L003 Suite                                                                       
+
+
+HOTE GUES NAME                 FROM      TO                                                                                         
+---- ---- -------------------- --------- ---------                                                                                  
+H003 G002 Eric Blasko          18-NOV-19 20-NOV-19                                                                                  
+H001 G002 Eric Blasko          06-JUL-19 08-JUL-19                                                                                  
+H002 G003 Josh Senee           02-DEC-19 07-DEC-19                                                                                  
+H002 G001 Larry Whites         11-FEB-19 15-FEB-19                                                                                  
+H001 G001 Larry Whites         04-JAN-19 08-JAN-19                                                                                  
+
+
+View dropped.
+
+
+View created.
+
+ Name                                                                     Null?    Type
+ ------------------------------------------------------------------------ -------- -------------------------------------------------
+ HOTELNAME                                                                NOT NULL VARCHAR2(15)
+ ROOMNO                                                                   NOT NULL CHAR(4)
+ RTYPE                                                                    NOT NULL VARCHAR2(15)
+ PRICE                                                                             NUMBER(38)
+
+
+HOTELNAME       ROOM RTYPE                PRICE                                                                                     
+--------------- ---- --------------- ----------                                                                                     
+Sun Shine       L001 Luxury                 200                                                                                     
+Sun Shine       D002 Double                 150                                                                                     
+Sun Shine       L003 Suite                  100                                                                                     
+King Stay       L001 Luxury                 200                                                                                     
+King Stay       D002 Double                 150                                                                                     
+King Stay       L003 Suite                  100                                                                                     
+Valley Stay     L001 Luxury                 200                                                                                     
+Valley Stay     D002 Double                 150                                                                                     
+Valley Stay     L003 Suite                  100                                                                                     
+
+9 rows selected.
+
+
+HOTELNAME       ROOM RTYPE                PRICE                                                                                     
+--------------- ---- --------------- ----------                                                                                     
+Valley Stay     L001 Luxury                 200                                                                                     
+Valley Stay     D002 Double                 150                                                                                     
+Valley Stay     L003 Suite                  100                                                                                     
+
+
+View dropped.
+
+
+View created.
+
+ Name                                                                     Null?    Type
+ ------------------------------------------------------------------------ -------- -------------------------------------------------
+ GUESTNO                                                                  NOT NULL CHAR(4)
+ GUESTNAME                                                                NOT NULL VARCHAR2(20)
+ DATEFROM                                                                 NOT NULL DATE
+ DATETO                                                                            DATE
+
+
+GUES GUESTNAME            DATEFROM  DATETO                                                                                          
+---- -------------------- --------- ---------                                                                                       
+G001 Larry Whites         04-JAN-19 08-JAN-19                                                                                       
+G001 Larry Whites         11-FEB-19 15-FEB-19                                                                                       
+G002 Eric Blasko          18-NOV-19 20-NOV-19                                                                                       
+G002 Eric Blasko          06-JUL-19 08-JUL-19                                                                                       
+G003 Josh Senee           02-DEC-19 07-DEC-19                                                                                       
+G003 Josh Senee           02-JAN-18 08-JAN-18                                                                                       
+
+6 rows selected.
+
+
+GUES GUESTNAME              DURATION                                                                                                
+---- -------------------- ----------                                                                                                
+G001 Larry Whites                  4                                                                                                
+G001 Larry Whites                  4                                                                                                
+G002 Eric Blasko                   2                                                                                                
+G002 Eric Blasko                   2                                                                                                
+G003 Josh Senee                    5                                                                                                
+G003 Josh Senee                    6                                                                                                
+
+6 rows selected.
+
+
+View dropped.
+
+
+View created.
+
+ Name                                                                     Null?    Type
+ ------------------------------------------------------------------------ -------- -------------------------------------------------
+ GUESTNO                                                                  NOT NULL CHAR(4)
+ GUESTNAME                                                                NOT NULL VARCHAR2(20)
+ GUESTADDRESS                                                                      VARCHAR2(50)
+
+
+GUES GUESTNAME            GUESTADDRESS                                                                                              
+---- -------------------- --------------------------------------------------                                                        
+G001 Larry Whites         124 Main Street, Riverside 92403                                                                          
+G002 Eric Blasko          123 Perris Blvd, Moreno Valley 92553                                                                      
+G003 Josh Senee           111 University Way, San Bernadino 92403                                                                   
+
+
+GUES GUESTNAME            GUESTADDRESS                                                                                              
+---- -------------------- --------------------------------------------------                                                        
+G001 Larry Whites         124 Main Street, Riverside 92403                                                                          
+G002 Eric Blasko          123 Perris Blvd, Moreno Valley 92553                                                                      
+G003 Josh Senee           111 University Way, San Bernadino 92403                                                                   
+

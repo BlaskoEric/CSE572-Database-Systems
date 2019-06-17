@@ -1,0 +1,721 @@
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                                                                          
+----------- -------------------- -------------------------                                                                          
+        130 Mozhe                Atkinson                                                                                           
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                                                                          
+----------- -------------------- -------------------------                                                                          
+        100 Steven               King                                                                                               
+        101 Neena                Kochhar                                                                                            
+        102 Lex                  De Haan                                                                                            
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 DEPARTMENT_ID                                                            
+----------- -------------------- ------------------------- -------------                                                            
+        198 Donald               OConnell                             50                                                            
+        199 Douglas              Grant                                50                                                            
+        204 Hermann              Baer                                 70                                                            
+        205 Shelley              Higgins                             110                                                            
+        206 William              Gietz                               110                                                            
+        100 Steven               King                                 90                                                            
+        101 Neena                Kochhar                              90                                                            
+        102 Lex                  De Haan                              90                                                            
+        103 Alexander            Hunold                               60                                                            
+        104 Bruce                Ernst                                60                                                            
+        105 David                Austin                               60                                                            
+        106 Valli                Pataballa                            60                                                            
+        107 Diana                Lorentz                              60                                                            
+        108 Nancy                Greenberg                           100                                                            
+        109 Daniel               Faviet                              100                                                            
+        110 John                 Chen                                100                                                            
+        111 Ismael               Sciarra                             100                                                            
+        112 Jose Manuel          Urman                               100                                                            
+        113 Luis                 Popp                                100                                                            
+        120 Matthew              Weiss                                50                                                            
+        121 Adam                 Fripp                                50                                                            
+        122 Payam                Kaufling                             50                                                            
+        123 Shanta               Vollman                              50                                                            
+        124 Kevin                Mourgos                              50                                                            
+        125 Julia                Nayer                                50                                                            
+        126 Irene                Mikkilineni                          50                                                            
+        127 James                Landry                               50                                                            
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 DEPARTMENT_ID                                                            
+----------- -------------------- ------------------------- -------------                                                            
+        128 Steven               Markle                               50                                                            
+        129 Laura                Bissot                               50                                                            
+        130 Mozhe                Atkinson                             50                                                            
+        131 James                Marlow                               50                                                            
+        132 TJ                   Olson                                50                                                            
+        133 Jason                Mallin                               50                                                            
+        134 Michael              Rogers                               50                                                            
+        135 Ki                   Gee                                  50                                                            
+        136 Hazel                Philtanker                           50                                                            
+        137 Renske               Ladwig                               50                                                            
+        138 Stephen              Stiles                               50                                                            
+        139 John                 Seo                                  50                                                            
+        140 Joshua               Patel                                50                                                            
+        141 Trenna               Rajs                                 50                                                            
+        142 Curtis               Davies                               50                                                            
+        143 Randall              Matos                                50                                                            
+        144 Peter                Vargas                               50                                                            
+        145 John                 Russell                              80                                                            
+        146 Karen                Partners                             80                                                            
+        147 Alberto              Errazuriz                            80                                                            
+        148 Gerald               Cambrault                            80                                                            
+        149 Eleni                Zlotkey                              80                                                            
+        150 Peter                Tucker                               80                                                            
+        151 David                Bernstein                            80                                                            
+        152 Peter                Hall                                 80                                                            
+        153 Christopher          Olsen                                80                                                            
+        154 Nanette              Cambrault                            80                                                            
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 DEPARTMENT_ID                                                            
+----------- -------------------- ------------------------- -------------                                                            
+        155 Oliver               Tuvault                              80                                                            
+        156 Janette              King                                 80                                                            
+        157 Patrick              Sully                                80                                                            
+        158 Allan                McEwen                               80                                                            
+        159 Lindsey              Smith                                80                                                            
+        160 Louise               Doran                                80                                                            
+        161 Sarath               Sewall                               80                                                            
+        162 Clara                Vishney                              80                                                            
+        163 Danielle             Greene                               80                                                            
+        164 Mattea               Marvins                              80                                                            
+        165 David                Lee                                  80                                                            
+        166 Sundar               Ande                                 80                                                            
+        167 Amit                 Banda                                80                                                            
+        168 Lisa                 Ozer                                 80                                                            
+        169 Harrison             Bloom                                80                                                            
+        170 Tayler               Fox                                  80                                                            
+        171 William              Smith                                80                                                            
+        172 Elizabeth            Bates                                80                                                            
+        173 Sundita              Kumar                                80                                                            
+        174 Ellen                Abel                                 80                                                            
+        175 Alyssa               Hutton                               80                                                            
+        176 Jonathon             Taylor                               80                                                            
+        177 Jack                 Livingston                           80                                                            
+        179 Charles              Johnson                              80                                                            
+        180 Winston              Taylor                               50                                                            
+        181 Jean                 Fleaur                               50                                                            
+        182 Martha               Sullivan                             50                                                            
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 DEPARTMENT_ID                                                            
+----------- -------------------- ------------------------- -------------                                                            
+        183 Girard               Geoni                                50                                                            
+        184 Nandita              Sarchand                             50                                                            
+        185 Alexis               Bull                                 50                                                            
+        186 Julia                Dellinger                            50                                                            
+        187 Anthony              Cabrio                               50                                                            
+        188 Kelly                Chung                                50                                                            
+        189 Jennifer             Dilly                                50                                                            
+        190 Timothy              Gates                                50                                                            
+        191 Randall              Perkins                              50                                                            
+        192 Sarah                Bell                                 50                                                            
+        193 Britney              Everett                              50                                                            
+        194 Samuel               McCain                               50                                                            
+        195 Vance                Jones                                50                                                            
+        196 Alana                Walsh                                50                                                            
+        197 Kevin                Feeney                               50                                                            
+
+96 rows selected.
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                                                                          
+----------- -------------------- -------------------------                                                                          
+        198 Donald               OConnell                                                                                           
+        199 Douglas              Grant                                                                                              
+        204 Hermann              Baer                                                                                               
+        100 Steven               King                                                                                               
+        101 Neena                Kochhar                                                                                            
+        102 Lex                  De Haan                                                                                            
+        120 Matthew              Weiss                                                                                              
+        121 Adam                 Fripp                                                                                              
+        122 Payam                Kaufling                                                                                           
+        123 Shanta               Vollman                                                                                            
+        124 Kevin                Mourgos                                                                                            
+        125 Julia                Nayer                                                                                              
+        126 Irene                Mikkilineni                                                                                        
+        127 James                Landry                                                                                             
+        128 Steven               Markle                                                                                             
+        129 Laura                Bissot                                                                                             
+        130 Mozhe                Atkinson                                                                                           
+        131 James                Marlow                                                                                             
+        132 TJ                   Olson                                                                                              
+        133 Jason                Mallin                                                                                             
+        134 Michael              Rogers                                                                                             
+        135 Ki                   Gee                                                                                                
+        136 Hazel                Philtanker                                                                                         
+        137 Renske               Ladwig                                                                                             
+        138 Stephen              Stiles                                                                                             
+        139 John                 Seo                                                                                                
+        140 Joshua               Patel                                                                                              
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                                                                          
+----------- -------------------- -------------------------                                                                          
+        141 Trenna               Rajs                                                                                               
+        142 Curtis               Davies                                                                                             
+        143 Randall              Matos                                                                                              
+        144 Peter                Vargas                                                                                             
+        180 Winston              Taylor                                                                                             
+        181 Jean                 Fleaur                                                                                             
+        182 Martha               Sullivan                                                                                           
+        183 Girard               Geoni                                                                                              
+        184 Nandita              Sarchand                                                                                           
+        185 Alexis               Bull                                                                                               
+        186 Julia                Dellinger                                                                                          
+        187 Anthony              Cabrio                                                                                             
+        188 Kelly                Chung                                                                                              
+        189 Jennifer             Dilly                                                                                              
+        190 Timothy              Gates                                                                                              
+        191 Randall              Perkins                                                                                            
+        192 Sarah                Bell                                                                                               
+        193 Britney              Everett                                                                                            
+        194 Samuel               McCain                                                                                             
+        195 Vance                Jones                                                                                              
+        196 Alana                Walsh                                                                                              
+        197 Kevin                Feeney                                                                                             
+
+49 rows selected.
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                                                                          
+----------- -------------------- -------------------------                                                                          
+        105 David                Austin                                                                                             
+        109 Daniel               Faviet                                                                                             
+        151 David                Bernstein                                                                                          
+        163 Danielle             Greene                                                                                             
+        165 David                Lee                                                                                                
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 DEPARTMENT_ID JOB_ID         SALARY                                      
+----------- -------------------- ------------------------- ------------- ---------- ----------                                      
+        103 Alexander            Hunold                               60 IT_PROG          9000                                      
+        104 Bruce                Ernst                                60 IT_PROG          6000                                      
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 DEPARTMENT_ID JOB_ID         SALARY                                      
+----------- -------------------- ------------------------- ------------- ---------- ----------                                      
+        201 Michael              Hartstein                            20 MK_MAN          13000                                      
+        204 Hermann              Baer                                 70 PR_REP          10000                                      
+        205 Shelley              Higgins                             110 AC_MGR          12008                                      
+        100 Steven               King                                 90 AD_PRES         24000                                      
+        101 Neena                Kochhar                              90 AD_VP           17000                                      
+        102 Lex                  De Haan                              90 AD_VP           17000                                      
+        108 Nancy                Greenberg                           100 FI_MGR          12008                                      
+        114 Den                  Raphaely                             30 PU_MAN          11000                                      
+        145 John                 Russell                              80 SA_MAN          14000                                      
+        146 Karen                Partners                             80 SA_MAN          13500                                      
+        147 Alberto              Errazuriz                            80 SA_MAN          12000                                      
+        148 Gerald               Cambrault                            80 SA_MAN          11000                                      
+        149 Eleni                Zlotkey                              80 SA_MAN          10500                                      
+        150 Peter                Tucker                               80 SA_REP          10000                                      
+        156 Janette              King                                 80 SA_REP          10000                                      
+        162 Clara                Vishney                              80 SA_REP          10500                                      
+        168 Lisa                 Ozer                                 80 SA_REP          11500                                      
+        169 Harrison             Bloom                                80 SA_REP          10000                                      
+        174 Ellen                Abel                                 80 SA_REP          11000                                      
+
+19 rows selected.
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                                                                          
+----------- -------------------- -------------------------                                                                          
+        100 Steven               King                                                                                               
+        101 Neena                Kochhar                                                                                            
+        102 Lex                  De Haan                                                                                            
+        103 Alexander            Hunold                                                                                             
+        104 Bruce                Ernst                                                                                              
+        106 Valli                Pataballa                                                                                          
+        107 Diana                Lorentz                                                                                            
+        108 Nancy                Greenberg                                                                                          
+        110 John                 Chen                                                                                               
+        111 Ismael               Sciarra                                                                                            
+        112 Jose Manuel          Urman                                                                                              
+        113 Luis                 Popp                                                                                               
+        114 Den                  Raphaely                                                                                           
+        115 Alexander            Khoo                                                                                               
+        116 Shelli               Baida                                                                                              
+        117 Sigal                Tobias                                                                                             
+        118 Guy                  Himuro                                                                                             
+        119 Karen                Colmenares                                                                                         
+        120 Matthew              Weiss                                                                                              
+        121 Adam                 Fripp                                                                                              
+        122 Payam                Kaufling                                                                                           
+        123 Shanta               Vollman                                                                                            
+        124 Kevin                Mourgos                                                                                            
+        125 Julia                Nayer                                                                                              
+        126 Irene                Mikkilineni                                                                                        
+        127 James                Landry                                                                                             
+        128 Steven               Markle                                                                                             
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                                                                          
+----------- -------------------- -------------------------                                                                          
+        129 Laura                Bissot                                                                                             
+        130 Mozhe                Atkinson                                                                                           
+        131 James                Marlow                                                                                             
+        132 TJ                   Olson                                                                                              
+        133 Jason                Mallin                                                                                             
+        134 Michael              Rogers                                                                                             
+        135 Ki                   Gee                                                                                                
+        136 Hazel                Philtanker                                                                                         
+        137 Renske               Ladwig                                                                                             
+        138 Stephen              Stiles                                                                                             
+        139 John                 Seo                                                                                                
+        140 Joshua               Patel                                                                                              
+        141 Trenna               Rajs                                                                                               
+        142 Curtis               Davies                                                                                             
+        143 Randall              Matos                                                                                              
+        144 Peter                Vargas                                                                                             
+        145 John                 Russell                                                                                            
+        146 Karen                Partners                                                                                           
+        147 Alberto              Errazuriz                                                                                          
+        148 Gerald               Cambrault                                                                                          
+        149 Eleni                Zlotkey                                                                                            
+        150 Peter                Tucker                                                                                             
+        152 Peter                Hall                                                                                               
+        153 Christopher          Olsen                                                                                              
+        154 Nanette              Cambrault                                                                                          
+        155 Oliver               Tuvault                                                                                            
+        156 Janette              King                                                                                               
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                                                                          
+----------- -------------------- -------------------------                                                                          
+        157 Patrick              Sully                                                                                              
+        158 Allan                McEwen                                                                                             
+        159 Lindsey              Smith                                                                                              
+        160 Louise               Doran                                                                                              
+        161 Sarath               Sewall                                                                                             
+        162 Clara                Vishney                                                                                            
+        164 Mattea               Marvins                                                                                            
+        166 Sundar               Ande                                                                                               
+        167 Amit                 Banda                                                                                              
+        168 Lisa                 Ozer                                                                                               
+        169 Harrison             Bloom                                                                                              
+        170 Tayler               Fox                                                                                                
+        171 William              Smith                                                                                              
+        172 Elizabeth            Bates                                                                                              
+        173 Sundita              Kumar                                                                                              
+        174 Ellen                Abel                                                                                               
+        175 Alyssa               Hutton                                                                                             
+        176 Jonathon             Taylor                                                                                             
+        177 Jack                 Livingston                                                                                         
+        178 Kimberely            Grant                                                                                              
+        179 Charles              Johnson                                                                                            
+        180 Winston              Taylor                                                                                             
+        181 Jean                 Fleaur                                                                                             
+        182 Martha               Sullivan                                                                                           
+        183 Girard               Geoni                                                                                              
+        184 Nandita              Sarchand                                                                                           
+        185 Alexis               Bull                                                                                               
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                                                                          
+----------- -------------------- -------------------------                                                                          
+        186 Julia                Dellinger                                                                                          
+        187 Anthony              Cabrio                                                                                             
+        188 Kelly                Chung                                                                                              
+        189 Jennifer             Dilly                                                                                              
+        190 Timothy              Gates                                                                                              
+        191 Randall              Perkins                                                                                            
+        192 Sarah                Bell                                                                                               
+        193 Britney              Everett                                                                                            
+        194 Samuel               McCain                                                                                             
+        195 Vance                Jones                                                                                              
+        196 Alana                Walsh                                                                                              
+        197 Kevin                Feeney                                                                                             
+        198 Donald               OConnell                                                                                           
+        199 Douglas              Grant                                                                                              
+        200 Jennifer             Whalen                                                                                             
+        201 Michael              Hartstein                                                                                          
+        202 Pat                  Fay                                                                                                
+        203 Susan                Mavris                                                                                             
+        204 Hermann              Baer                                                                                               
+        205 Shelley              Higgins                                                                                            
+        206 William              Gietz                                                                                              
+
+102 rows selected.
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 JOB_ID         SALARY                                                    
+----------- -------------------- ------------------------- ---------- ----------                                                    
+        100 Steven               King                      AD_PRES         24000                                                    
+        103 Alexander            Hunold                    IT_PROG          9000                                                    
+        104 Bruce                Ernst                     IT_PROG          6000                                                    
+        105 David                Austin                    IT_PROG          4800                                                    
+        106 Valli                Pataballa                 IT_PROG          4800                                                    
+        107 Diana                Lorentz                   IT_PROG          4200                                                    
+
+6 rows selected.
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 JOB_ID         SALARY                                                    
+----------- -------------------- ------------------------- ---------- ----------                                                    
+        100 Steven               King                      AD_PRES         24000                                                    
+
+
+EMPLOYEE_ID DEPARTMENT_ID FIRST_NAME           LAST_NAME                                                                            
+----------- ------------- -------------------- -------------------------                                                            
+        200            10 Jennifer             Whalen                                                                               
+        201            20 Michael              Hartstein                                                                            
+        202            20 Pat                  Fay                                                                                  
+        114            30 Den                  Raphaely                                                                             
+        119            30 Karen                Colmenares                                                                           
+        115            30 Alexander            Khoo                                                                                 
+        116            30 Shelli               Baida                                                                                
+        117            30 Sigal                Tobias                                                                               
+        118            30 Guy                  Himuro                                                                               
+        203            40 Susan                Mavris                                                                               
+        198            50 Donald               OConnell                                                                             
+        199            50 Douglas              Grant                                                                                
+        120            50 Matthew              Weiss                                                                                
+        121            50 Adam                 Fripp                                                                                
+        122            50 Payam                Kaufling                                                                             
+        123            50 Shanta               Vollman                                                                              
+        124            50 Kevin                Mourgos                                                                              
+        125            50 Julia                Nayer                                                                                
+        126            50 Irene                Mikkilineni                                                                          
+        127            50 James                Landry                                                                               
+        128            50 Steven               Markle                                                                               
+        129            50 Laura                Bissot                                                                               
+        130            50 Mozhe                Atkinson                                                                             
+        131            50 James                Marlow                                                                               
+        132            50 TJ                   Olson                                                                                
+        133            50 Jason                Mallin                                                                               
+        134            50 Michael              Rogers                                                                               
+
+EMPLOYEE_ID DEPARTMENT_ID FIRST_NAME           LAST_NAME                                                                            
+----------- ------------- -------------------- -------------------------                                                            
+        135            50 Ki                   Gee                                                                                  
+        136            50 Hazel                Philtanker                                                                           
+        137            50 Renske               Ladwig                                                                               
+        138            50 Stephen              Stiles                                                                               
+        139            50 John                 Seo                                                                                  
+        140            50 Joshua               Patel                                                                                
+        141            50 Trenna               Rajs                                                                                 
+        142            50 Curtis               Davies                                                                               
+        143            50 Randall              Matos                                                                                
+        144            50 Peter                Vargas                                                                               
+        180            50 Winston              Taylor                                                                               
+        181            50 Jean                 Fleaur                                                                               
+        182            50 Martha               Sullivan                                                                             
+        183            50 Girard               Geoni                                                                                
+        184            50 Nandita              Sarchand                                                                             
+        185            50 Alexis               Bull                                                                                 
+        186            50 Julia                Dellinger                                                                            
+        187            50 Anthony              Cabrio                                                                               
+        188            50 Kelly                Chung                                                                                
+        189            50 Jennifer             Dilly                                                                                
+        190            50 Timothy              Gates                                                                                
+        191            50 Randall              Perkins                                                                              
+        192            50 Sarah                Bell                                                                                 
+        193            50 Britney              Everett                                                                              
+        194            50 Samuel               McCain                                                                               
+        195            50 Vance                Jones                                                                                
+        196            50 Alana                Walsh                                                                                
+
+EMPLOYEE_ID DEPARTMENT_ID FIRST_NAME           LAST_NAME                                                                            
+----------- ------------- -------------------- -------------------------                                                            
+        197            50 Kevin                Feeney                                                                               
+        104            60 Bruce                Ernst                                                                                
+        103            60 Alexander            Hunold                                                                               
+        107            60 Diana                Lorentz                                                                              
+        106            60 Valli                Pataballa                                                                            
+        105            60 David                Austin                                                                               
+        204            70 Hermann              Baer                                                                                 
+        176            80 Jonathon             Taylor                                                                               
+        177            80 Jack                 Livingston                                                                           
+        179            80 Charles              Johnson                                                                              
+        175            80 Alyssa               Hutton                                                                               
+        174            80 Ellen                Abel                                                                                 
+        173            80 Sundita              Kumar                                                                                
+        172            80 Elizabeth            Bates                                                                                
+        171            80 William              Smith                                                                                
+        170            80 Tayler               Fox                                                                                  
+        169            80 Harrison             Bloom                                                                                
+        168            80 Lisa                 Ozer                                                                                 
+        145            80 John                 Russell                                                                              
+        146            80 Karen                Partners                                                                             
+        147            80 Alberto              Errazuriz                                                                            
+        148            80 Gerald               Cambrault                                                                            
+        149            80 Eleni                Zlotkey                                                                              
+        150            80 Peter                Tucker                                                                               
+        151            80 David                Bernstein                                                                            
+        152            80 Peter                Hall                                                                                 
+        153            80 Christopher          Olsen                                                                                
+
+EMPLOYEE_ID DEPARTMENT_ID FIRST_NAME           LAST_NAME                                                                            
+----------- ------------- -------------------- -------------------------                                                            
+        154            80 Nanette              Cambrault                                                                            
+        155            80 Oliver               Tuvault                                                                              
+        156            80 Janette              King                                                                                 
+        157            80 Patrick              Sully                                                                                
+        158            80 Allan                McEwen                                                                               
+        159            80 Lindsey              Smith                                                                                
+        160            80 Louise               Doran                                                                                
+        161            80 Sarath               Sewall                                                                               
+        162            80 Clara                Vishney                                                                              
+        163            80 Danielle             Greene                                                                               
+        164            80 Mattea               Marvins                                                                              
+        165            80 David                Lee                                                                                  
+        166            80 Sundar               Ande                                                                                 
+        167            80 Amit                 Banda                                                                                
+        101            90 Neena                Kochhar                                                                              
+        100            90 Steven               King                                                                                 
+        102            90 Lex                  De Haan                                                                              
+        110           100 John                 Chen                                                                                 
+        108           100 Nancy                Greenberg                                                                            
+        111           100 Ismael               Sciarra                                                                              
+        112           100 Jose Manuel          Urman                                                                                
+        113           100 Luis                 Popp                                                                                 
+        109           100 Daniel               Faviet                                                                               
+        206           110 William              Gietz                                                                                
+        205           110 Shelley              Higgins                                                                              
+        178               Kimberely            Grant                                                                                
+
+107 rows selected.
+
+
+EMPLOYEE_ID DEPARTMENT_ID FIRST_NAME           LAST_NAME                     ANNUAL                                                 
+----------- ------------- -------------------- ------------------------- ----------                                                 
+        200            10 Jennifer             Whalen                         52800                                                 
+        201            20 Michael              Hartstein                     156000                                                 
+        202            20 Pat                  Fay                            72000                                                 
+        114            30 Den                  Raphaely                      132000                                                 
+        115            30 Alexander            Khoo                           37200                                                 
+        116            30 Shelli               Baida                          34800                                                 
+        117            30 Sigal                Tobias                         33600                                                 
+        118            30 Guy                  Himuro                         31200                                                 
+        119            30 Karen                Colmenares                     30000                                                 
+        203            40 Susan                Mavris                         78000                                                 
+        121            50 Adam                 Fripp                          98400                                                 
+        120            50 Matthew              Weiss                          96000                                                 
+        122            50 Payam                Kaufling                       94800                                                 
+        123            50 Shanta               Vollman                        78000                                                 
+        124            50 Kevin                Mourgos                        69600                                                 
+        184            50 Nandita              Sarchand                       50400                                                 
+        185            50 Alexis               Bull                           49200                                                 
+        192            50 Sarah                Bell                           48000                                                 
+        193            50 Britney              Everett                        46800                                                 
+        188            50 Kelly                Chung                          45600                                                 
+        189            50 Jennifer             Dilly                          43200                                                 
+        137            50 Renske               Ladwig                         43200                                                 
+        141            50 Trenna               Rajs                           42000                                                 
+        186            50 Julia                Dellinger                      40800                                                 
+        129            50 Laura                Bissot                         39600                                                 
+        133            50 Jason                Mallin                         39600                                                 
+        138            50 Stephen              Stiles                         38400                                                 
+
+EMPLOYEE_ID DEPARTMENT_ID FIRST_NAME           LAST_NAME                     ANNUAL                                                 
+----------- ------------- -------------------- ------------------------- ----------                                                 
+        194            50 Samuel               McCain                         38400                                                 
+        125            50 Julia                Nayer                          38400                                                 
+        180            50 Winston              Taylor                         38400                                                 
+        181            50 Jean                 Fleaur                         37200                                                 
+        142            50 Curtis               Davies                         37200                                                 
+        196            50 Alana                Walsh                          37200                                                 
+        187            50 Anthony              Cabrio                         36000                                                 
+        197            50 Kevin                Feeney                         36000                                                 
+        190            50 Timothy              Gates                          34800                                                 
+        134            50 Michael              Rogers                         34800                                                 
+        183            50 Girard               Geoni                          33600                                                 
+        130            50 Mozhe                Atkinson                       33600                                                 
+        195            50 Vance                Jones                          33600                                                 
+        139            50 John                 Seo                            32400                                                 
+        126            50 Irene                Mikkilineni                    32400                                                 
+        198            50 Donald               OConnell                       31200                                                 
+        199            50 Douglas              Grant                          31200                                                 
+        143            50 Randall              Matos                          31200                                                 
+        140            50 Joshua               Patel                          30000                                                 
+        182            50 Martha               Sullivan                       30000                                                 
+        131            50 James                Marlow                         30000                                                 
+        191            50 Randall              Perkins                        30000                                                 
+        144            50 Peter                Vargas                         30000                                                 
+        135            50 Ki                   Gee                            28800                                                 
+        127            50 James                Landry                         28800                                                 
+        136            50 Hazel                Philtanker                     26400                                                 
+        128            50 Steven               Markle                         26400                                                 
+
+EMPLOYEE_ID DEPARTMENT_ID FIRST_NAME           LAST_NAME                     ANNUAL                                                 
+----------- ------------- -------------------- ------------------------- ----------                                                 
+        132            50 TJ                   Olson                          25200                                                 
+        103            60 Alexander            Hunold                        108000                                                 
+        104            60 Bruce                Ernst                          72000                                                 
+        106            60 Valli                Pataballa                      57600                                                 
+        105            60 David                Austin                         57600                                                 
+        107            60 Diana                Lorentz                        50400                                                 
+        204            70 Hermann              Baer                          120000                                                 
+        145            80 John                 Russell                       168000                                                 
+        146            80 Karen                Partners                      162000                                                 
+        147            80 Alberto              Errazuriz                     144000                                                 
+        168            80 Lisa                 Ozer                          138000                                                 
+        148            80 Gerald               Cambrault                     132000                                                 
+        174            80 Ellen                Abel                          132000                                                 
+        162            80 Clara                Vishney                       126000                                                 
+        149            80 Eleni                Zlotkey                       126000                                                 
+        150            80 Peter                Tucker                        120000                                                 
+        169            80 Harrison             Bloom                         120000                                                 
+        156            80 Janette              King                          120000                                                 
+        170            80 Tayler               Fox                           115200                                                 
+        151            80 David                Bernstein                     114000                                                 
+        163            80 Danielle             Greene                        114000                                                 
+        157            80 Patrick              Sully                         114000                                                 
+        158            80 Allan                McEwen                        108000                                                 
+        152            80 Peter                Hall                          108000                                                 
+        175            80 Alyssa               Hutton                        105600                                                 
+        176            80 Jonathon             Taylor                        103200                                                 
+        177            80 Jack                 Livingston                    100800                                                 
+
+EMPLOYEE_ID DEPARTMENT_ID FIRST_NAME           LAST_NAME                     ANNUAL                                                 
+----------- ------------- -------------------- ------------------------- ----------                                                 
+        153            80 Christopher          Olsen                          96000                                                 
+        159            80 Lindsey              Smith                          96000                                                 
+        154            80 Nanette              Cambrault                      90000                                                 
+        160            80 Louise               Doran                          90000                                                 
+        171            80 William              Smith                          88800                                                 
+        172            80 Elizabeth            Bates                          87600                                                 
+        164            80 Mattea               Marvins                        86400                                                 
+        161            80 Sarath               Sewall                         84000                                                 
+        155            80 Oliver               Tuvault                        84000                                                 
+        165            80 David                Lee                            81600                                                 
+        166            80 Sundar               Ande                           76800                                                 
+        167            80 Amit                 Banda                          74400                                                 
+        179            80 Charles              Johnson                        74400                                                 
+        173            80 Sundita              Kumar                          73200                                                 
+        100            90 Steven               King                          288000                                                 
+        102            90 Lex                  De Haan                       204000                                                 
+        101            90 Neena                Kochhar                       204000                                                 
+        108           100 Nancy                Greenberg                     144096                                                 
+        109           100 Daniel               Faviet                        108000                                                 
+        110           100 John                 Chen                           98400                                                 
+        112           100 Jose Manuel          Urman                          93600                                                 
+        111           100 Ismael               Sciarra                        92400                                                 
+        113           100 Luis                 Popp                           82800                                                 
+        205           110 Shelley              Higgins                       144096                                                 
+        206           110 William              Gietz                          99600                                                 
+        178               Kimberely            Grant                          84000                                                 
+
+107 rows selected.
+
+
+EMPLOYEE_ID DEPARTMENT_ID FIRST_NAME           LAST_NAME                                                                            
+----------- ------------- -------------------- -------------------------                                                            
+        200            10 Jennifer             Whalen                                                                               
+        201            20 Michael              Hartstein                                                                            
+        202            20 Pat                  Fay                                                                                  
+        115            30 Alexander            Khoo                                                                                 
+        114            30 Den                  Raphaely                                                                             
+        118            30 Guy                  Himuro                                                                               
+        119            30 Karen                Colmenares                                                                           
+        116            30 Shelli               Baida                                                                                
+        117            30 Sigal                Tobias                                                                               
+        203            40 Susan                Mavris                                                                               
+        121            50 Adam                 Fripp                                                                                
+        196            50 Alana                Walsh                                                                                
+        185            50 Alexis               Bull                                                                                 
+        187            50 Anthony              Cabrio                                                                               
+        193            50 Britney              Everett                                                                              
+        142            50 Curtis               Davies                                                                               
+        198            50 Donald               OConnell                                                                             
+        199            50 Douglas              Grant                                                                                
+        183            50 Girard               Geoni                                                                                
+        136            50 Hazel                Philtanker                                                                           
+        126            50 Irene                Mikkilineni                                                                          
+        127            50 James                Landry                                                                               
+        131            50 James                Marlow                                                                               
+        133            50 Jason                Mallin                                                                               
+        181            50 Jean                 Fleaur                                                                               
+        189            50 Jennifer             Dilly                                                                                
+        139            50 John                 Seo                                                                                  
+
+EMPLOYEE_ID DEPARTMENT_ID FIRST_NAME           LAST_NAME                                                                            
+----------- ------------- -------------------- -------------------------                                                            
+        140            50 Joshua               Patel                                                                                
+        186            50 Julia                Dellinger                                                                            
+        125            50 Julia                Nayer                                                                                
+        188            50 Kelly                Chung                                                                                
+        197            50 Kevin                Feeney                                                                               
+        124            50 Kevin                Mourgos                                                                              
+        135            50 Ki                   Gee                                                                                  
+        129            50 Laura                Bissot                                                                               
+        182            50 Martha               Sullivan                                                                             
+        120            50 Matthew              Weiss                                                                                
+        134            50 Michael              Rogers                                                                               
+        130            50 Mozhe                Atkinson                                                                             
+        184            50 Nandita              Sarchand                                                                             
+        122            50 Payam                Kaufling                                                                             
+        144            50 Peter                Vargas                                                                               
+        143            50 Randall              Matos                                                                                
+        191            50 Randall              Perkins                                                                              
+        137            50 Renske               Ladwig                                                                               
+        194            50 Samuel               McCain                                                                               
+        192            50 Sarah                Bell                                                                                 
+        123            50 Shanta               Vollman                                                                              
+        138            50 Stephen              Stiles                                                                               
+        128            50 Steven               Markle                                                                               
+        132            50 TJ                   Olson                                                                                
+        190            50 Timothy              Gates                                                                                
+        141            50 Trenna               Rajs                                                                                 
+        195            50 Vance                Jones                                                                                
+
+EMPLOYEE_ID DEPARTMENT_ID FIRST_NAME           LAST_NAME                                                                            
+----------- ------------- -------------------- -------------------------                                                            
+        180            50 Winston              Taylor                                                                               
+        103            60 Alexander            Hunold                                                                               
+        104            60 Bruce                Ernst                                                                                
+        105            60 David                Austin                                                                               
+        107            60 Diana                Lorentz                                                                              
+        106            60 Valli                Pataballa                                                                            
+        204            70 Hermann              Baer                                                                                 
+        147            80 Alberto              Errazuriz                                                                            
+        158            80 Allan                McEwen                                                                               
+        175            80 Alyssa               Hutton                                                                               
+        167            80 Amit                 Banda                                                                                
+        179            80 Charles              Johnson                                                                              
+        153            80 Christopher          Olsen                                                                                
+        162            80 Clara                Vishney                                                                              
+        163            80 Danielle             Greene                                                                               
+        151            80 David                Bernstein                                                                            
+        165            80 David                Lee                                                                                  
+        149            80 Eleni                Zlotkey                                                                              
+        172            80 Elizabeth            Bates                                                                                
+        174            80 Ellen                Abel                                                                                 
+        148            80 Gerald               Cambrault                                                                            
+        169            80 Harrison             Bloom                                                                                
+        177            80 Jack                 Livingston                                                                           
+        156            80 Janette              King                                                                                 
+        145            80 John                 Russell                                                                              
+        176            80 Jonathon             Taylor                                                                               
+        146            80 Karen                Partners                                                                             
+
+EMPLOYEE_ID DEPARTMENT_ID FIRST_NAME           LAST_NAME                                                                            
+----------- ------------- -------------------- -------------------------                                                            
+        159            80 Lindsey              Smith                                                                                
+        168            80 Lisa                 Ozer                                                                                 
+        160            80 Louise               Doran                                                                                
+        164            80 Mattea               Marvins                                                                              
+        154            80 Nanette              Cambrault                                                                            
+        155            80 Oliver               Tuvault                                                                              
+        157            80 Patrick              Sully                                                                                
+        152            80 Peter                Hall                                                                                 
+        150            80 Peter                Tucker                                                                               
+        161            80 Sarath               Sewall                                                                               
+        166            80 Sundar               Ande                                                                                 
+        173            80 Sundita              Kumar                                                                                
+        170            80 Tayler               Fox                                                                                  
+        171            80 William              Smith                                                                                
+        102            90 Lex                  De Haan                                                                              
+        101            90 Neena                Kochhar                                                                              
+        100            90 Steven               King                                                                                 
+        109           100 Daniel               Faviet                                                                               
+        111           100 Ismael               Sciarra                                                                              
+        110           100 John                 Chen                                                                                 
+        112           100 Jose Manuel          Urman                                                                                
+        113           100 Luis                 Popp                                                                                 
+        108           100 Nancy                Greenberg                                                                            
+        205           110 Shelley              Higgins                                                                              
+        206           110 William              Gietz                                                                                
+        178               Kimberely            Grant                                                                                
+
+107 rows selected.
+

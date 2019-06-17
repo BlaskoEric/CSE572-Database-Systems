@@ -1,0 +1,76 @@
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ OFFICEID                                  NOT NULL CHAR(5)
+ MGRSTAFFNO                                         CHAR(5)
+ NAME                                      NOT NULL VARCHAR2(15)
+ STRADDRESS                                         VARCHAR2(30)
+ CITY                                               VARCHAR2(15)
+ ZIPCODE                                            CHAR(5)
+ PHONENO                                            NUMBER(10)
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ STAFFID                                   NOT NULL CHAR(5)
+ OFFICEID                                  NOT NULL CHAR(5)
+ FNAME                                     NOT NULL VARCHAR2(15)
+ LNAME                                     NOT NULL VARCHAR2(15)
+ PHONENO                                            NUMBER(10)
+ STRADDRES                                          VARCHAR2(30)
+ CITY                                               VARCHAR2(15)
+ ZIPCODE                                            CHAR(5)
+ GENDER                                             CHAR(1)
+ DOB                                       NOT NULL DATE
+ SALARY                                    NOT NULL NUMBER(8,2)
+ MGRFLAG                                            CHAR(1)
+ ADMINFLAG                                          CHAR(1)
+ OWNERFLAG                                          CHAR(1)
+ DRIVERFLAG                                         CHAR(1)
+ DRIVERSLICENSE                                     VARCHAR2(9)
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ STAFFID                                   NOT NULL CHAR(5)
+ LICENSEPLATENO                            NOT NULL VARCHAR2(9)
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ LICENSEPLATENO                            NOT NULL VARCHAR2(9)
+ MAKE                                      NOT NULL VARCHAR2(15)
+ MODEL                                              VARCHAR2(8)
+ YEAR                                      NOT NULL CHAR(4)
+ COLOR                                              VARCHAR2(10)
+ INSERVICE                                          CHAR(1)
+ OWNERID                                   NOT NULL CHAR(5)
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ CLIENTID                                  NOT NULL CHAR(5)
+ OFFICEID                                  NOT NULL CHAR(5)
+ FNAME                                              VARCHAR2(15)
+ LNAME                                              VARCHAR2(15)
+ BUSINESSNAME                                       VARCHAR2(20)
+ CLIENTGENDER                                       CHAR(1)
+ CLIENTDOB                                          DATE
+ CLIENTADDRESS                             NOT NULL VARCHAR2(30)
+ CLIENTCITY                                         VARCHAR2(15)
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ CONTRACTID                                NOT NULL CHAR(5)
+ CLIENTID                                  NOT NULL CHAR(5)
+ OFFICEID                                  NOT NULL CHAR(5)
+ STARTDATE                                 NOT NULL DATE
+ ENDDATE                                   NOT NULL DATE
+ CONTRACTPRICE                             NOT NULL CHAR(6)
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ JOBID                                     NOT NULL CHAR(5)
+ STAFFID                                   NOT NULL CHAR(5)
+ LICENSEPLATENO                            NOT NULL VARCHAR2(9)
+ CONTRACTID                                         CHAR(5)
+ CLIENTID                                  NOT NULL CHAR(5)
+ JOBDATE                                   NOT NULL DATE
+ JOBPRICE                                           CHAR(6)
+ JOBMILES                                  NOT NULL CHAR(4)
+

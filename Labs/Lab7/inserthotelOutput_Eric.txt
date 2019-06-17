@@ -1,0 +1,107 @@
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Constraint set.
+
+
+HOTE HOTELNAME       CITY                                                                                                           
+---- --------------- -------------------------                                                                                      
+H001 Sun Shine       San Bernadino                                                                                                  
+H002 King Stay       Riverside                                                                                                      
+H003 Valley Stay     Moreno Valley                                                                                                  
+
+
+ROOM HOTE RTYPE                PRICE                                                                                                
+---- ---- --------------- ----------                                                                                                
+L001 H001 Luxury                 200                                                                                                
+D002 H001 Double                 150                                                                                                
+L003 H001 Suite                  100                                                                                                
+L001 H002 Luxury                 200                                                                                                
+D002 H002 Double                 150                                                                                                
+L003 H002 Suite                  100                                                                                                
+L001 H003 Luxury                 200                                                                                                
+D002 H003 Double                 150                                                                                                
+L003 H003 Suite                  100                                                                                                
+
+9 rows selected.
+
+
+GUES GUESTNAME            GUESTADDRESS                                                                                              
+---- -------------------- --------------------------------------------------                                                        
+G001 Larry Whites         124 Main Street, Riverside 92403                                                                          
+G002 Eric Blasko          123 Perris Blvd, Moreno Valley 92553                                                                      
+G003 Josh Senee           111 University Way, San Bernadino 92403                                                                   
+
+
+HOTE GUES DATEFROM  DATETO    ROOM                                                                                                  
+---- ---- --------- --------- ----                                                                                                  
+H001 G001 04-JAN-19 08-JAN-19 L001                                                                                                  
+H002 G001 11-FEB-19 15-FEB-19 D002                                                                                                  
+H003 G002 18-NOV-19 20-NOV-19 L003                                                                                                  
+H001 G002 06-JUL-19 08-JUL-19 L001                                                                                                  
+H002 G003 02-DEC-19 07-DEC-19 L001                                                                                                  
+H003 G003 02-JAN-18 08-JAN-18 L002                                                                                                  
+
+6 rows selected.
+

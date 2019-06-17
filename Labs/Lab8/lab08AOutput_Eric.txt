@@ -1,0 +1,168 @@
+Enter value for job_title: IT_PROG
+old   3: WHERE UPPER(job_id) = UPPER('&job_title')
+new   3: WHERE UPPER(job_id) = UPPER('IT_PROG')
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 JOB_ID         SALARY                                                    
+----------- -------------------- ------------------------- ---------- ----------                                                    
+        103 Alexander            Hunold                    IT_PROG          9000                                                    
+        104 Bruce                Ernst                     IT_PROG          6000                                                    
+        105 David                Austin                    IT_PROG          4800                                                    
+        106 Valli                Pataballa                 IT_PROG          4800                                                    
+        107 Diana                Lorentz                   IT_PROG          4200                                                    
+
+old   3: WHERE UPPER(job_id) = UPPER('&Job_title')
+new   3: WHERE UPPER(job_id) = UPPER('IT_PROG')
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 JOB_ID         SALARY                                                    
+----------- -------------------- ------------------------- ---------- ----------                                                    
+        103 Alexander            Hunold                    IT_PROG          9000                                                    
+        104 Bruce                Ernst                     IT_PROG          6000                                                    
+        105 David                Austin                    IT_PROG          4800                                                    
+        106 Valli                Pataballa                 IT_PROG          4800                                                    
+        107 Diana                Lorentz                   IT_PROG          4200                                                    
+
+Enter value for columnlists: first_name,last_name,salary
+old   1: SELECT &columnlists
+new   1: SELECT first_name,last_name,salary
+Enter value for conditions: UPPER(job_id) = 'IT_PROG'
+old   3: WHERE &conditions
+new   3: WHERE UPPER(job_id) = 'IT_PROG'
+Enter value for orders: employee_ID
+old   4: ORDER BY &orders
+new   4: ORDER BY employee_ID
+
+FIRST_NAME           LAST_NAME                     SALARY                                                                           
+-------------------- ------------------------- ----------                                                                           
+Alexander            Hunold                          9000                                                                           
+Bruce                Ernst                           6000                                                                           
+David                Austin                          4800                                                                           
+Valli                Pataballa                       4800                                                                           
+Diana                Lorentz                         4200                                                                           
+
+Enter value for columnlist: department_id, salary
+old   1: SELECT employee_ID, first_name, last_name, &&columnList
+new   1: SELECT employee_ID, first_name, last_name, department_id, salary
+old   3: ORDER BY &columnList
+new   3: ORDER BY department_id, salary
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 DEPARTMENT_ID     SALARY                                                 
+----------- -------------------- ------------------------- ------------- ----------                                                 
+        200 Jennifer             Whalen                               10       4400                                                 
+        202 Pat                  Fay                                  20       6000                                                 
+        201 Michael              Hartstein                            20      13000                                                 
+        119 Karen                Colmenares                           30       2500                                                 
+        118 Guy                  Himuro                               30       2600                                                 
+        117 Sigal                Tobias                               30       2800                                                 
+        116 Shelli               Baida                                30       2900                                                 
+        115 Alexander            Khoo                                 30       3100                                                 
+        114 Den                  Raphaely                             30      11000                                                 
+        203 Susan                Mavris                               40       6500                                                 
+        132 TJ                   Olson                                50       2100                                                 
+        128 Steven               Markle                               50       2200                                                 
+        136 Hazel                Philtanker                           50       2200                                                 
+        135 Ki                   Gee                                  50       2400                                                 
+        127 James                Landry                               50       2400                                                 
+        191 Randall              Perkins                              50       2500                                                 
+        182 Martha               Sullivan                             50       2500                                                 
+        140 Joshua               Patel                                50       2500                                                 
+        144 Peter                Vargas                               50       2500                                                 
+        131 James                Marlow                               50       2500                                                 
+        198 Donald               OConnell                             50       2600                                                 
+        199 Douglas              Grant                                50       2600                                                 
+        143 Randall              Matos                                50       2600                                                 
+        139 John                 Seo                                  50       2700                                                 
+        126 Irene                Mikkilineni                          50       2700                                                 
+        130 Mozhe                Atkinson                             50       2800                                                 
+        195 Vance                Jones                                50       2800                                                 
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 DEPARTMENT_ID     SALARY                                                 
+----------- -------------------- ------------------------- ------------- ----------                                                 
+        183 Girard               Geoni                                50       2800                                                 
+        134 Michael              Rogers                               50       2900                                                 
+        190 Timothy              Gates                                50       2900                                                 
+        197 Kevin                Feeney                               50       3000                                                 
+        187 Anthony              Cabrio                               50       3000                                                 
+        181 Jean                 Fleaur                               50       3100                                                 
+        142 Curtis               Davies                               50       3100                                                 
+        196 Alana                Walsh                                50       3100                                                 
+        138 Stephen              Stiles                               50       3200                                                 
+        180 Winston              Taylor                               50       3200                                                 
+        125 Julia                Nayer                                50       3200                                                 
+        194 Samuel               McCain                               50       3200                                                 
+        129 Laura                Bissot                               50       3300                                                 
+        133 Jason                Mallin                               50       3300                                                 
+        186 Julia                Dellinger                            50       3400                                                 
+        141 Trenna               Rajs                                 50       3500                                                 
+        137 Renske               Ladwig                               50       3600                                                 
+        189 Jennifer             Dilly                                50       3600                                                 
+        188 Kelly                Chung                                50       3800                                                 
+        193 Britney              Everett                              50       3900                                                 
+        192 Sarah                Bell                                 50       4000                                                 
+        185 Alexis               Bull                                 50       4100                                                 
+        184 Nandita              Sarchand                             50       4200                                                 
+        124 Kevin                Mourgos                              50       5800                                                 
+        123 Shanta               Vollman                              50       6500                                                 
+        122 Payam                Kaufling                             50       7900                                                 
+        120 Matthew              Weiss                                50       8000                                                 
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 DEPARTMENT_ID     SALARY                                                 
+----------- -------------------- ------------------------- ------------- ----------                                                 
+        121 Adam                 Fripp                                50       8200                                                 
+        107 Diana                Lorentz                              60       4200                                                 
+        106 Valli                Pataballa                            60       4800                                                 
+        105 David                Austin                               60       4800                                                 
+        104 Bruce                Ernst                                60       6000                                                 
+        103 Alexander            Hunold                               60       9000                                                 
+        204 Hermann              Baer                                 70      10000                                                 
+        173 Sundita              Kumar                                80       6100                                                 
+        179 Charles              Johnson                              80       6200                                                 
+        167 Amit                 Banda                                80       6200                                                 
+        166 Sundar               Ande                                 80       6400                                                 
+        165 David                Lee                                  80       6800                                                 
+        155 Oliver               Tuvault                              80       7000                                                 
+        161 Sarath               Sewall                               80       7000                                                 
+        164 Mattea               Marvins                              80       7200                                                 
+        172 Elizabeth            Bates                                80       7300                                                 
+        171 William              Smith                                80       7400                                                 
+        154 Nanette              Cambrault                            80       7500                                                 
+        160 Louise               Doran                                80       7500                                                 
+        159 Lindsey              Smith                                80       8000                                                 
+        153 Christopher          Olsen                                80       8000                                                 
+        177 Jack                 Livingston                           80       8400                                                 
+        176 Jonathon             Taylor                               80       8600                                                 
+        175 Alyssa               Hutton                               80       8800                                                 
+        158 Allan                McEwen                               80       9000                                                 
+        152 Peter                Hall                                 80       9000                                                 
+        163 Danielle             Greene                               80       9500                                                 
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 DEPARTMENT_ID     SALARY                                                 
+----------- -------------------- ------------------------- ------------- ----------                                                 
+        157 Patrick              Sully                                80       9500                                                 
+        151 David                Bernstein                            80       9500                                                 
+        170 Tayler               Fox                                  80       9600                                                 
+        156 Janette              King                                 80      10000                                                 
+        150 Peter                Tucker                               80      10000                                                 
+        169 Harrison             Bloom                                80      10000                                                 
+        149 Eleni                Zlotkey                              80      10500                                                 
+        162 Clara                Vishney                              80      10500                                                 
+        148 Gerald               Cambrault                            80      11000                                                 
+        174 Ellen                Abel                                 80      11000                                                 
+        168 Lisa                 Ozer                                 80      11500                                                 
+        147 Alberto              Errazuriz                            80      12000                                                 
+        146 Karen                Partners                             80      13500                                                 
+        145 John                 Russell                              80      14000                                                 
+        102 Lex                  De Haan                              90      17000                                                 
+        101 Neena                Kochhar                              90      17000                                                 
+        100 Steven               King                                 90      24000                                                 
+        113 Luis                 Popp                                100       6900                                                 
+        111 Ismael               Sciarra                             100       7700                                                 
+        112 Jose Manuel          Urman                               100       7800                                                 
+        110 John                 Chen                                100       8200                                                 
+        109 Daniel               Faviet                              100       9000                                                 
+        108 Nancy                Greenberg                           100      12008                                                 
+        206 William              Gietz                               110       8300                                                 
+        205 Shelley              Higgins                             110      12008                                                 
+        178 Kimberely            Grant                                         7000                                                 
+
+107 rows selected.
+

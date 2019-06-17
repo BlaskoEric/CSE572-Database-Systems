@@ -1,0 +1,13 @@
+DROP TABLE Office CASCADE CONSTRAINTS
+*
+ERROR at line 1:
+ORA-02091: transaction rolled back 
+ORA-02291: integrity constraint (JNOB.STAFFID_FK) violated - parent key not found 
+
+
+CREATE TABLE Office (
+             *
+ERROR at line 1:
+ORA-00955: name is already used by an existing object 
+
+

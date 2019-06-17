@@ -1,0 +1,610 @@
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                     SALARY                
+----------- -------------------- ------------------------- ----------                
+        105 David                Austin                          4800                
+        151 David                Bernstein                       9500                
+        165 David                Lee                             6800                
+
+
+LOWER('SQL                                                                           
+----------                                                                           
+sql course                                                                           
+
+
+LENGTH('SQLPLUS')                                                                    
+-----------------                                                                    
+                7                                                                    
+
+
+INSTR('SQLPLUS','L',3,2)                                                             
+------------------------                                                             
+                       5                                                             
+
+
+LPAD(24000                                                                           
+----------                                                                           
+*****24000                                                                           
+
+
+RPAD(24000                                                                           
+----------                                                                           
+24000*****                                                                           
+
+
+TRIM                                                                                 
+----                                                                                 
+oyal                                                                                 
+
+
+REPLACE('H                                                                           
+----------                                                                           
+Hello Home                                                                           
+
+
+ROUND(45.936,2)                                                                      
+---------------                                                                      
+          45.94                                                                      
+
+
+TRUNC(45.936,2)                                                                      
+---------------                                                                      
+          45.93                                                                      
+
+
+  MOD(5,3)                                                                           
+----------                                                                           
+         2                                                                           
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 DAYS_HIRED                
+----------- -------------------- ------------------------- ----------                
+        103 Alexander            Hunold                    4871.60947                
+        104 Bruce                Ernst                     4368.60947                
+        105 David                Austin                    5063.60947                
+        106 Valli                Pataballa                 4838.60947                
+        107 Diana                Lorentz                   4471.60947                
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 MONTHS_HIRED              
+----------- -------------------- ------------------------- ------------              
+        103 Alexander            Hunold                             160              
+        104 Bruce                Ernst                              144              
+        105 David                Austin                             166              
+        106 Valli                Pataballa                          159              
+        107 Diana                Lorentz                            147              
+
+
+ADD_MONTH                                                                            
+---------                                                                            
+11-JUL-96                                                                            
+
+
+NEXT_DAY(                                                                            
+---------                                                                            
+08-SEP-95                                                                            
+
+
+LAST_DAY(                                                                            
+---------                                                                            
+28-FEB-95                                                                            
+
+
+ROUND(SYS                                                                            
+---------                                                                            
+01-MAY-19                                                                            
+
+
+TRUNC(SYS                                                                            
+---------                                                                            
+01-JAN-19                                                                            
+
+
+TO_CHAR(SYSDATE,'DAYDDMON,YYYY')                                                     
+----------------------------------------------------------                           
+MONDAY    06 MAY, 2019                                                               
+
+
+FIRST_NAME           LAST_NAME                 TO_CHAR(SALARY,'L9,999,               
+-------------------- ------------------------- -----------------------               
+David                Austin                                  $4,800.00               
+David                Bernstein                               $9,500.00               
+David                Lee                                     $6,800.00               
+
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                 MONTHS_HIRED              
+----------- -------------------- ------------------------- ------------              
+        103 Alexander            Hunold                             160              
+        104 Bruce                Ernst                              144              
+        105 David                Austin                             166              
+        106 Valli                Pataballa                          159              
+        107 Diana                Lorentz                            147              
+
+
+FIRST_NAME           LAST_NAME                     SALARY COMMISSION_PCT      BONUS  
+-------------------- ------------------------- ---------- -------------- ----------  
+Donald               OConnell                        2600                       260  
+Douglas              Grant                           2600                       260  
+Jennifer             Whalen                          4400                       440  
+Michael              Hartstein                      13000                      1300  
+Pat                  Fay                             6000                       600  
+Susan                Mavris                          6500                       650  
+Hermann              Baer                           10000                      1000  
+Shelley              Higgins                        12008                    1200.8  
+William              Gietz                           8300                       830  
+Steven               King                           24000                      2400  
+Neena                Kochhar                        17000                      1700  
+Lex                  De Haan                        17000                      1700  
+Alexander            Hunold                          9000                       900  
+Bruce                Ernst                           6000                       600  
+David                Austin                          4800                       480  
+Valli                Pataballa                       4800                       480  
+Diana                Lorentz                         4200                       420  
+Nancy                Greenberg                      12008                    1200.8  
+Daniel               Faviet                          9000                       900  
+John                 Chen                            8200                       820  
+Ismael               Sciarra                         7700                       770  
+Jose Manuel          Urman                           7800                       780  
+Luis                 Popp                            6900                       690  
+Den                  Raphaely                       11000                      1100  
+Alexander            Khoo                            3100                       310  
+Shelli               Baida                           2900                       290  
+Sigal                Tobias                          2800                       280  
+
+FIRST_NAME           LAST_NAME                     SALARY COMMISSION_PCT      BONUS  
+-------------------- ------------------------- ---------- -------------- ----------  
+Guy                  Himuro                          2600                       260  
+Karen                Colmenares                      2500                       250  
+Matthew              Weiss                           8000                       800  
+Adam                 Fripp                           8200                       820  
+Payam                Kaufling                        7900                       790  
+Shanta               Vollman                         6500                       650  
+Kevin                Mourgos                         5800                       580  
+Julia                Nayer                           3200                       320  
+Irene                Mikkilineni                     2700                       270  
+James                Landry                          2400                       240  
+Steven               Markle                          2200                       220  
+Laura                Bissot                          3300                       330  
+Mozhe                Atkinson                        2800                       280  
+James                Marlow                          2500                       250  
+TJ                   Olson                           2100                       210  
+Jason                Mallin                          3300                       330  
+Michael              Rogers                          2900                       290  
+Ki                   Gee                             2400                       240  
+Hazel                Philtanker                      2200                       220  
+Renske               Ladwig                          3600                       360  
+Stephen              Stiles                          3200                       320  
+John                 Seo                             2700                       270  
+Joshua               Patel                           2500                       250  
+Trenna               Rajs                            3500                       350  
+Curtis               Davies                          3100                       310  
+Randall              Matos                           2600                       260  
+Peter                Vargas                          2500                       250  
+
+FIRST_NAME           LAST_NAME                     SALARY COMMISSION_PCT      BONUS  
+-------------------- ------------------------- ---------- -------------- ----------  
+John                 Russell                        14000             .4       5600  
+Karen                Partners                       13500             .3       4050  
+Alberto              Errazuriz                      12000             .3       3600  
+Gerald               Cambrault                      11000             .3       3300  
+Eleni                Zlotkey                        10500             .2       2100  
+Peter                Tucker                         10000             .3       3000  
+David                Bernstein                       9500            .25       2375  
+Peter                Hall                            9000            .25       2250  
+Christopher          Olsen                           8000             .2       1600  
+Nanette              Cambrault                       7500             .2       1500  
+Oliver               Tuvault                         7000            .15       1050  
+Janette              King                           10000            .35       3500  
+Patrick              Sully                           9500            .35       3325  
+Allan                McEwen                          9000            .35       3150  
+Lindsey              Smith                           8000             .3       2400  
+Louise               Doran                           7500             .3       2250  
+Sarath               Sewall                          7000            .25       1750  
+Clara                Vishney                        10500            .25       2625  
+Danielle             Greene                          9500            .15       1425  
+Mattea               Marvins                         7200             .1        720  
+David                Lee                             6800             .1        680  
+Sundar               Ande                            6400             .1        640  
+Amit                 Banda                           6200             .1        620  
+Lisa                 Ozer                           11500            .25       2875  
+Harrison             Bloom                          10000             .2       2000  
+Tayler               Fox                             9600             .2       1920  
+William              Smith                           7400            .15       1110  
+
+FIRST_NAME           LAST_NAME                     SALARY COMMISSION_PCT      BONUS  
+-------------------- ------------------------- ---------- -------------- ----------  
+Elizabeth            Bates                           7300            .15       1095  
+Sundita              Kumar                           6100             .1        610  
+Ellen                Abel                           11000             .3       3300  
+Alyssa               Hutton                          8800            .25       2200  
+Jonathon             Taylor                          8600             .2       1720  
+Jack                 Livingston                      8400             .2       1680  
+Kimberely            Grant                           7000            .15       1050  
+Charles              Johnson                         6200             .1        620  
+Winston              Taylor                          3200                       320  
+Jean                 Fleaur                          3100                       310  
+Martha               Sullivan                        2500                       250  
+Girard               Geoni                           2800                       280  
+Nandita              Sarchand                        4200                       420  
+Alexis               Bull                            4100                       410  
+Julia                Dellinger                       3400                       340  
+Anthony              Cabrio                          3000                       300  
+Kelly                Chung                           3800                       380  
+Jennifer             Dilly                           3600                       360  
+Timothy              Gates                           2900                       290  
+Randall              Perkins                         2500                       250  
+Sarah                Bell                            4000                       400  
+Britney              Everett                         3900                       390  
+Samuel               McCain                          3200                       320  
+Vance                Jones                           2800                       280  
+Alana                Walsh                           3100                       310  
+Kevin                Feeney                          3000                       300  
+
+107 rows selected.
+
+
+FIRST_NAME           LAST_NAME                     SALARY COMMISSION_PCT      BONUS  
+-------------------- ------------------------- ---------- -------------- ----------  
+Donald               OConnell                        2600                       260  
+Douglas              Grant                           2600                       260  
+Jennifer             Whalen                          4400                       440  
+Michael              Hartstein                      13000                      1300  
+Pat                  Fay                             6000                       600  
+Susan                Mavris                          6500                       650  
+Hermann              Baer                           10000                      1000  
+Shelley              Higgins                        12008                    1200.8  
+William              Gietz                           8300                       830  
+Steven               King                           24000                      2400  
+Neena                Kochhar                        17000                      1700  
+Lex                  De Haan                        17000                      1700  
+Alexander            Hunold                          9000                       900  
+Bruce                Ernst                           6000                       600  
+David                Austin                          4800                       480  
+Valli                Pataballa                       4800                       480  
+Diana                Lorentz                         4200                       420  
+Nancy                Greenberg                      12008                    1200.8  
+Daniel               Faviet                          9000                       900  
+John                 Chen                            8200                       820  
+Ismael               Sciarra                         7700                       770  
+Jose Manuel          Urman                           7800                       780  
+Luis                 Popp                            6900                       690  
+Den                  Raphaely                       11000                      1100  
+Alexander            Khoo                            3100                       310  
+Shelli               Baida                           2900                       290  
+Sigal                Tobias                          2800                       280  
+
+FIRST_NAME           LAST_NAME                     SALARY COMMISSION_PCT      BONUS  
+-------------------- ------------------------- ---------- -------------- ----------  
+Guy                  Himuro                          2600                       260  
+Karen                Colmenares                      2500                       250  
+Matthew              Weiss                           8000                       800  
+Adam                 Fripp                           8200                       820  
+Payam                Kaufling                        7900                       790  
+Shanta               Vollman                         6500                       650  
+Kevin                Mourgos                         5800                       580  
+Julia                Nayer                           3200                       320  
+Irene                Mikkilineni                     2700                       270  
+James                Landry                          2400                       240  
+Steven               Markle                          2200                       220  
+Laura                Bissot                          3300                       330  
+Mozhe                Atkinson                        2800                       280  
+James                Marlow                          2500                       250  
+TJ                   Olson                           2100                       210  
+Jason                Mallin                          3300                       330  
+Michael              Rogers                          2900                       290  
+Ki                   Gee                             2400                       240  
+Hazel                Philtanker                      2200                       220  
+Renske               Ladwig                          3600                       360  
+Stephen              Stiles                          3200                       320  
+John                 Seo                             2700                       270  
+Joshua               Patel                           2500                       250  
+Trenna               Rajs                            3500                       350  
+Curtis               Davies                          3100                       310  
+Randall              Matos                           2600                       260  
+Peter                Vargas                          2500                       250  
+
+FIRST_NAME           LAST_NAME                     SALARY COMMISSION_PCT      BONUS  
+-------------------- ------------------------- ---------- -------------- ----------  
+John                 Russell                        14000             .4       5600  
+Karen                Partners                       13500             .3       4050  
+Alberto              Errazuriz                      12000             .3       3600  
+Gerald               Cambrault                      11000             .3       3300  
+Eleni                Zlotkey                        10500             .2       2100  
+Peter                Tucker                         10000             .3       3000  
+David                Bernstein                       9500            .25       2375  
+Peter                Hall                            9000            .25       2250  
+Christopher          Olsen                           8000             .2       1600  
+Nanette              Cambrault                       7500             .2       1500  
+Oliver               Tuvault                         7000            .15       1050  
+Janette              King                           10000            .35       3500  
+Patrick              Sully                           9500            .35       3325  
+Allan                McEwen                          9000            .35       3150  
+Lindsey              Smith                           8000             .3       2400  
+Louise               Doran                           7500             .3       2250  
+Sarath               Sewall                          7000            .25       1750  
+Clara                Vishney                        10500            .25       2625  
+Danielle             Greene                          9500            .15       1425  
+Mattea               Marvins                         7200             .1        720  
+David                Lee                             6800             .1        680  
+Sundar               Ande                            6400             .1        640  
+Amit                 Banda                           6200             .1        620  
+Lisa                 Ozer                           11500            .25       2875  
+Harrison             Bloom                          10000             .2       2000  
+Tayler               Fox                             9600             .2       1920  
+William              Smith                           7400            .15       1110  
+
+FIRST_NAME           LAST_NAME                     SALARY COMMISSION_PCT      BONUS  
+-------------------- ------------------------- ---------- -------------- ----------  
+Elizabeth            Bates                           7300            .15       1095  
+Sundita              Kumar                           6100             .1        610  
+Ellen                Abel                           11000             .3       3300  
+Alyssa               Hutton                          8800            .25       2200  
+Jonathon             Taylor                          8600             .2       1720  
+Jack                 Livingston                      8400             .2       1680  
+Kimberely            Grant                           7000            .15       1050  
+Charles              Johnson                         6200             .1        620  
+Winston              Taylor                          3200                       320  
+Jean                 Fleaur                          3100                       310  
+Martha               Sullivan                        2500                       250  
+Girard               Geoni                           2800                       280  
+Nandita              Sarchand                        4200                       420  
+Alexis               Bull                            4100                       410  
+Julia                Dellinger                       3400                       340  
+Anthony              Cabrio                          3000                       300  
+Kelly                Chung                           3800                       380  
+Jennifer             Dilly                           3600                       360  
+Timothy              Gates                           2900                       290  
+Randall              Perkins                         2500                       250  
+Sarah                Bell                            4000                       400  
+Britney              Everett                         3900                       390  
+Samuel               McCain                          3200                       320  
+Vance                Jones                           2800                       280  
+Alana                Walsh                           3100                       310  
+Kevin                Feeney                          3000                       300  
+
+107 rows selected.
+
+
+FIRST_NAME           LAST_NAME                     SALARY      BONUS                 
+-------------------- ------------------------- ---------- ----------                 
+Donald               OConnell                        2600        260                 
+Douglas              Grant                           2600        260                 
+Jennifer             Whalen                          4400        440                 
+Michael              Hartstein                      13000       1300                 
+Pat                  Fay                             6000        600                 
+Susan                Mavris                          6500        650                 
+Hermann              Baer                           10000       1000                 
+Shelley              Higgins                        12008     1200.8                 
+William              Gietz                           8300        830                 
+Steven               King                           24000       2400                 
+Neena                Kochhar                        17000       1700                 
+Lex                  De Haan                        17000       1700                 
+Alexander            Hunold                          9000       2250                 
+Bruce                Ernst                           6000       1500                 
+David                Austin                          4800       1200                 
+Valli                Pataballa                       4800       1200                 
+Diana                Lorentz                         4200       1050                 
+Nancy                Greenberg                      12008     1200.8                 
+Daniel               Faviet                          9000        900                 
+John                 Chen                            8200        820                 
+Ismael               Sciarra                         7700        770                 
+Jose Manuel          Urman                           7800        780                 
+Luis                 Popp                            6900        690                 
+Den                  Raphaely                       11000       1100                 
+Alexander            Khoo                            3100        310                 
+Shelli               Baida                           2900        290                 
+Sigal                Tobias                          2800        280                 
+
+FIRST_NAME           LAST_NAME                     SALARY      BONUS                 
+-------------------- ------------------------- ---------- ----------                 
+Guy                  Himuro                          2600        260                 
+Karen                Colmenares                      2500        250                 
+Matthew              Weiss                           8000        800                 
+Adam                 Fripp                           8200        820                 
+Payam                Kaufling                        7900        790                 
+Shanta               Vollman                         6500        650                 
+Kevin                Mourgos                         5800        580                 
+Julia                Nayer                           3200        960                 
+Irene                Mikkilineni                     2700        810                 
+James                Landry                          2400        720                 
+Steven               Markle                          2200        660                 
+Laura                Bissot                          3300        990                 
+Mozhe                Atkinson                        2800        840                 
+James                Marlow                          2500        750                 
+TJ                   Olson                           2100        630                 
+Jason                Mallin                          3300        990                 
+Michael              Rogers                          2900        870                 
+Ki                   Gee                             2400        720                 
+Hazel                Philtanker                      2200        660                 
+Renske               Ladwig                          3600       1080                 
+Stephen              Stiles                          3200        960                 
+John                 Seo                             2700        810                 
+Joshua               Patel                           2500        750                 
+Trenna               Rajs                            3500       1050                 
+Curtis               Davies                          3100        930                 
+Randall              Matos                           2600        780                 
+Peter                Vargas                          2500        750                 
+
+FIRST_NAME           LAST_NAME                     SALARY      BONUS                 
+-------------------- ------------------------- ---------- ----------                 
+John                 Russell                        14000       1400                 
+Karen                Partners                       13500       1350                 
+Alberto              Errazuriz                      12000       1200                 
+Gerald               Cambrault                      11000       1100                 
+Eleni                Zlotkey                        10500       1050                 
+Peter                Tucker                         10000       1000                 
+David                Bernstein                       9500        950                 
+Peter                Hall                            9000        900                 
+Christopher          Olsen                           8000        800                 
+Nanette              Cambrault                       7500        750                 
+Oliver               Tuvault                         7000        700                 
+Janette              King                           10000       1000                 
+Patrick              Sully                           9500        950                 
+Allan                McEwen                          9000        900                 
+Lindsey              Smith                           8000        800                 
+Louise               Doran                           7500        750                 
+Sarath               Sewall                          7000        700                 
+Clara                Vishney                        10500       1050                 
+Danielle             Greene                          9500        950                 
+Mattea               Marvins                         7200        720                 
+David                Lee                             6800        680                 
+Sundar               Ande                            6400        640                 
+Amit                 Banda                           6200        620                 
+Lisa                 Ozer                           11500       1150                 
+Harrison             Bloom                          10000       1000                 
+Tayler               Fox                             9600        960                 
+William              Smith                           7400        740                 
+
+FIRST_NAME           LAST_NAME                     SALARY      BONUS                 
+-------------------- ------------------------- ---------- ----------                 
+Elizabeth            Bates                           7300        730                 
+Sundita              Kumar                           6100        610                 
+Ellen                Abel                           11000       1100                 
+Alyssa               Hutton                          8800        880                 
+Jonathon             Taylor                          8600        860                 
+Jack                 Livingston                      8400        840                 
+Kimberely            Grant                           7000        700                 
+Charles              Johnson                         6200        620                 
+Winston              Taylor                          3200        320                 
+Jean                 Fleaur                          3100        310                 
+Martha               Sullivan                        2500        250                 
+Girard               Geoni                           2800        280                 
+Nandita              Sarchand                        4200        420                 
+Alexis               Bull                            4100        410                 
+Julia                Dellinger                       3400        340                 
+Anthony              Cabrio                          3000        300                 
+Kelly                Chung                           3800        380                 
+Jennifer             Dilly                           3600        360                 
+Timothy              Gates                           2900        290                 
+Randall              Perkins                         2500        250                 
+Sarah                Bell                            4000        400                 
+Britney              Everett                         3900        390                 
+Samuel               McCain                          3200        320                 
+Vance                Jones                           2800        280                 
+Alana                Walsh                           3100        310                 
+Kevin                Feeney                          3000        300                 
+
+107 rows selected.
+
+
+FIRST_NAME           LAST_NAME                     SALARY      BONUS                 
+-------------------- ------------------------- ---------- ----------                 
+Donald               OConnell                        2600        260                 
+Douglas              Grant                           2600        260                 
+Jennifer             Whalen                          4400        440                 
+Michael              Hartstein                      13000       1300                 
+Pat                  Fay                             6000        600                 
+Susan                Mavris                          6500        650                 
+Hermann              Baer                           10000       1000                 
+Shelley              Higgins                        12008     1200.8                 
+William              Gietz                           8300        830                 
+Steven               King                           24000       2400                 
+Neena                Kochhar                        17000       1700                 
+Lex                  De Haan                        17000       1700                 
+Alexander            Hunold                          9000       2250                 
+Bruce                Ernst                           6000       1500                 
+David                Austin                          4800       1200                 
+Valli                Pataballa                       4800       1200                 
+Diana                Lorentz                         4200       1050                 
+Nancy                Greenberg                      12008     1200.8                 
+Daniel               Faviet                          9000        900                 
+John                 Chen                            8200        820                 
+Ismael               Sciarra                         7700        770                 
+Jose Manuel          Urman                           7800        780                 
+Luis                 Popp                            6900        690                 
+Den                  Raphaely                       11000       1100                 
+Alexander            Khoo                            3100        310                 
+Shelli               Baida                           2900        290                 
+Sigal                Tobias                          2800        280                 
+
+FIRST_NAME           LAST_NAME                     SALARY      BONUS                 
+-------------------- ------------------------- ---------- ----------                 
+Guy                  Himuro                          2600        260                 
+Karen                Colmenares                      2500        250                 
+Matthew              Weiss                           8000        800                 
+Adam                 Fripp                           8200        820                 
+Payam                Kaufling                        7900        790                 
+Shanta               Vollman                         6500        650                 
+Kevin                Mourgos                         5800        580                 
+Julia                Nayer                           3200        960                 
+Irene                Mikkilineni                     2700        810                 
+James                Landry                          2400        720                 
+Steven               Markle                          2200        660                 
+Laura                Bissot                          3300        990                 
+Mozhe                Atkinson                        2800        840                 
+James                Marlow                          2500        750                 
+TJ                   Olson                           2100        630                 
+Jason                Mallin                          3300        990                 
+Michael              Rogers                          2900        870                 
+Ki                   Gee                             2400        720                 
+Hazel                Philtanker                      2200        660                 
+Renske               Ladwig                          3600       1080                 
+Stephen              Stiles                          3200        960                 
+John                 Seo                             2700        810                 
+Joshua               Patel                           2500        750                 
+Trenna               Rajs                            3500       1050                 
+Curtis               Davies                          3100        930                 
+Randall              Matos                           2600        780                 
+Peter                Vargas                          2500        750                 
+
+FIRST_NAME           LAST_NAME                     SALARY      BONUS                 
+-------------------- ------------------------- ---------- ----------                 
+John                 Russell                        14000       1400                 
+Karen                Partners                       13500       1350                 
+Alberto              Errazuriz                      12000       1200                 
+Gerald               Cambrault                      11000       1100                 
+Eleni                Zlotkey                        10500       1050                 
+Peter                Tucker                         10000       1000                 
+David                Bernstein                       9500        950                 
+Peter                Hall                            9000        900                 
+Christopher          Olsen                           8000        800                 
+Nanette              Cambrault                       7500        750                 
+Oliver               Tuvault                         7000        700                 
+Janette              King                           10000       1000                 
+Patrick              Sully                           9500        950                 
+Allan                McEwen                          9000        900                 
+Lindsey              Smith                           8000        800                 
+Louise               Doran                           7500        750                 
+Sarath               Sewall                          7000        700                 
+Clara                Vishney                        10500       1050                 
+Danielle             Greene                          9500        950                 
+Mattea               Marvins                         7200        720                 
+David                Lee                             6800        680                 
+Sundar               Ande                            6400        640                 
+Amit                 Banda                           6200        620                 
+Lisa                 Ozer                           11500       1150                 
+Harrison             Bloom                          10000       1000                 
+Tayler               Fox                             9600        960                 
+William              Smith                           7400        740                 
+
+FIRST_NAME           LAST_NAME                     SALARY      BONUS                 
+-------------------- ------------------------- ---------- ----------                 
+Elizabeth            Bates                           7300        730                 
+Sundita              Kumar                           6100        610                 
+Ellen                Abel                           11000       1100                 
+Alyssa               Hutton                          8800        880                 
+Jonathon             Taylor                          8600        860                 
+Jack                 Livingston                      8400        840                 
+Kimberely            Grant                           7000        700                 
+Charles              Johnson                         6200        620                 
+Winston              Taylor                          3200        320                 
+Jean                 Fleaur                          3100        310                 
+Martha               Sullivan                        2500        250                 
+Girard               Geoni                           2800        280                 
+Nandita              Sarchand                        4200        420                 
+Alexis               Bull                            4100        410                 
+Julia                Dellinger                       3400        340                 
+Anthony              Cabrio                          3000        300                 
+Kelly                Chung                           3800        380                 
+Jennifer             Dilly                           3600        360                 
+Timothy              Gates                           2900        290                 
+Randall              Perkins                         2500        250                 
+Sarah                Bell                            4000        400                 
+Britney              Everett                         3900        390                 
+Samuel               McCain                          3200        320                 
+Vance                Jones                           2800        280                 
+Alana                Walsh                           3100        310                 
+Kevin                Feeney                          3000        300                 
+
+107 rows selected.
+
+SQL> exit
